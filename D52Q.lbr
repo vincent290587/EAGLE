@@ -76,24 +76,24 @@
 <wire x1="0" y1="20" x2="20" y2="20" width="0.127" layer="21"/>
 <wire x1="20" y1="20" x2="20" y2="0" width="0.127" layer="21"/>
 <wire x1="20" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
-<smd name="RST" x="10" y="19.5" dx="2.5" dy="0.9652" layer="1" rot="R90"/>
+<smd name="P021" x="10" y="19.5" dx="2.5" dy="0.9652" layer="1" rot="R90"/>
 <smd name="VCC" x="8" y="19.5" dx="2.5" dy="0.9652" layer="1" rot="R90"/>
-<smd name="GND" x="12" y="19.5" dx="2.5" dy="0.9652" layer="1" rot="R90"/>
-<smd name="P005" x="19.5" y="19" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<smd name="SWDIO" x="12" y="19.5" dx="2.5" dy="0.9652" layer="1" rot="R90"/>
+<smd name="P012" x="19.5" y="19" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
 <smd name="SWDCLCK" x="0.5" y="17" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<smd name="P023" x="0.5" y="15" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<smd name="P002" x="0.5" y="13" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<smd name="P030" x="0.5" y="11" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<smd name="P000" x="0.5" y="9" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<smd name="GND2" x="0.5" y="19" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<smd name="P024" x="0.5" y="7" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<smd name="P008" x="19.5" y="17" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<smd name="P012" x="19.5" y="9" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<smd name="P011" x="19.5" y="15" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<smd name="P006" x="19.5" y="11" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<smd name="P015" x="19.5" y="7" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<smd name="P009" x="19.5" y="13" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
-<text x="1.27" y="1.27" size="1.27" layer="21">N548M4CB</text>
+<smd name="P006" x="0.5" y="15" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<smd name="P007" x="0.5" y="13" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<smd name="P002" x="0.5" y="11" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<smd name="P008" x="0.5" y="9" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<smd name="GND" x="0.5" y="19" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<smd name="P011" x="0.5" y="7" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<smd name="P031" x="19.5" y="17" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<smd name="P016" x="19.5" y="9" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<smd name="P013" x="19.5" y="15" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<smd name="P015" x="19.5" y="11" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<smd name="P017" x="19.5" y="7" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<smd name="P014" x="19.5" y="13" dx="2.5" dy="0.9652" layer="1" rot="R180"/>
+<text x="1.27" y="1.27" size="1.27" layer="21">D52Q</text>
 </package>
 <package name="ANTAP28">
 </package>
@@ -104,22 +104,22 @@
 <wire x1="0" y1="0" x2="45.72" y2="0" width="0.254" layer="94"/>
 <wire x1="45.72" y1="0" x2="45.72" y2="33.02" width="0.254" layer="94"/>
 <wire x1="45.72" y1="33.02" x2="0" y2="33.02" width="0.254" layer="94"/>
-<pin name="GND2" x="-5.08" y="27.94" length="middle" direction="pwr"/>
-<pin name="P023" x="-5.08" y="22.86" length="middle"/>
-<pin name="P002" x="-5.08" y="20.32" length="middle"/>
-<pin name="P000" x="-5.08" y="15.24" length="middle"/>
-<pin name="P024" x="-5.08" y="12.7" length="middle"/>
-<pin name="P005" x="50.8" y="27.94" length="middle" rot="R180"/>
-<pin name="P008" x="50.8" y="25.4" length="middle" rot="R180"/>
-<pin name="P011" x="50.8" y="22.86" length="middle" rot="R180"/>
-<pin name="P009" x="50.8" y="20.32" length="middle" rot="R180"/>
-<pin name="P006" x="50.8" y="17.78" length="middle" rot="R180"/>
-<pin name="P012" x="50.8" y="15.24" length="middle" direction="in" rot="R180"/>
-<pin name="P015" x="50.8" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="GND" x="-5.08" y="27.94" length="middle" direction="pwr"/>
+<pin name="P006" x="-5.08" y="22.86" length="middle"/>
+<pin name="P007" x="-5.08" y="20.32" length="middle"/>
+<pin name="P008" x="-5.08" y="15.24" length="middle"/>
+<pin name="P011" x="-5.08" y="12.7" length="middle"/>
+<pin name="P012" x="50.8" y="27.94" length="middle" rot="R180"/>
+<pin name="P031" x="50.8" y="25.4" length="middle" rot="R180"/>
+<pin name="P013" x="50.8" y="22.86" length="middle" rot="R180"/>
+<pin name="P014" x="50.8" y="20.32" length="middle" rot="R180"/>
+<pin name="P015" x="50.8" y="17.78" length="middle" rot="R180"/>
+<pin name="P016" x="50.8" y="15.24" length="middle" direction="in" rot="R180"/>
+<pin name="P017" x="50.8" y="12.7" length="middle" direction="out" rot="R180"/>
 <pin name="VCC" x="17.78" y="38.1" length="middle" direction="pwr" rot="R270"/>
-<pin name="SWDIO" x="22.86" y="38.1" length="middle" rot="R270"/>
-<pin name="GND" x="27.94" y="38.1" length="middle" direction="pwr" rot="R270"/>
-<pin name="P030" x="-5.08" y="17.78" length="middle"/>
+<pin name="P021" x="22.86" y="38.1" length="middle" rot="R270"/>
+<pin name="SWDIO" x="27.94" y="38.1" length="middle" direction="pwr" rot="R270"/>
+<pin name="P002" x="-5.08" y="17.78" length="middle"/>
 <pin name="SWDCLK" x="-5.08" y="25.4" length="middle"/>
 </symbol>
 </symbols>
@@ -133,21 +133,21 @@
 <device name="" package="ANTAP">
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND2" pad="GND2"/>
-<connect gate="G$1" pin="P000" pad="P000"/>
 <connect gate="G$1" pin="P002" pad="P002"/>
-<connect gate="G$1" pin="P005" pad="P005"/>
 <connect gate="G$1" pin="P006" pad="P006"/>
+<connect gate="G$1" pin="P007" pad="P007"/>
 <connect gate="G$1" pin="P008" pad="P008"/>
-<connect gate="G$1" pin="P009" pad="P009"/>
 <connect gate="G$1" pin="P011" pad="P011"/>
 <connect gate="G$1" pin="P012" pad="P012"/>
+<connect gate="G$1" pin="P013" pad="P013"/>
+<connect gate="G$1" pin="P014" pad="P014"/>
 <connect gate="G$1" pin="P015" pad="P015"/>
-<connect gate="G$1" pin="P023" pad="P023"/>
-<connect gate="G$1" pin="P024" pad="P024"/>
-<connect gate="G$1" pin="P030" pad="P030"/>
+<connect gate="G$1" pin="P016" pad="P016"/>
+<connect gate="G$1" pin="P017" pad="P017"/>
+<connect gate="G$1" pin="P021" pad="P021"/>
+<connect gate="G$1" pin="P031" pad="P031"/>
 <connect gate="G$1" pin="SWDCLK" pad="SWDCLCK"/>
-<connect gate="G$1" pin="SWDIO" pad="RST"/>
+<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
