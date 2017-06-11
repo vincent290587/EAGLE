@@ -5,7 +5,7 @@ Here is a list of Eagle library files, useful if you want to use SD cards, Dynas
 - N548: Dynastream N548/N550/N5150 M8 footprint module
 - ANTAP28: Dynastream N548/N550/N5150 M4 footprint module
 - D52Q: Dynastream new D52Q module, using nRF52832 from Nordic
-
+- nRF52840: Nordic bluetooth 5 new chip
 - MK20DN512: Footprint for Freescale 100 pins MKxx family (MK20, MK64.......)
 
 - FlashMem: Footprint for SPI flash chips like Microchip SST25VF & SS26VF
