@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="1.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1.5" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="N548">
+<pad name="P031" x="0" y="0" drill="0.4" diameter="0.72"/>
+<pad name="P002" x="1.5" y="0" drill="0.4" diameter="0.72"/>
+<pad name="P001" x="3" y="0" drill="0.4" diameter="0.72"/>
+<pad name="P003" x="4.5" y="0" drill="0.4" diameter="0.72"/>
+<pad name="P005" x="6" y="0" drill="0.4" diameter="0.72"/>
+<pad name="P008" x="7.5" y="0" drill="0.4" diameter="0.72"/>
+<pad name="P009" x="7.5" y="1.5" drill="0.4" diameter="0.72"/>
+<pad name="P011" x="6" y="1.5" drill="0.4" diameter="0.72"/>
+<pad name="P006" x="4.5" y="1.5" drill="0.4" diameter="0.72"/>
+<pad name="P004" x="3" y="1.5" drill="0.4" diameter="0.72"/>
+<pad name="P000" x="1.5" y="1.5" drill="0.4" diameter="0.72"/>
+<pad name="P030" x="0" y="1.5" drill="0.4" diameter="0.72"/>
+<pad name="P024" x="0" y="3" drill="0.4" diameter="0.72"/>
+<pad name="P021" x="1.5" y="3" drill="0.4" diameter="0.72"/>
+<pad name="P023" x="3" y="3" drill="0.4" diameter="0.72"/>
+<pad name="P025" x="4.5" y="3" drill="0.4" diameter="0.72"/>
+<pad name="P015" x="6" y="3" drill="0.4" diameter="0.72"/>
+<pad name="P012" x="7.5" y="3" drill="0.4" diameter="0.72"/>
+<pad name="SWDCLK" x="7.5" y="4.5" drill="0.4" diameter="0.72"/>
+<pad name="P013" x="6" y="4.5" drill="0.4" diameter="0.72"/>
+<pad name="P016" x="4.5" y="4.5" drill="0.4" diameter="0.72"/>
+<pad name="P022" x="3" y="4.5" drill="0.4" diameter="0.72"/>
+<pad name="C5" x="1.5" y="4.5" drill="0.4" diameter="0.72"/>
+<pad name="C6" x="0" y="4.5" drill="0.4" diameter="0.72"/>
+<pad name="B6" x="0" y="6" drill="0.4" diameter="0.72"/>
+<pad name="B5" x="1.5" y="6" drill="0.4" diameter="0.72"/>
+<pad name="P019" x="3" y="6" drill="0.4" diameter="0.72"/>
+<pad name="P020" x="4.5" y="6" drill="0.4" diameter="0.72"/>
+<pad name="P018" x="6" y="6" drill="0.4" diameter="0.72"/>
+<pad name="SWDIO" x="7.5" y="6" drill="0.4" diameter="0.72"/>
+<pad name="A6" x="0" y="7.5" drill="0.4" diameter="0.72"/>
+<pad name="A5" x="1.5" y="7.5" drill="0.4" diameter="0.72"/>
+<pad name="A4" x="3" y="7.5" drill="0.4" diameter="0.72"/>
+<pad name="A3" x="4.5" y="7.5" drill="0.4" diameter="0.72"/>
+<pad name="A2" x="6" y="7.5" drill="0.4" diameter="0.72"/>
+<wire x1="-1.15" y1="-1.25" x2="-1.15" y2="14" width="0.127" layer="21"/>
+<wire x1="-1.15" y1="14" x2="8.65" y2="14" width="0.127" layer="21"/>
+<wire x1="8.65" y1="14" x2="8.65" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="8.65" y1="-1.25" x2="-1.15" y2="-1.25" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="N548">
+<wire x1="0" y1="17.78" x2="0" y2="53.34" width="0.254" layer="94"/>
+<wire x1="0" y1="53.34" x2="53.34" y2="53.34" width="0.254" layer="94"/>
+<wire x1="53.34" y1="53.34" x2="53.34" y2="17.78" width="0.254" layer="94"/>
+<wire x1="53.34" y1="17.78" x2="0" y2="17.78" width="0.254" layer="94"/>
+<pin name="VCC" x="20.32" y="58.42" length="middle" rot="R270"/>
+<pin name="GND" x="35.56" y="58.42" length="middle" rot="R270"/>
+<pin name="P000" x="-5.08" y="50.8" length="middle"/>
+<pin name="P001" x="-5.08" y="48.26" length="middle"/>
+<pin name="P002" x="-5.08" y="45.72" length="middle"/>
+<pin name="P003" x="-5.08" y="43.18" length="middle"/>
+<pin name="P004" x="-5.08" y="40.64" length="middle"/>
+<pin name="P005" x="-5.08" y="38.1" length="middle"/>
+<pin name="P006" x="-5.08" y="35.56" length="middle"/>
+<pin name="P008" x="-5.08" y="33.02" length="middle"/>
+<pin name="P009" x="-5.08" y="30.48" length="middle"/>
+<pin name="P011" x="-5.08" y="27.94" length="middle"/>
+<pin name="P012" x="-5.08" y="25.4" length="middle"/>
+<pin name="P013" x="-5.08" y="22.86" length="middle"/>
+<pin name="P015" x="58.42" y="50.8" length="middle" rot="R180"/>
+<pin name="P016" x="58.42" y="48.26" length="middle" rot="R180"/>
+<pin name="P018" x="58.42" y="45.72" length="middle" rot="R180"/>
+<pin name="P019" x="58.42" y="43.18" length="middle" rot="R180"/>
+<pin name="P020" x="58.42" y="40.64" length="middle" rot="R180"/>
+<pin name="P021" x="58.42" y="38.1" length="middle" rot="R180"/>
+<pin name="P022" x="58.42" y="35.56" length="middle" rot="R180"/>
+<pin name="P023" x="58.42" y="33.02" length="middle" rot="R180"/>
+<pin name="P024" x="58.42" y="30.48" length="middle" rot="R180"/>
+<pin name="P025" x="58.42" y="27.94" length="middle" rot="R180"/>
+<pin name="P030" x="58.42" y="25.4" length="middle" rot="R180"/>
+<pin name="P031" x="58.42" y="22.86" length="middle" rot="R180"/>
+<pin name="SWDIO" x="20.32" y="12.7" length="middle" rot="R90"/>
+<pin name="SWDCLK" x="35.56" y="12.7" length="middle" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="N548">
+<description>Based on Nordic Semiconductor’s nRF51422 SoC, the N5 ANT SoC module series offers support for both ANT®
+and Bluetooth® low energy and enables both protocols to run concurrently, depending on the loaded protocol
+stack.
+The N5 ANT SoC module series starts with N548M8CB in a 14.0mm x 9.8mm x 2.0mm LGA (Land Array Grid)
+package. A compact design meeting the market requirements for small, light and wearable, the N548M8CB is a
+turnkey system hardware solution including antenna, onboard 32k and 16M crystal clocks, DC-DC converter and 24
+GPIOs with 6 analogue inputs.
+The N548 modules are pre-programmed with the following software components:
+ S210 SoftDevice (ANT 8-channel protocol stack)
+ ANT network processor application
+ ANT-WP (Wireless Programming) bootloader (depends on module version)
+SoftDevices are protocol stack solutions from Nordic Semiconductor for the nRF51 SoCs. There are multiple
+SoftDevice choices available from the Nordic Semiconductor’s web site. The ANT network processor application
+offers the standard ANT serial interface front-end that is connectable to an external application controller. The
+ANT-WP bootloader allows over-the-air updates of any software components on the N548 module.
+The N548 module pre-programmed image can be easily replaced via the onboard SWD interface pins using offthe-
+shelf ARM programming tools or over the air using the pre-loaded ANT-WP bootloader.
+Pin compatible options to the 20mm x 20mm AP2 or C7 modules from Dynastream are also available. In these
+options, N548M8CB modules are soldered on carrier boards that are pin compatible to the previous modules.
+Current AP2 or C7 module customers can easily use these models to evaluate the hardware and upgrade their
+products.
+The N5 module series if loaded with ANT and/or BLUETOOTH Low energy stack has been certified to comply with
+radio regulation or standards covering major markets include North America, Europe, Australia, New Zealand and
+Japan. The N5 ANT SoC modules series has also been qualified by the BLUETOOTH SIG.</description>
+<gates>
+<gate name="G$1" symbol="N548" x="0" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="N548">
+<connects>
+<connect gate="G$1" pin="GND" pad="A2 A3 A4 A5 A6"/>
+<connect gate="G$1" pin="P000" pad="P000"/>
+<connect gate="G$1" pin="P001" pad="P001"/>
+<connect gate="G$1" pin="P002" pad="P002"/>
+<connect gate="G$1" pin="P003" pad="P003"/>
+<connect gate="G$1" pin="P004" pad="P004"/>
+<connect gate="G$1" pin="P005" pad="P005"/>
+<connect gate="G$1" pin="P006" pad="P006"/>
+<connect gate="G$1" pin="P008" pad="P008"/>
+<connect gate="G$1" pin="P009" pad="P009"/>
+<connect gate="G$1" pin="P011" pad="P011"/>
+<connect gate="G$1" pin="P012" pad="P012"/>
+<connect gate="G$1" pin="P013" pad="P013"/>
+<connect gate="G$1" pin="P015" pad="P015"/>
+<connect gate="G$1" pin="P016" pad="P016"/>
+<connect gate="G$1" pin="P018" pad="P018"/>
+<connect gate="G$1" pin="P019" pad="P019"/>
+<connect gate="G$1" pin="P020" pad="P020"/>
+<connect gate="G$1" pin="P021" pad="P021"/>
+<connect gate="G$1" pin="P022" pad="P022"/>
+<connect gate="G$1" pin="P023" pad="P023"/>
+<connect gate="G$1" pin="P024" pad="P024"/>
+<connect gate="G$1" pin="P025" pad="P025"/>
+<connect gate="G$1" pin="P030" pad="P030"/>
+<connect gate="G$1" pin="P031" pad="P031"/>
+<connect gate="G$1" pin="SWDCLK" pad="SWDCLK"/>
+<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
+<connect gate="G$1" pin="VCC" pad="B5 B6 C5 C6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
