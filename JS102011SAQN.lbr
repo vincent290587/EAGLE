@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.9" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.9" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -52,9 +52,9 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -70,75 +70,48 @@
 </layers>
 <library>
 <packages>
-<package name="MS5637">
-<smd name="VDD" x="-1" y="1" dx="1" dy="1" layer="1"/>
-<smd name="GND" x="1" y="1" dx="1" dy="1" layer="1"/>
-<smd name="SCL" x="1" y="-1" dx="1" dy="1" layer="1"/>
-<smd name="SDA" x="-1" y="-1" dx="1" dy="1" layer="1"/>
-<text x="-1.27" y="-2.54" size="0.508" layer="21">MS5637</text>
-<wire x1="-1.7" y1="1.7" x2="1.8" y2="1.7" width="0.127" layer="21"/>
-<wire x1="1.8" y1="1.7" x2="1.8" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="1.8" y1="-1.7" x2="-1.7" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-1.7" y1="-1.7" x2="-1.7" y2="1.7" width="0.127" layer="21"/>
-<circle x="-1.27" y="1.27" radius="0.254" width="0.127" layer="21"/>
-<text x="0" y="0" size="0.254" layer="21">MEAS</text>
-</package>
-<package name="MS5637TH">
-<pad name="VDD" x="-1" y="1" drill="0.6"/>
-<pad name="GND" x="1" y="1" drill="0.6"/>
-<pad name="SCL" x="1" y="-1" drill="0.6"/>
-<pad name="SDA" x="-1" y="-1" drill="0.6"/>
+<package name="JS102011SAQN">
+<smd name="P$1" x="0" y="0" dx="1.2" dy="2.5" layer="1"/>
+<smd name="P$2" x="2.5" y="0" dx="1.2" dy="2.5" layer="1"/>
+<smd name="P$3" x="5" y="0" dx="1.2" dy="2.5" layer="1"/>
+<hole x="-0.9" y="-2.75" drill="0.9"/>
+<hole x="5.9" y="-2.75" drill="0.9"/>
+<dimension x1="-0.9" y1="-2.75" x2="5.9" y2="-2.75" x3="2.5" y3="-6.3" textsize="1.27" layer="47" dtype="horizontal"/>
+<dimension x1="3.6" y1="-2.7" x2="3.6" y2="1.25" x3="13.5" y3="-0.725" textsize="1.27" layer="47" dtype="horizontal"/>
+<wire x1="-1.71" y1="-4.5" x2="6.705" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="6.705" y1="-4.5" x2="6.705" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="6.705" y1="-0.9" x2="-1.71" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.71" y1="-0.9" x2="-1.71" y2="-4.5" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="MS5637">
-<wire x1="-10.16" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="VDD" x="-15.24" y="2.54" length="middle"/>
-<pin name="SDA" x="-15.24" y="-5.08" length="middle"/>
-<pin name="GND" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="SCL" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<text x="-10.16" y="-12.7" size="1.27" layer="94">MS5637</text>
+<symbol name="JS102011SAQN">
+<pin name="P$1" x="-5.08" y="5.08" length="short"/>
+<pin name="P$2" x="-5.08" y="0" length="short"/>
+<pin name="P$3" x="-5.08" y="-5.08" length="short"/>
+<wire x1="-2.54" y1="7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-2.54" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MS5637">
-<description>Le MS563702BA03-50 est un Micro Altimètre ultra compact optimisé pour des applications d'altimètre et de baromètre dans des téléphones portables et des tablettes.
-La résolution d'altitude au niveau de la mer est de 13cm d'air. Le module de capteur comprend un capteur de pression haute linéarité et un CAN &amp;Delta;Σ 24 bits ultra
-faible puissance avec des coefficients internes calibrés en usine. Il fournit une valeur numérique de pression et de température précise de 24 bits et différents modes
-de fonctionnement qui permettent à l'utilisateur d'optimiser la vitesse de conversion et la consommation de courant. La sortie de température à haute résolution permet
-la mise en œuvre d'une fonction altimètre / thermomètre sans capteur supplémentaire. Il peut être interfacé avec pratiquement tous les microcontrôleurs à interface I²C-bus.
-Le protocole de communication est simple, sans avoir à programmer des registres internes dans l'appareil. Faibles dimensions de 3 x 3 x 0.9mm³ pour une intégratio
-Module haute résolution, 13cm
-Capteur de pression numérique intégré (CAN ΔΣ 24 bits)
-Interface I²C
-Plage de pression étendue de 10 à 2000mbar
-Conversion rapide jusqu'à 0.5ms
-Faible consommation, 0.6µA (veille &lt;=0.1µA à 25°C)
-Aucun composant externe (oscillateur interne)</description>
+<deviceset name="JS102011SAQN">
+<description>Sub-Miniature Slide Switches</description>
 <gates>
-<gate name="G$1" symbol="MS5637" x="-7.62" y="10.16"/>
+<gate name="G$1" symbol="JS102011SAQN" x="-2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="MS5637">
+<device name="" package="JS102011SAQN">
 <connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VDD" pad="VDD"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TH" package="MS5637TH">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VDD" pad="VDD"/>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+<connect gate="G$1" pin="P$3" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.6.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="FH23-39S-0.3SHAW">
+<smd name="FPC1" x="-0.3" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC3" x="0.3" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC5" x="0.9" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC7" x="1.5" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC9" x="2.1" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC11" x="2.7" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC13" x="3.3" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC15" x="3.9" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC17" x="4.5" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC19" x="5.1" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC21" x="5.7" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC23" x="6.3" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC25" x="6.9" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC27" x="7.5" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC29" x="8.1" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC31" x="8.7" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC33" x="9.3" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC35" x="9.9" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC37" x="10.5" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC39" x="11.1" y="-0.5" dx="3.25" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC2" x="0" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC4" x="0.6" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC6" x="1.2" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC8" x="1.8" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC10" x="2.4" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC12" x="3" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC14" x="3.6" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC16" x="4.2" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC18" x="4.8" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC20" x="5.4" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC22" x="6" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC24" x="6.6" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC26" x="7.2" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC28" x="7.8" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC30" x="8.4" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC32" x="9" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC34" x="9.6" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC36" x="10.2" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+<smd name="FPC38" x="10.8" y="3.805" dx="2" dy="0.3" layer="1" rot="R270"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FH23-39S-0.3SHAW">
+<description>Hirose FH23-39S-0.3SHAW connector for tft screens</description>
+<wire x1="-22.86" y1="30.48" x2="-5.08" y2="30.48" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="30.48" x2="-5.08" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-30.48" x2="-22.86" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="-22.86" y1="-30.48" x2="-22.86" y2="30.48" width="0.254" layer="94"/>
+<pin name="P$1" x="-27.94" y="20.32" length="middle"/>
+<pin name="P$2" x="-27.94" y="17.78" length="middle"/>
+<pin name="P$3" x="-27.94" y="15.24" length="middle"/>
+<pin name="P$4" x="-27.94" y="12.7" length="middle"/>
+<pin name="P$5" x="-27.94" y="10.16" length="middle"/>
+<pin name="P$6" x="-27.94" y="7.62" length="middle"/>
+<pin name="P$7" x="-27.94" y="5.08" length="middle"/>
+<pin name="P$8" x="-27.94" y="2.54" length="middle"/>
+<pin name="P$9" x="-27.94" y="0" length="middle"/>
+<pin name="P$10" x="-27.94" y="-2.54" length="middle"/>
+<pin name="P$11" x="-27.94" y="-5.08" length="middle"/>
+<pin name="P$12" x="-27.94" y="-7.62" length="middle"/>
+<pin name="P$13" x="-27.94" y="-10.16" length="middle"/>
+<pin name="P$14" x="-27.94" y="-12.7" length="middle"/>
+<pin name="P$15" x="-27.94" y="-15.24" length="middle"/>
+<pin name="P$16" x="-27.94" y="-17.78" length="middle"/>
+<pin name="P$17" x="-27.94" y="-20.32" length="middle"/>
+<pin name="P$18" x="-27.94" y="-22.86" length="middle"/>
+<pin name="P$19" x="-12.7" y="-35.56" length="middle" rot="R90"/>
+<pin name="P$20" x="-15.24" y="35.56" length="middle" rot="R270"/>
+<pin name="P$21" x="-10.16" y="35.56" length="middle" rot="R270"/>
+<pin name="P$22" x="0" y="20.32" length="middle" rot="R180"/>
+<pin name="P$23" x="0" y="17.78" length="middle" rot="R180"/>
+<pin name="P$24" x="0" y="15.24" length="middle" rot="R180"/>
+<pin name="P$25" x="0" y="12.7" length="middle" rot="R180"/>
+<pin name="P$26" x="0" y="10.16" length="middle" rot="R180"/>
+<pin name="P$27" x="0" y="7.62" length="middle" rot="R180"/>
+<pin name="P$28" x="0" y="5.08" length="middle" rot="R180"/>
+<pin name="P$29" x="0" y="2.54" length="middle" rot="R180"/>
+<pin name="P$30" x="0" y="0" length="middle" rot="R180"/>
+<pin name="P$31" x="0" y="-2.54" length="middle" rot="R180"/>
+<pin name="P$32" x="0" y="-5.08" length="middle" rot="R180"/>
+<pin name="P$33" x="0" y="-7.62" length="middle" rot="R180"/>
+<pin name="P$34" x="0" y="-10.16" length="middle" rot="R180"/>
+<pin name="P$35" x="0" y="-12.7" length="middle" rot="R180"/>
+<pin name="P$36" x="0" y="-15.24" length="middle" rot="R180"/>
+<pin name="P$37" x="0" y="-17.78" length="middle" rot="R180"/>
+<pin name="P$38" x="0" y="-20.32" length="middle" rot="R180"/>
+<pin name="P$39" x="0" y="-22.86" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FH23-39S-0.3SHAW">
+<description>FH23-39S-0.3SHAW</description>
+<gates>
+<gate name="G$1" symbol="FH23-39S-0.3SHAW" x="7.62" y="5.08"/>
+</gates>
+<devices>
+<device name="" package="FH23-39S-0.3SHAW">
+<connects>
+<connect gate="G$1" pin="P$1" pad="FPC1"/>
+<connect gate="G$1" pin="P$10" pad="FPC10"/>
+<connect gate="G$1" pin="P$11" pad="FPC11"/>
+<connect gate="G$1" pin="P$12" pad="FPC12"/>
+<connect gate="G$1" pin="P$13" pad="FPC13"/>
+<connect gate="G$1" pin="P$14" pad="FPC14"/>
+<connect gate="G$1" pin="P$15" pad="FPC15"/>
+<connect gate="G$1" pin="P$16" pad="FPC16"/>
+<connect gate="G$1" pin="P$17" pad="FPC17"/>
+<connect gate="G$1" pin="P$18" pad="FPC18"/>
+<connect gate="G$1" pin="P$19" pad="FPC19"/>
+<connect gate="G$1" pin="P$2" pad="FPC2"/>
+<connect gate="G$1" pin="P$20" pad="FPC20"/>
+<connect gate="G$1" pin="P$21" pad="FPC21"/>
+<connect gate="G$1" pin="P$22" pad="FPC22"/>
+<connect gate="G$1" pin="P$23" pad="FPC23"/>
+<connect gate="G$1" pin="P$24" pad="FPC24"/>
+<connect gate="G$1" pin="P$25" pad="FPC25"/>
+<connect gate="G$1" pin="P$26" pad="FPC26"/>
+<connect gate="G$1" pin="P$27" pad="FPC27"/>
+<connect gate="G$1" pin="P$28" pad="FPC28"/>
+<connect gate="G$1" pin="P$29" pad="FPC29"/>
+<connect gate="G$1" pin="P$3" pad="FPC3"/>
+<connect gate="G$1" pin="P$30" pad="FPC30"/>
+<connect gate="G$1" pin="P$31" pad="FPC31"/>
+<connect gate="G$1" pin="P$32" pad="FPC32"/>
+<connect gate="G$1" pin="P$33" pad="FPC33"/>
+<connect gate="G$1" pin="P$34" pad="FPC34"/>
+<connect gate="G$1" pin="P$35" pad="FPC35"/>
+<connect gate="G$1" pin="P$36" pad="FPC36"/>
+<connect gate="G$1" pin="P$37" pad="FPC37"/>
+<connect gate="G$1" pin="P$38" pad="FPC38"/>
+<connect gate="G$1" pin="P$39" pad="FPC39"/>
+<connect gate="G$1" pin="P$4" pad="FPC4"/>
+<connect gate="G$1" pin="P$5" pad="FPC5"/>
+<connect gate="G$1" pin="P$6" pad="FPC6"/>
+<connect gate="G$1" pin="P$7" pad="FPC7"/>
+<connect gate="G$1" pin="P$8" pad="FPC8"/>
+<connect gate="G$1" pin="P$9" pad="FPC9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
