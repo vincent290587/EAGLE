@@ -76,20 +76,16 @@
 <smd name="3" x="0" y="0" dx="0.4" dy="1.3" layer="1"/>
 <smd name="4" x="0.65" y="0" dx="0.4" dy="1.3" layer="1"/>
 <smd name="5" x="1.3" y="0" dx="0.4" dy="1.3" layer="1"/>
-<pad name="GND1" x="-3.61" y="-1.3" drill="0.6" shape="long" rot="R90"/>
-<wire x1="-3.6" y1="-0.95" x2="-3.6" y2="-1.6" width="0.6" layer="46"/>
-<pad name="GND4" x="3.61" y="-1.3" drill="0.6" shape="long" rot="R90"/>
-<wire x1="3.61" y1="-0.95" x2="3.61" y2="-1.6" width="0.6" layer="46"/>
-<pad name="GND2" x="-1.2" y="-2.65" drill="0.6" shape="long" rot="R180"/>
-<pad name="GND3" x="1.2" y="-2.65" drill="0.6" shape="long" rot="R180"/>
-<wire x1="-1.65" y1="-2.65" x2="-0.8" y2="-2.65" width="0.6" layer="46"/>
-<wire x1="0.75" y1="-2.65" x2="1.6" y2="-2.65" width="0.6" layer="46"/>
 <wire x1="-3.5" y1="0.2" x2="3.5" y2="0.2" width="0.2" layer="21"/>
 <wire x1="3.5" y1="0.2" x2="3.5" y2="-2.3" width="0.2" layer="21"/>
 <wire x1="3.5" y1="-2.3" x2="3.1" y2="-2.7" width="0.2" layer="21"/>
 <wire x1="3.1" y1="-2.7" x2="-3.1" y2="-2.7" width="0.2" layer="21"/>
 <wire x1="-3.1" y1="-2.7" x2="-3.5" y2="-2.3" width="0.2" layer="21"/>
 <wire x1="-3.5" y1="-2.3" x2="-3.5" y2="0.2" width="0.2" layer="21"/>
+<pad name="GND4" x="-3.6" y="-1.3" drill="1.2" shape="square"/>
+<pad name="GND1" x="3.6" y="-1.3" drill="1.2" shape="square"/>
+<pad name="GND2" x="-1.2" y="-2.65" drill="1.2" shape="square"/>
+<pad name="GND3" x="1.2" y="-2.65" drill="1.2" shape="square"/>
 </package>
 </packages>
 <symbols>
