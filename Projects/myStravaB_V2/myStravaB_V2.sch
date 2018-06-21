@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -9,34 +9,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -45,8 +45,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -54,19 +54,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -1348,14 +1348,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="P1.14" x="7.62" y="48.26" length="short" rot="R270"/>
 <pin name="P1.13" x="10.16" y="48.26" length="short" rot="R270"/>
 <pin name="P1.12" x="12.7" y="48.26" length="short" rot="R270"/>
-<pin name="DEC2B" x="15.24" y="48.26" length="short" rot="R270"/>
+<pin name="DEC2" x="15.24" y="48.26" length="short" rot="R270"/>
 <pin name="P1.11" x="17.78" y="48.26" length="short" rot="R270"/>
 <pin name="P1.10" x="20.32" y="48.26" length="short" rot="R270"/>
 <pin name="VDD2" x="22.86" y="48.26" length="short" rot="R270"/>
 <pin name="XC2" x="48.26" y="22.86" length="short" rot="R180"/>
 <pin name="XC1" x="48.26" y="20.32" length="short" rot="R180"/>
 <pin name="DEC3" x="48.26" y="17.78" length="short" rot="R180"/>
-<pin name="DEC2" x="48.26" y="15.24" length="short" rot="R180"/>
+<pin name="DEC6" x="48.26" y="15.24" length="short" rot="R180"/>
 <pin name="VSS_PA" x="48.26" y="12.7" length="short" rot="R180"/>
 <pin name="ANT" x="48.26" y="10.16" length="short" rot="R180"/>
 <pin name="P10" x="48.26" y="7.62" length="short" rot="R180"/>
@@ -1431,12 +1431,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="DCC1" pad="B3"/>
 <connect gate="G$1" pin="DCCH" pad="AB2"/>
 <connect gate="G$1" pin="DEC1" pad="C1"/>
-<connect gate="G$1" pin="DEC2" pad="E24"/>
-<connect gate="G$1" pin="DEC2B" pad="A18"/>
+<connect gate="G$1" pin="DEC2" pad="A18"/>
 <connect gate="G$1" pin="DEC3" pad="D23"/>
 <connect gate="G$1" pin="DEC3V3" pad="AC5"/>
 <connect gate="G$1" pin="DEC4" pad="B5"/>
 <connect gate="G$1" pin="DEC5" pad="N24"/>
+<connect gate="G$1" pin="DEC6" pad="E24"/>
 <connect gate="G$1" pin="P0/XL1" pad="D2"/>
 <connect gate="G$1" pin="P1.00" pad="AD22"/>
 <connect gate="G$1" pin="P1.01" pad="Y23"/>
@@ -2808,17 +2808,21 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
 <wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="-1.219" y1="0.61" x2="1.219" y2="0.61" width="0.0508" layer="39"/>
+<wire x1="1.219" y1="0.61" x2="1.219" y2="-0.61" width="0.0508" layer="39"/>
+<wire x1="1.219" y1="-0.61" x2="-1.219" y2="-0.61" width="0.0508" layer="39"/>
+<wire x1="-1.219" y1="-0.61" x2="-1.219" y2="0.61" width="0.0508" layer="39"/>
 <smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
 <smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.016" y="0.635" size="0.381" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.016" y="-1.016" size="0.381" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
 <rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="-1.016" y1="0.508" x2="1.016" y2="0.508" width="0.0762" layer="21"/>
+<wire x1="1.016" y1="0.508" x2="1.016" y2="-0.508" width="0.0762" layer="21"/>
+<wire x1="1.016" y1="-0.508" x2="-1.016" y2="-0.508" width="0.0762" layer="21"/>
+<wire x1="-1.016" y1="-0.508" x2="-1.016" y2="0.508" width="0.0762" layer="21"/>
 </package>
 <package name="C0504">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
@@ -2836,22 +2840,6 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <rectangle x1="0.2794" y1="-0.6223" x2="0.6594" y2="0.6276" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
 </package>
-<package name="C0603">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-1.473" y1="0.983" x2="1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.983" x2="1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.983" x2="-1.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.983" x2="-1.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
 <package name="C0805">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;</description>
 <wire x1="-1.973" y1="0.983" x2="1.973" y2="0.983" width="0.0508" layer="39"/>
@@ -2862,27 +2850,15 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.397" y="1.143" size="0.508" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.397" y="-1.524" size="0.508" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
-</package>
-<package name="C1206">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
-<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
-<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
-<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
-<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
-<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<wire x1="-1.651" y1="0.762" x2="1.651" y2="0.762" width="0.0762" layer="21"/>
+<wire x1="1.651" y1="0.762" x2="1.651" y2="-0.762" width="0.0762" layer="21"/>
+<wire x1="1.651" y1="-0.762" x2="-1.651" y2="-0.762" width="0.0762" layer="21"/>
+<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.0762" layer="21"/>
 </package>
 <package name="C1210">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
@@ -4374,6 +4350,42 @@ Metric Code Size 1608</description>
 <text x="-0.8" y="-1.65" size="0.6" layer="27" font="vector">&gt;VALUE</text>
 <rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
 <rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+</package>
+<package name="C0603">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-1.6" y1="0.729" x2="1.6" y2="0.729" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.729" x2="1.6" y2="-0.729" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.729" x2="-1.6" y2="-0.729" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.729" x2="-1.6" y2="0.729" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="-1.397" y="0.889" size="0.508" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.397" y="-1.397" size="0.508" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="-1.397" y1="0.508" x2="1.397" y2="0.508" width="0.0762" layer="21"/>
+<wire x1="1.397" y1="0.508" x2="1.397" y2="-0.508" width="0.0762" layer="21"/>
+<wire x1="1.397" y1="-0.508" x2="-1.397" y2="-0.508" width="0.0762" layer="21"/>
+<wire x1="-1.397" y1="-0.508" x2="-1.397" y2="0.508" width="0.0762" layer="21"/>
+</package>
+<package name="C1206">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.473" y1="0.983" x2="2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="-0.983" x2="-2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.473" y1="-0.983" x2="-2.473" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.473" y1="0.983" x2="2.473" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<smd name="1" x="-1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<smd name="2" x="1.4" y="0" dx="1.6" dy="1.8" layer="1"/>
+<text x="-2.286" y="1.016" size="0.508" layer="25" font="vector">&gt;NAME</text>
+<text x="-2.286" y="-1.524" size="0.508" layer="27" font="vector">&gt;VALUE</text>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
 </package>
 </packages>
 <symbols>
@@ -13992,7 +14004,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="E1" library="SparkFun-RF" deviceset="ANTENNA-GROUNDED" device="TRACE-25.7MM"/>
 <part name="GND57" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C34" library="SparkFun-Capacitors" deviceset="4.7UF" device="0603" value="DNP"/>
-<part name="C35" library="rcl" deviceset="C-EU" device="C0402" value="820pF"/>
+<part name="C35" library="rcl" deviceset="C-EU" device="C0402" value="0.8pF"/>
 <part name="GND59" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FB1" library="SparkFun-Coils" deviceset="FERRITE_BEAD" device="-0603" value="3.9nH"/>
 <part name="U$4" library="SR4G008" deviceset="SR4G008" device=""/>
@@ -14191,7 +14203,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="7.62" y1="246.38" x2="7.62" y2="236.22" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="PPS,FIX,GPS_TX,GPS_RX">
+<bus name="FIX,GPS_RX,GPS_TX">
 <segment>
 <wire x1="-73.66" y1="299.72" x2="-73.66" y2="317.5" width="0.762" layer="92"/>
 <wire x1="-73.66" y1="317.5" x2="-83.82" y2="317.5" width="0.762" layer="92"/>
@@ -14446,13 +14458,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-71.12" y="309.88" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="PPS" class="0">
-<segment>
-<pinref part="U4" gate="G$1" pin="P6"/>
-<wire x1="-58.42" y1="317.5" x2="-73.66" y2="317.5" width="0.1524" layer="91"/>
-<label x="-71.12" y="317.5" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="FXOS_RST" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="P2"/>
@@ -14546,6 +14551,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-187.96" y="243.84" size="1.778" layer="95" xref="yes"/>
 <junction x="-198.12" y="243.84"/>
 </segment>
+<segment>
+<pinref part="U4" gate="G$1" pin="P6"/>
+<wire x1="-58.42" y1="317.5" x2="-73.66" y2="317.5" width="0.1524" layer="91"/>
+<label x="-71.12" y="317.5" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
@@ -14582,7 +14592,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-27.94" y="396.24" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="DEC2"/>
+<pinref part="U4" gate="G$1" pin="DEC6"/>
 <wire x1="38.1" y1="330.2" x2="53.34" y2="330.2" width="0.1524" layer="91"/>
 <label x="53.34" y="330.2" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -14596,7 +14606,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="DEC2" class="0">
 <segment>
-<pinref part="U4" gate="G$1" pin="DEC2B"/>
+<pinref part="U4" gate="G$1" pin="DEC2"/>
 <wire x1="5.08" y1="363.22" x2="5.08" y2="368.3" width="0.1524" layer="91"/>
 <pinref part="C25" gate="G$1" pin="2"/>
 </segment>
@@ -14762,7 +14772,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-71.12" y="327.66" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="YY" class="0">
+<net name="NEO_PIN" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="P4"/>
 <wire x1="-58.42" y1="322.58" x2="-73.66" y2="322.58" width="0.1524" layer="91"/>
@@ -14825,6 +14835,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C35" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="309.88" x2="83.82" y2="312.42" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="309.88" x2="83.82" y2="309.88" width="0.1524" layer="91"/>
+<junction x="78.74" y="309.88"/>
+</segment>
+</net>
+<net name="KILL_NRF" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="P1.10"/>
+<wire x1="10.16" y1="363.22" x2="10.16" y2="378.46" width="0.1524" layer="91"/>
+<label x="10.16" y="375.92" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
