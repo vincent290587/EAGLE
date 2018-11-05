@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -10656,6 +10657,10 @@ Remark: SOT883B has the same footprint, package is lower</description>
 <rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
+<wire x1="-1.778" y1="2.032" x2="1.778" y2="2.032" width="0.127" layer="39"/>
+<wire x1="1.778" y1="2.032" x2="1.778" y2="-2.159" width="0.127" layer="39"/>
+<wire x1="1.778" y1="-2.159" x2="-1.778" y2="-2.159" width="0.127" layer="39"/>
+<wire x1="-1.778" y1="-2.159" x2="-1.778" y2="2.032" width="0.127" layer="39"/>
 </package>
 <package name="SOT680">
 <description>&lt;li&gt;&lt;b&gt;SOT680&lt;/b&gt;&lt;hr&gt; &lt;ul&gt;&lt;li&gt;SO5: plastic small outline package; 5 leads; body width 1.6 mm&lt;li&gt;&lt;u&gt;JEDEC&lt;/u&gt;: MO-178 &lt;li&gt;&lt;u&gt;IEC&lt;/u&gt;: -- &lt;li&gt;&lt;u&gt;JEITA&lt;/u&gt;: --&lt;/ul&gt;</description>
