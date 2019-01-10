@@ -12015,86 +12015,6 @@ GALILEO.
 </deviceset>
 </devicesets>
 </library>
-<library name="MS5637">
-<packages>
-<package name="MS5637">
-<smd name="VDD" x="-1" y="1" dx="1" dy="1" layer="1"/>
-<smd name="GND" x="1" y="1" dx="1" dy="1" layer="1"/>
-<smd name="SCL" x="1" y="-1" dx="1" dy="1" layer="1"/>
-<smd name="SDA" x="-1" y="-1" dx="1" dy="1" layer="1"/>
-<text x="-1.27" y="-2.54" size="0.508" layer="21">MS5637</text>
-<wire x1="-1.7" y1="1.7" x2="1.8" y2="1.7" width="0.127" layer="21"/>
-<wire x1="1.8" y1="1.7" x2="1.8" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="1.8" y1="-1.7" x2="-1.7" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-1.7" y1="-1.7" x2="-1.7" y2="1.7" width="0.127" layer="21"/>
-<circle x="-1.27" y="1.27" radius="0.254" width="0.127" layer="21"/>
-<text x="0" y="0" size="0.254" layer="21">MEAS</text>
-</package>
-<package name="MS5637TH">
-<pad name="VDD" x="-1" y="1" drill="0.6"/>
-<pad name="GND" x="1" y="1" drill="0.6"/>
-<pad name="SCL" x="1" y="-1" drill="0.6"/>
-<pad name="SDA" x="-1" y="-1" drill="0.6"/>
-</package>
-</packages>
-<symbols>
-<symbol name="MS5637">
-<wire x1="-10.16" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="7.62" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-10.16" x2="-10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-10.16" y1="-10.16" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
-<pin name="VDD" x="-15.24" y="2.54" length="middle"/>
-<pin name="SDA" x="-15.24" y="-5.08" length="middle"/>
-<pin name="GND" x="12.7" y="2.54" length="middle" rot="R180"/>
-<pin name="SCL" x="12.7" y="-5.08" length="middle" rot="R180"/>
-<text x="-10.16" y="-12.7" size="1.27" layer="94">MS5637</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="MS5637">
-<description>Le MS563702BA03-50 est un Micro Altimètre ultra compact optimisé pour des applications d'altimètre et de baromètre dans des téléphones portables et des tablettes.
-La résolution d'altitude au niveau de la mer est de 13cm d'air. Le module de capteur comprend un capteur de pression haute linéarité et un CAN &amp;Delta;Σ 24 bits ultra
-faible puissance avec des coefficients internes calibrés en usine. Il fournit une valeur numérique de pression et de température précise de 24 bits et différents modes
-de fonctionnement qui permettent à l'utilisateur d'optimiser la vitesse de conversion et la consommation de courant. La sortie de température à haute résolution permet
-la mise en œuvre d'une fonction altimètre / thermomètre sans capteur supplémentaire. Il peut être interfacé avec pratiquement tous les microcontrôleurs à interface I²C-bus.
-Le protocole de communication est simple, sans avoir à programmer des registres internes dans l'appareil. Faibles dimensions de 3 x 3 x 0.9mm³ pour une intégratio
-Module haute résolution, 13cm
-Capteur de pression numérique intégré (CAN ΔΣ 24 bits)
-Interface I²C
-Plage de pression étendue de 10 à 2000mbar
-Conversion rapide jusqu'à 0.5ms
-Faible consommation, 0.6µA (veille &lt;=0.1µA à 25°C)
-Aucun composant externe (oscillateur interne)</description>
-<gates>
-<gate name="G$1" symbol="MS5637" x="-7.62" y="10.16"/>
-</gates>
-<devices>
-<device name="" package="MS5637">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VDD" pad="VDD"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TH" package="MS5637TH">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="SCL" pad="SCL"/>
-<connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VDD" pad="VDD"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="VEML6075">
 <packages>
 <package name="VEML6075">
@@ -13637,6 +13557,96 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
+<library name="bosch-bme280">
+<description>Combined humidity and pressure sensor</description>
+<packages>
+<package name="BME280">
+<description>2.5 mm x 2.5 mm x 0.93 mm metal lid LGA</description>
+<smd name="6" x="-0.325" y="1.025" dx="0.35" dy="0.5" layer="1"/>
+<smd name="7" x="0.325" y="1.025" dx="0.35" dy="0.5" layer="1"/>
+<smd name="8" x="0.975" y="1.025" dx="0.35" dy="0.5" layer="1"/>
+<smd name="5" x="-0.975" y="1.025" dx="0.35" dy="0.5" layer="1"/>
+<smd name="2" x="0.325" y="-1.025" dx="0.35" dy="0.5" layer="1" rot="R180"/>
+<smd name="3" x="-0.325" y="-1.025" dx="0.35" dy="0.5" layer="1" rot="R180"/>
+<smd name="4" x="-0.975" y="-1.025" dx="0.35" dy="0.5" layer="1" rot="R180"/>
+<smd name="1" x="0.975" y="-1.025" dx="0.35" dy="0.5" layer="1" rot="R180"/>
+<wire x1="-1.25" y1="1.1" x2="-1.1" y2="1.25" width="0.05" layer="21" curve="-90"/>
+<wire x1="-1.1" y1="1.25" x2="1.05" y2="1.25" width="0.05" layer="21"/>
+<wire x1="1.05" y1="1.25" x2="1.1" y2="1.25" width="0.05" layer="21"/>
+<wire x1="1.1" y1="1.25" x2="1.25" y2="1.1" width="0.05" layer="21" curve="-90"/>
+<wire x1="1.25" y1="1.1" x2="1.25" y2="-1.05" width="0.05" layer="21"/>
+<wire x1="1.25" y1="-1.05" x2="1.25" y2="-1.1" width="0.05" layer="21"/>
+<wire x1="1.25" y1="-1.1" x2="1.1" y2="-1.25" width="0.05" layer="21" curve="-90"/>
+<wire x1="1.1" y1="-1.25" x2="-1.05" y2="-1.25" width="0.05" layer="21"/>
+<wire x1="-1.05" y1="-1.25" x2="-1.1" y2="-1.25" width="0.05" layer="21"/>
+<wire x1="-1.1" y1="-1.25" x2="-1.25" y2="-1.1" width="0.05" layer="21" curve="-90"/>
+<wire x1="-1.25" y1="-1.1" x2="-1.25" y2="1.1" width="0.05" layer="21"/>
+<wire x1="-1" y1="1.1" x2="-1.1" y2="1" width="0.02" layer="21" curve="90"/>
+<wire x1="-1.1" y1="1" x2="-1.1" y2="-1" width="0.02" layer="51"/>
+<wire x1="-1.1" y1="-1" x2="-1" y2="-1.1" width="0.02" layer="21" curve="90"/>
+<wire x1="-1" y1="-1.1" x2="1" y2="-1.1" width="0.02" layer="51"/>
+<wire x1="1" y1="-1.1" x2="1.1" y2="-1" width="0.02" layer="21" curve="90"/>
+<wire x1="1.1" y1="-1" x2="1.1" y2="1" width="0.02" layer="51"/>
+<wire x1="1.1" y1="1" x2="1" y2="1.1" width="0.02" layer="21" curve="90"/>
+<wire x1="1" y1="1.1" x2="-1" y2="1.1" width="0.02" layer="51"/>
+<circle x="0.95" y="-0.5" radius="0.1" width="0.05" layer="21"/>
+<text x="0" y="0" size="0.254" layer="51" align="center">HUMIDITY
+PRESSURE
+SENSOR</text>
+<text x="-1.25" y="1.4" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+<text x="-1.2" y="-1.75" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
+<wire x1="-1.25" y1="1.25" x2="1.25" y2="1.25" width="0.01" layer="39"/>
+<wire x1="1.25" y1="1.25" x2="1.25" y2="-1.25" width="0.01" layer="39"/>
+<wire x1="1.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.01" layer="39"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.01" layer="39"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BME280">
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.4064" layer="94"/>
+<pin name="VDD" x="-12.7" y="5.08" length="middle" direction="pwr"/>
+<pin name="GND" x="-12.7" y="-5.08" length="middle" direction="pwr"/>
+<pin name="VDDIO" x="12.7" y="2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="CSB" x="-12.7" y="0" length="middle" direction="in"/>
+<pin name="SDO" x="12.7" y="-5.08" length="middle" direction="in" rot="R180"/>
+<pin name="SDI" x="12.7" y="-2.54" length="middle" rot="R180"/>
+<pin name="SCK" x="12.7" y="0" length="middle" rot="R180"/>
+<text x="-7.366" y="8.382" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BME280" prefix="IC">
+<description>DIGITAL HUMIDITY, PRESSURE AND TEMPERATURE SENSOR&lt;br&gt;* Digital interface I²C (up to 3.4 MHz) and SPI (3 and 4 wire, up to 10 MHz)* Supply voltage VDD main supply voltage range: 1.71 V to 3.6 V*VDDIO interface voltage range: 1.2 V to 3.6 V&lt;br&gt;
+Operating range -40…+85 °C, 0…100 % rel. humidity, 300…1100 hPa
+&lt;br&gt;&lt;br&gt;
+
+The library has been designed by&lt;a href="https://www.facebook.com/groups/eaglecadsoftUK"&gt; Richard Magdycz&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BME280" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BME280">
+<connects>
+<connect gate="G$1" pin="CSB" pad="2"/>
+<connect gate="G$1" pin="GND" pad="1 7"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+<connect gate="G$1" pin="SDI" pad="3"/>
+<connect gate="G$1" pin="SDO" pad="5"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -13711,12 +13721,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2"/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND60" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="MS1" library="MS5637" deviceset="MS5637" device=""/>
 <part name="U$14" library="VEML6075" deviceset="VEML6075" device=""/>
 <part name="GND69" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND70" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
 <part name="GND71" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R13" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="10k"/>
@@ -13807,6 +13814,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND44" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND45" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="IC3" library="bosch-bme280" deviceset="BME280" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
+<part name="GND46" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="C17" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="GND47" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100k"/>
 </parts>
 <sheets>
 <sheet>
@@ -14742,12 +14756,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="-86.36" y="-12.954" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="U$1" gate="G$1" x="-12.7" y="5.08" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="-1.27" y="5.08" size="1.778" layer="96" font="vector" rot="MR0"/>
-<attribute name="NAME" x="-1.27" y="7.62" size="1.778" layer="95" font="vector" rot="MR0"/>
+<attribute name="VALUE" x="-16.51" y="-2.54" size="1.778" layer="96" font="vector" rot="MR0"/>
+<attribute name="NAME" x="-16.51" y="-5.08" size="1.778" layer="95" font="vector" rot="MR0"/>
 </instance>
 <instance part="U$1" gate="G$2" x="-12.7" y="48.26" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-8.89" y="34.29" size="1.778" layer="96" font="vector" rot="R90"/>
-<attribute name="NAME" x="-11.43" y="34.29" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="-16.51" y="54.61" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="-16.51" y="52.07" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="GND6" gate="1" x="-15.24" y="-10.16" smashed="yes">
 <attribute name="VALUE" x="-15.24" y="-10.414" size="1.778" layer="96" align="top-center"/>
@@ -14853,6 +14867,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="R4" gate="G$1" x="27.94" y="48.26" smashed="yes">
 <attribute name="NAME" x="24.13" y="49.7586" size="1.778" layer="95"/>
 <attribute name="VALUE" x="24.13" y="44.958" size="1.778" layer="96"/>
+</instance>
+<instance part="R5" gate="G$1" x="-15.24" y="33.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="-16.7386" y="29.21" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="-11.938" y="29.21" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -15000,12 +15018,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="-45.72" y="25.4"/>
 <wire x1="-30.48" y1="25.4" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
 <junction x="-30.48" y="25.4"/>
-<pinref part="U$1" gate="G$2" pin="G"/>
-<wire x1="-15.24" y1="43.18" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="D"/>
 <wire x1="-15.24" y1="25.4" x2="-15.24" y2="10.16" width="0.1524" layer="91"/>
-<junction x="-15.24" y="25.4"/>
 <label x="-35.56" y="22.86" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="-15.24" y1="27.94" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
+<junction x="-15.24" y="25.4"/>
 </segment>
 </net>
 <net name="INT_PSWITCH" class="0">
@@ -15237,6 +15255,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$6" gate="G$1" pin="IO"/>
 <wire x1="-68.58" y1="-40.64" x2="-81.28" y2="-40.64" width="0.1524" layer="91"/>
 <label x="-81.28" y="-40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="U$1" gate="G$2" pin="G"/>
+<wire x1="-15.24" y1="38.1" x2="-15.24" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
@@ -15487,19 +15512,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <frame x1="-76.2" y1="-58.42" x2="200.66" y2="88.9" columns="8" rows="5" layer="91"/>
 </plain>
 <instances>
-<instance part="MS1" gate="G$1" x="-10.16" y="20.32" smashed="yes"/>
 <instance part="U$14" gate="G$1" x="-10.16" y="45.72" smashed="yes"/>
 <instance part="GND69" gate="1" x="-38.1" y="48.26" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-38.354" y="48.26" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="GND70" gate="1" x="17.78" y="22.86" smashed="yes" rot="R90">
-<attribute name="VALUE" x="18.034" y="22.86" size="1.778" layer="96" rot="R90" align="top-center"/>
-</instance>
 <instance part="SUPPLY5" gate="G$1" x="-30.48" y="43.18" smashed="yes" rot="R90">
 <attribute name="VALUE" x="-33.274" y="43.18" size="1.778" layer="96" rot="R90" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY8" gate="G$1" x="-30.48" y="22.86" smashed="yes" rot="R90">
-<attribute name="VALUE" x="-33.274" y="22.86" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="30.48" y="-15.24" smashed="yes" rot="R270">
 <attribute name="VALUE" x="33.274" y="-15.24" size="1.778" layer="96" rot="R270" align="bottom-center"/>
@@ -15569,40 +15587,55 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY14" gate="G$1" x="162.56" y="-20.32" smashed="yes" rot="R270">
 <attribute name="VALUE" x="165.354" y="-20.32" size="1.778" layer="96" rot="R270" align="bottom-center"/>
 </instance>
+<instance part="IC3" gate="G$1" x="-10.16" y="17.78" smashed="yes">
+<attribute name="NAME" x="-17.526" y="26.162" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="-17.78" y="7.62" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="-30.48" y="22.86" smashed="yes" rot="R90">
+<attribute name="VALUE" x="-33.274" y="22.86" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="SUPPLY3" gate="G$1" x="10.16" y="20.32" smashed="yes" rot="R270">
+<attribute name="VALUE" x="12.954" y="20.32" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+</instance>
+<instance part="GND46" gate="1" x="-33.02" y="12.7" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-35.814" y="12.7" size="1.778" layer="96" rot="R270" align="top-center"/>
+</instance>
+<instance part="C17" gate="G$1" x="-33.02" y="17.78" smashed="yes" rot="R270">
+<attribute name="NAME" x="-30.099" y="16.256" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="VALUE" x="-35.179" y="16.256" size="1.778" layer="96" font="vector" rot="R270"/>
+</instance>
+<instance part="GND47" gate="1" x="-40.64" y="17.78" smashed="yes" rot="R270">
+<attribute name="VALUE" x="-40.894" y="17.78" size="1.778" layer="96" rot="R270" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="SCL" class="0">
 <segment>
-<pinref part="MS1" gate="G$1" pin="SCL"/>
-<wire x1="2.54" y1="15.24" x2="15.24" y2="15.24" width="0.1524" layer="91"/>
-<label x="15.24" y="15.24" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$14" gate="G$1" pin="SCL"/>
 <wire x1="0" y1="43.18" x2="10.16" y2="43.18" width="0.1524" layer="91"/>
 <label x="10.16" y="43.18" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="SCK"/>
+<wire x1="2.54" y1="17.78" x2="10.16" y2="17.78" width="0.1524" layer="91"/>
+<label x="10.16" y="17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="SDA" class="0">
-<segment>
-<pinref part="MS1" gate="G$1" pin="SDA"/>
-<wire x1="-25.4" y1="15.24" x2="-38.1" y2="15.24" width="0.1524" layer="91"/>
-<label x="-38.1" y="15.24" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="SDA"/>
 <wire x1="0" y1="48.26" x2="10.16" y2="48.26" width="0.1524" layer="91"/>
 <label x="10.16" y="48.26" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="SDI"/>
+<wire x1="2.54" y1="15.24" x2="10.16" y2="15.24" width="0.1524" layer="91"/>
+<label x="10.16" y="15.24" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="GND" class="1">
-<segment>
-<pinref part="MS1" gate="G$1" pin="GND"/>
-<wire x1="2.54" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="GND70" gate="1" pin="GND"/>
-</segment>
 <segment>
 <pinref part="GND69" gate="1" pin="GND"/>
 <pinref part="U$14" gate="G$1" pin="GND"/>
@@ -15638,17 +15671,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="L4" gate="G$1" pin="GND"/>
 <wire x1="162.56" y1="27.94" x2="162.56" y2="38.1" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND46" gate="1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="GND"/>
+<wire x1="-30.48" y1="12.7" x2="-22.86" y2="12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="SDO"/>
+<wire x1="2.54" y1="12.7" x2="10.16" y2="12.7" width="0.1524" layer="91"/>
+<label x="10.16" y="12.7" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="C17" gate="G$1" pin="2"/>
+<pinref part="GND47" gate="1" pin="GND"/>
+<wire x1="-35.56" y1="17.78" x2="-38.1" y2="17.78" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="1">
 <segment>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
 <pinref part="U$14" gate="G$1" pin="VDD"/>
 <wire x1="-30.48" y1="43.18" x2="-20.32" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="SUPPLY8" gate="G$1" pin="VCC"/>
-<pinref part="MS1" gate="G$1" pin="VDD"/>
-<wire x1="-30.48" y1="22.86" x2="-25.4" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="VCC"/>
@@ -15690,6 +15733,24 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="SUPPLY13" gate="G$1" pin="VCC"/>
 <wire x1="154.94" y1="-5.08" x2="162.56" y2="-5.08" width="0.1524" layer="91"/>
 <junction x="154.94" y="-5.08"/>
+</segment>
+<segment>
+<pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
+<pinref part="IC3" gate="G$1" pin="VDDIO"/>
+<wire x1="10.16" y1="20.32" x2="2.54" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="VDD"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
+<wire x1="-22.86" y1="22.86" x2="-25.4" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="IC3" gate="G$1" pin="CSB"/>
+<wire x1="-25.4" y1="22.86" x2="-30.48" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="17.78" x2="-25.4" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="17.78" x2="-25.4" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-25.4" y="22.86"/>
+<pinref part="C17" gate="G$1" pin="1"/>
+<wire x1="-27.94" y1="17.78" x2="-25.4" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-25.4" y="17.78"/>
 </segment>
 </net>
 <net name="LS027_CS" class="0">
@@ -15823,6 +15884,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
