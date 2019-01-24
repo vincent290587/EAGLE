@@ -13600,7 +13600,7 @@ Cypress CY15B004J-SXE family</description>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="0.02"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="200k 0.1%"/>
 <part name="GND29" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="BATT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2"/>
+<part name="BATT" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C1210" package3d_urn="urn:adsk.eagle:package:23619/2" value="4.2V_LI-ION"/>
 <part name="T2" library="nxp_60" deviceset="BC847" device=""/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100k"/>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10k"/>
@@ -13902,8 +13902,8 @@ Cypress CY15B004J-SXE family</description>
 <net name="SCL" class="0">
 <segment>
 <pinref part="R31" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="393.7" x2="20.32" y2="393.7" width="0.1524" layer="91"/>
 <label x="20.32" y="393.7" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="25.4" y1="393.7" x2="20.32" y2="393.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="12.7" y1="335.28" x2="5.08" y2="335.28" width="0.1524" layer="91"/>
@@ -13914,13 +13914,13 @@ Cypress CY15B004J-SXE family</description>
 <net name="SDA" class="0">
 <segment>
 <pinref part="R30" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="393.7" x2="12.7" y2="393.7" width="0.1524" layer="91"/>
 <label x="12.7" y="393.7" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="7.62" y1="393.7" x2="12.7" y2="393.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="12.7" y1="332.74" x2="5.08" y2="332.74" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="P0.26"/>
 <label x="5.08" y="332.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="12.7" y1="332.74" x2="5.08" y2="332.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="FXOS_RST" class="0">
@@ -14073,8 +14073,8 @@ Cypress CY15B004J-SXE family</description>
 <net name="LS027_CS" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="P0.17"/>
-<wire x1="45.72" y1="347.98" x2="53.34" y2="347.98" width="0.1524" layer="91"/>
 <label x="53.34" y="347.98" size="1.27" layer="95" xref="yes"/>
+<wire x1="45.72" y1="347.98" x2="53.34" y2="347.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NEO_PIN" class="0">
@@ -14148,15 +14148,15 @@ Cypress CY15B004J-SXE family</description>
 <net name="SPI_MO" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="P0.19"/>
-<wire x1="45.72" y1="342.9" x2="53.34" y2="342.9" width="0.1524" layer="91"/>
 <label x="53.34" y="342.9" size="1.27" layer="95" xref="yes"/>
+<wire x1="45.72" y1="342.9" x2="53.34" y2="342.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LS027_MO" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="P0.16"/>
-<wire x1="12.7" y1="264.16" x2="5.08" y2="264.16" width="0.1524" layer="91"/>
 <label x="5.08" y="264.16" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="12.7" y1="264.16" x2="5.08" y2="264.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="LS027_SCK" class="0">
@@ -14169,8 +14169,8 @@ Cypress CY15B004J-SXE family</description>
 <net name="SST_CS" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="P0.22"/>
-<wire x1="45.72" y1="335.28" x2="53.34" y2="335.28" width="0.1524" layer="91"/>
 <label x="53.34" y="335.28" size="1.27" layer="95" xref="yes"/>
+<wire x1="45.72" y1="335.28" x2="53.34" y2="335.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SPI_SCK" class="0">
@@ -14183,8 +14183,8 @@ Cypress CY15B004J-SXE family</description>
 <net name="SPI_MI" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="P0.24"/>
-<wire x1="45.72" y1="330.2" x2="53.34" y2="330.2" width="0.1524" layer="91"/>
 <label x="53.34" y="330.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="45.72" y1="330.2" x2="53.34" y2="330.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SST_WP" class="0">
