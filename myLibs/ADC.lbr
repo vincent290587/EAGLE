@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -98,7 +98,44 @@
 <circle x="-1.85" y="1.65" radius="0.125" width="0.25" layer="25"/>
 <text x="-1.524" y="-2.032" size="0.381" layer="25">FDC1004</text>
 </package>
+<package name="SON50P300X300X80-11T120X200" urn="urn:adsk.eagle:footprint:10032864/1">
+<description>10-SON, 0.50 mm pitch, 3.00 X 3.00 X 0.80 mm body, 2.00 X 1.20 mm thermal pad
+&lt;p&gt;10-pin SON package with 0.50 mm pitch with body size 3.00 X 3.00 X 0.80 mm and thermal pad size 2.00 X 1.20 mm&lt;/p&gt;</description>
+<circle x="-2.054" y="1.639" radius="0.25" width="0" layer="21"/>
+<wire x1="-1.55" y1="1.389" x2="-1.55" y2="1.55" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.12" layer="21"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="1.389" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="-1.389" x2="-1.55" y2="-1.55" width="0.12" layer="21"/>
+<wire x1="-1.55" y1="-1.55" x2="1.55" y2="-1.55" width="0.12" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="1.55" y2="-1.389" width="0.12" layer="21"/>
+<wire x1="1.55" y1="-1.55" x2="-1.55" y2="-1.55" width="0.12" layer="51"/>
+<wire x1="-1.55" y1="-1.55" x2="-1.55" y2="1.55" width="0.12" layer="51"/>
+<wire x1="-1.55" y1="1.55" x2="1.55" y2="1.55" width="0.12" layer="51"/>
+<wire x1="1.55" y1="1.55" x2="1.55" y2="-1.55" width="0.12" layer="51"/>
+<smd name="1" x="-1.4346" y="1" dx="0.86" dy="0.27" layer="1" roundness="100"/>
+<smd name="2" x="-1.4346" y="0.5" dx="0.86" dy="0.27" layer="1" roundness="100"/>
+<smd name="3" x="-1.4346" y="0" dx="0.86" dy="0.27" layer="1" roundness="100"/>
+<smd name="4" x="-1.4346" y="-0.5" dx="0.86" dy="0.27" layer="1" roundness="100"/>
+<smd name="5" x="-1.4346" y="-1" dx="0.86" dy="0.27" layer="1" roundness="100"/>
+<smd name="6" x="1.4346" y="-1" dx="0.86" dy="0.27" layer="1" roundness="100"/>
+<smd name="7" x="1.4346" y="-0.5" dx="0.86" dy="0.27" layer="1" roundness="100"/>
+<smd name="8" x="1.4346" y="0" dx="0.86" dy="0.27" layer="1" roundness="100"/>
+<smd name="9" x="1.4346" y="0.5" dx="0.86" dy="0.27" layer="1" roundness="100"/>
+<smd name="10" x="1.4346" y="1" dx="0.86" dy="0.27" layer="1" roundness="100"/>
+<smd name="11" x="0" y="0" dx="1.2" dy="2" layer="1" thermals="no"/>
+<text x="0" y="2.524" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.185" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
+<packages3d>
+<package3d name="SON50P300X300X80-11T120X200" urn="urn:adsk.eagle:package:10032810/1" type="model">
+<description>10-SON, 0.50 mm pitch, 3.00 X 3.00 X 0.80 mm body, 2.00 X 1.20 mm thermal pad
+&lt;p&gt;10-pin SON package with 0.50 mm pitch with body size 3.00 X 3.00 X 0.80 mm and thermal pad size 2.00 X 1.20 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="SON50P300X300X80-11T120X200"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="FDC1004DSCT">
 <wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
@@ -159,4 +196,16 @@ Source: &lt;a href="http://www.ti.com/lit/ds/snoscy5b/snoscy5b.pdf"&gt; Datashee
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
