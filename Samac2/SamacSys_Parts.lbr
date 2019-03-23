@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -196,7 +196,7 @@
 <pin name="P0.17" x="33.02" y="0" length="middle" rot="R180"/>
 <pin name="P0.21" x="33.02" y="-2.54" length="middle" rot="R180"/>
 <pin name="P0.19" x="33.02" y="-5.08" length="middle" rot="R180"/>
-<pin name="P0.2" x="33.02" y="-7.62" length="middle" rot="R180"/>
+<pin name="P0.20" x="33.02" y="-7.62" length="middle" rot="R180"/>
 <pin name="P0.18" x="33.02" y="-10.16" length="middle" rot="R180"/>
 <pin name="P0.22" x="33.02" y="-12.7" length="middle" rot="R180"/>
 <pin name="P0.23" x="33.02" y="-15.24" length="middle" rot="R180"/>
@@ -272,7 +272,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/BMD-340-A-R.p
 <connect gate="G$1" pin="P0.17" pad="35"/>
 <connect gate="G$1" pin="P0.18" pad="39"/>
 <connect gate="G$1" pin="P0.19" pad="37"/>
-<connect gate="G$1" pin="P0.2" pad="38"/>
+<connect gate="G$1" pin="P0.20" pad="38"/>
 <connect gate="G$1" pin="P0.21" pad="36"/>
 <connect gate="G$1" pin="P0.22" pad="40"/>
 <connect gate="G$1" pin="P0.23" pad="41"/>
