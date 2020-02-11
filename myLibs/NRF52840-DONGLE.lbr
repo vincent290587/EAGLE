@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.3.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="MODULE_NRF52840-DONGLE">
+<wire x1="-5.7226" y1="0" x2="24.3074" y2="0" width="0.127" layer="51"/>
+<wire x1="40.3174" y1="-1.61" x2="40.3174" y2="-13.63" width="0.127" layer="51"/>
+<wire x1="24.3074" y1="-15.24" x2="-5.7226" y2="-15.24" width="0.127" layer="51"/>
+<wire x1="-5.7226" y1="-15.24" x2="-5.7226" y2="0" width="0.127" layer="51"/>
+<wire x1="40.3174" y1="-1.61" x2="25.9174" y2="-1.61" width="0.127" layer="51"/>
+<wire x1="40.3174" y1="-13.63" x2="25.9174" y2="-13.63" width="0.127" layer="51"/>
+<wire x1="25.9174" y1="-1.61" x2="24.3074" y2="0" width="0.127" layer="51"/>
+<wire x1="25.9174" y1="-13.63" x2="24.3074" y2="-15.24" width="0.127" layer="51"/>
+<wire x1="-1.3526" y1="0" x2="-5.7226" y2="0" width="0.127" layer="21"/>
+<wire x1="-5.7226" y1="0" x2="-5.7226" y2="-15.24" width="0.127" layer="21"/>
+<wire x1="-5.7226" y1="-15.24" x2="-1.3526" y2="-15.24" width="0.127" layer="21"/>
+<wire x1="29.2974" y1="-1.61" x2="40.3174" y2="-1.61" width="0.127" layer="21"/>
+<wire x1="40.3174" y1="-1.61" x2="40.3174" y2="-13.63" width="0.127" layer="21"/>
+<wire x1="40.3174" y1="-13.63" x2="29.2974" y2="-13.63" width="0.127" layer="21"/>
+<wire x1="-5.9726" y1="1.005" x2="24.3074" y2="1.005" width="0.05" layer="39"/>
+<wire x1="24.3074" y1="1.005" x2="26.3074" y2="-1.055" width="0.05" layer="39"/>
+<wire x1="26.3074" y1="-1.055" x2="40.5674" y2="-1.055" width="0.05" layer="39"/>
+<wire x1="40.5674" y1="-1.055" x2="40.5674" y2="-14.185" width="0.05" layer="39"/>
+<wire x1="40.5674" y1="-14.185" x2="26.3074" y2="-14.185" width="0.05" layer="39"/>
+<wire x1="26.3074" y1="-14.185" x2="24.3074" y2="-16.245" width="0.05" layer="39"/>
+<wire x1="24.3074" y1="-16.245" x2="-5.9726" y2="-16.245" width="0.05" layer="39"/>
+<wire x1="-5.9726" y1="-16.245" x2="-5.9726" y2="1.005" width="0.05" layer="39"/>
+<text x="-5.5626" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.5626" y="-17.78" size="1.27" layer="27">&gt;VALUE</text>
+<pad name="G1" x="-0.0076" y="0" drill="1"/>
+<pad name="0.10" x="2.5324" y="0" drill="1"/>
+<pad name="0.09" x="5.0724" y="0" drill="1"/>
+<pad name="1.00" x="7.6124" y="0" drill="1"/>
+<pad name="0.24" x="10.1524" y="0" drill="1"/>
+<pad name="0.22" x="12.6924" y="0" drill="1"/>
+<pad name="0.20" x="15.2324" y="0" drill="1"/>
+<pad name="0.17" x="17.7724" y="0" drill="1"/>
+<pad name="0.15" x="20.3124" y="0" drill="1"/>
+<pad name="0.13" x="22.8524" y="0" drill="1"/>
+<pad name="G2" x="-0.0076" y="-15.24" drill="1"/>
+<pad name="1.10" x="2.5324" y="-15.24" drill="1"/>
+<pad name="1.13" x="5.0724" y="-15.24" drill="1"/>
+<pad name="1.15" x="7.6124" y="-15.24" drill="1"/>
+<pad name="0.02" x="10.1524" y="-15.24" drill="1"/>
+<pad name="0.29" x="12.6924" y="-15.24" drill="1"/>
+<pad name="0.31" x="15.2324" y="-15.24" drill="1"/>
+<pad name="G3" x="17.7724" y="-15.24" drill="1"/>
+<pad name="OUT" x="20.3124" y="-15.24" drill="1"/>
+<pad name="VBUS" x="22.8524" y="-15.24" drill="1"/>
+<pad name="SWDIO" x="27.9324" y="-2.06" drill="1"/>
+<pad name="SWDCLK" x="27.9324" y="-13.18" drill="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NRF52840-DONGLE">
+<wire x1="-10.16" y1="20.32" x2="10.16" y2="20.32" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="20.32" x2="10.16" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="-10.16" y2="-20.32" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-20.32" x2="-10.16" y2="20.32" width="0.1524" layer="94"/>
+<text x="-10.16" y="21.082" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-22.86" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="VBUS" x="15.24" y="17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="GND" x="15.24" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="0.31" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="OUT" x="15.24" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="0.29" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="0.02" x="-15.24" y="5.08" length="middle"/>
+<pin name="1.15" x="15.24" y="-12.7" length="middle" rot="R180"/>
+<pin name="1.10" x="15.24" y="-7.62" length="middle" rot="R180"/>
+<pin name="1.13" x="15.24" y="-10.16" length="middle" rot="R180"/>
+<pin name="0.13" x="-15.24" y="-2.54" length="middle"/>
+<pin name="0.15" x="-15.24" y="-5.08" length="middle"/>
+<pin name="0.17" x="-15.24" y="-7.62" length="middle"/>
+<pin name="0.20" x="-15.24" y="-10.16" length="middle"/>
+<pin name="0.22" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="0.24" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="1.00" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="0.09" x="-15.24" y="2.54" length="middle"/>
+<pin name="0.10" x="-15.24" y="0" length="middle"/>
+<pin name="SWDIO" x="-15.24" y="10.16" length="middle"/>
+<pin name="SWDCLK" x="-15.24" y="12.7" length="middle" direction="in" function="clk"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="NRF52840-DONGLE" prefix="U">
+<description>NRF52840 Bluetooth-5/Thread/802.15.4/ANT/2.4GHz Multiprotocol SoC USB Development Dongle</description>
+<gates>
+<gate name="G$1" symbol="NRF52840-DONGLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MODULE_NRF52840-DONGLE">
+<connects>
+<connect gate="G$1" pin="0.02" pad="0.02"/>
+<connect gate="G$1" pin="0.09" pad="0.09"/>
+<connect gate="G$1" pin="0.10" pad="0.10"/>
+<connect gate="G$1" pin="0.13" pad="0.13"/>
+<connect gate="G$1" pin="0.15" pad="0.15"/>
+<connect gate="G$1" pin="0.17" pad="0.17"/>
+<connect gate="G$1" pin="0.20" pad="0.20"/>
+<connect gate="G$1" pin="0.22" pad="0.22"/>
+<connect gate="G$1" pin="0.24" pad="0.24"/>
+<connect gate="G$1" pin="0.29" pad="0.29"/>
+<connect gate="G$1" pin="0.31" pad="0.31"/>
+<connect gate="G$1" pin="1.00" pad="1.00"/>
+<connect gate="G$1" pin="1.10" pad="1.10"/>
+<connect gate="G$1" pin="1.13" pad="1.13"/>
+<connect gate="G$1" pin="1.15" pad="1.15"/>
+<connect gate="G$1" pin="GND" pad="G1 G2 G3"/>
+<connect gate="G$1" pin="OUT" pad="OUT"/>
+<connect gate="G$1" pin="SWDCLK" pad="SWDCLK"/>
+<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
+<connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" - Transceiver; Bluetooth® 5 For Use With nRF52840 "/>
+<attribute name="MF" value="Nordic Semiconductor"/>
+<attribute name="MP" value="NRF52840-DONGLE"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
