@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -154,29 +155,41 @@
 </layers>
 <library>
 <packages>
-<package name="IND-2020">
+<package name="PAD_1P7">
 <smd name="P$1" x="0.325" y="1" dx="1.7" dy="1.7" layer="1" roundness="100"/>
+</package>
+<package name="PAD_3">
+<smd name="P$1" x="0.325" y="1" dx="3" dy="3" layer="1" roundness="100"/>
 </package>
 </packages>
 <symbols>
-<symbol name="INDUCTOR">
+<symbol name="PAD">
 <pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<wire x1="-5.08" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="1.905" size="0.508" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-1.905" size="0.508" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-5.08" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.254" layer="94"/>
+<circle x="-3.81" y="0" radius="1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MDMK2020T4R7MM">
+<deviceset name="PAD">
 <description>Thing used to expose a pad</description>
 <gates>
-<gate name="G$1" symbol="INDUCTOR" x="-15.24" y="0"/>
+<gate name="G$1" symbol="PAD" x="-15.24" y="0"/>
 </gates>
 <devices>
-<device name="" package="IND-2020">
+<device name="" package="PAD_1P7">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3MM" package="PAD_3">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
