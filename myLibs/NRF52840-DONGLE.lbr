@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -118,7 +118,7 @@
 <pin name="VBUS" x="15.24" y="17.78" length="middle" direction="pwr" rot="R180"/>
 <pin name="GND" x="15.24" y="-17.78" length="middle" direction="pwr" rot="R180"/>
 <pin name="0.31" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="OUT" x="15.24" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="VDDO" x="15.24" y="12.7" length="middle" direction="out" rot="R180"/>
 <pin name="0.29" x="15.24" y="0" length="middle" rot="R180"/>
 <pin name="0.02" x="-15.24" y="5.08" length="middle"/>
 <pin name="1.15" x="15.24" y="-12.7" length="middle" rot="R180"/>
@@ -133,15 +133,18 @@
 <pin name="1.00" x="15.24" y="-5.08" length="middle" rot="R180"/>
 <pin name="0.09" x="-15.24" y="2.54" length="middle"/>
 <pin name="0.10" x="-15.24" y="0" length="middle"/>
-<pin name="SWDIO" x="-15.24" y="10.16" length="middle"/>
-<pin name="SWDCLK" x="-15.24" y="12.7" length="middle" direction="in" function="clk"/>
+</symbol>
+<symbol name="SWD">
+<pin name="SWDCLK" x="-2.54" y="2.54" length="short" function="clk"/>
+<pin name="SWDIO" x="-2.54" y="0" length="short"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="NRF52840-DONGLE" prefix="U">
+<deviceset name="NRF52840-DONGLE" prefix="M">
 <description>NRF52840 Bluetooth-5/Thread/802.15.4/ANT/2.4GHz Multiprotocol SoC USB Development Dongle</description>
 <gates>
 <gate name="G$1" symbol="NRF52840-DONGLE" x="0" y="0"/>
+<gate name="G$2" symbol="SWD" x="-10.16" y="12.7" addlevel="can"/>
 </gates>
 <devices>
 <device name="" package="MODULE_NRF52840-DONGLE">
@@ -162,10 +165,10 @@
 <connect gate="G$1" pin="1.13" pad="1.13"/>
 <connect gate="G$1" pin="1.15" pad="1.15"/>
 <connect gate="G$1" pin="GND" pad="G1 G2 G3"/>
-<connect gate="G$1" pin="OUT" pad="OUT"/>
-<connect gate="G$1" pin="SWDCLK" pad="SWDCLK"/>
-<connect gate="G$1" pin="SWDIO" pad="SWDIO"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
+<connect gate="G$1" pin="VDDO" pad="OUT"/>
+<connect gate="G$2" pin="SWDCLK" pad="SWDCLK"/>
+<connect gate="G$2" pin="SWDIO" pad="SWDIO"/>
 </connects>
 <technologies>
 <technology name="">
