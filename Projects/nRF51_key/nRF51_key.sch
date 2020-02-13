@@ -63,6 +63,9 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -102,11 +105,19 @@
 <layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="126" name="BIFRNTMAT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="no"/>
 <layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="no"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
@@ -133,6 +144,17 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="no"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="no"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
@@ -1362,6 +1384,78 @@ chip</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="SD_Card">
+<packages>
+<package name="47571-0001">
+<description>&lt;b&gt;47571-0001&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-4.15" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="2" x="-3.05" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="3" x="-1.95" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="4" x="-0.85" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="5" x="0.25" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="6" x="1.35" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="7" x="2.45" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="8" x="3.55" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="9" x="-5.225" y="0.365" dx="1.2" dy="1.15" layer="1" rot="R90"/>
+<smd name="10" x="-5.225" y="-2.225" dx="1.2" dy="1.15" layer="1" rot="R90"/>
+<smd name="11" x="5.175" y="-0.075" dx="1.45" dy="1.2" layer="1"/>
+<smd name="12" x="5.4" y="-1.225" dx="1" dy="0.7" layer="1"/>
+<smd name="13" x="5.2" y="-2.375" dx="1.4" dy="0.9" layer="1"/>
+<text x="0.676" y="3.701" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.086" y="-3.665" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-5.7" y1="2.725" x2="5.7" y2="2.725" width="0.1" layer="21"/>
+<wire x1="-5.7" y1="2.725" x2="-5.7" y2="1.525" width="0.1" layer="21"/>
+<wire x1="5.7" y1="2.725" x2="5.7" y2="1.125" width="0.1" layer="21"/>
+<wire x1="3.9" y1="-2.725" x2="-4.1" y2="-2.725" width="0.1" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SD_HOLDER">
+<wire x1="-10.16" y1="-22.86" x2="10.16" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="-10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="22.86" x2="-10.16" y2="-22.86" width="0.254" layer="94"/>
+<text x="7.62" y="20.32" size="1.27" layer="94" ratio="12" rot="R180">SD Card</text>
+<pin name="D2" x="-10.16" y="-17.78" length="short" direction="hiz"/>
+<pin name="MISO" x="-10.16" y="-12.7" length="short"/>
+<pin name="GND" x="-10.16" y="-7.62" length="short" direction="pwr"/>
+<pin name="CLK" x="-10.16" y="-2.54" length="short" direction="in" function="clk"/>
+<pin name="VCC" x="-10.16" y="2.54" length="short" direction="pwr"/>
+<pin name="MOSI" x="-10.16" y="7.62" length="short"/>
+<pin name="CS" x="-10.16" y="12.7" length="short"/>
+<pin name="D1" x="-10.16" y="17.78" length="short" direction="hiz"/>
+<pin name="MECH" x="0" y="-25.4" length="short" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="47571-0001" prefix="J">
+<description>&lt;b&gt;Memory Card Connectors ASSY FOR TFR HEADER HEADER W/DETECT PIN&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET-170076.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="SD_HOLDER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="47571-0001">
+<connects>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CS" pad="2"/>
+<connect gate="G$1" pin="D1" pad="1"/>
+<connect gate="G$1" pin="D2" pad="8"/>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="MECH" pad="9 10 11 12 13"/>
+<connect gate="G$1" pin="MISO" pad="7"/>
+<connect gate="G$1" pin="MOSI" pad="3"/>
+<connect gate="G$1" pin="VCC" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1404,6 +1498,10 @@ chip</description>
 <part name="R1" library="Passives" deviceset="RESISTOR" device="0603"/>
 <part name="R2" library="Passives" deviceset="RESISTOR" device="0603"/>
 <part name="U$15" library="PowerSupplies" deviceset="VDD" device=""/>
+<part name="J1" library="SD_Card" deviceset="47571-0001" device=""/>
+<part name="U$16" library="PowerSupplies" deviceset="GND" device=""/>
+<part name="U$17" library="PowerSupplies" deviceset="GND" device=""/>
+<part name="U$18" library="PowerSupplies" deviceset="VDD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1462,6 +1560,10 @@ chip</description>
 <attribute name="VALUE" x="-39.37" y="-76.962" size="1.778" layer="96"/>
 </instance>
 <instance part="U$15" gate="G$1" x="-50.8" y="2.54" smashed="yes"/>
+<instance part="J1" gate="G$1" x="68.58" y="-53.34" smashed="yes"/>
+<instance part="U$16" gate="GND" x="68.58" y="-86.36" smashed="yes"/>
+<instance part="U$17" gate="GND" x="53.34" y="-81.28" smashed="yes"/>
+<instance part="U$18" gate="G$1" x="53.34" y="-27.94" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -1522,6 +1624,17 @@ chip</description>
 <pinref part="U$9" gate="GND" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="15.24" x2="124.46" y2="20.32" width="0.1524" layer="91" grouprefs="DECAP"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="GND"/>
+<wire x1="58.42" y1="-60.96" x2="53.34" y2="-60.96" width="0.1524" layer="91"/>
+<pinref part="U$17" gate="GND" pin="GND"/>
+<wire x1="53.34" y1="-60.96" x2="53.34" y2="-78.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="MECH"/>
+<pinref part="U$16" gate="GND" pin="GND"/>
+<wire x1="68.58" y1="-78.74" x2="68.58" y2="-83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USBDP" class="0">
@@ -1630,6 +1743,12 @@ chip</description>
 <pinref part="IC1" gate="G$1" pin="VCCIO"/>
 <wire x1="-53.34" y1="-2.54" x2="-53.34" y2="-7.62" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$18" gate="G$1" pin="VDD"/>
+<wire x1="53.34" y1="-30.48" x2="53.34" y2="-50.8" width="0.1524" layer="91"/>
+<pinref part="J1" gate="G$1" pin="VCC"/>
+<wire x1="53.34" y1="-50.8" x2="58.42" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="BTN1" class="0">
 <segment>
@@ -1667,6 +1786,58 @@ chip</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-30.48" y1="-73.66" x2="-15.24" y2="-73.66" width="0.1524" layer="91" grouprefs="USB"/>
 <label x="-27.94" y="-73.66" size="1.778" layer="95" grouprefs="USB"/>
+</segment>
+</net>
+<net name="MISO" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="MISO"/>
+<wire x1="58.42" y1="-66.04" x2="48.26" y2="-66.04" width="0.1524" layer="91"/>
+<label x="50.8" y="-66.04" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CLK" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="CLK"/>
+<wire x1="58.42" y1="-55.88" x2="48.26" y2="-55.88" width="0.1524" layer="91"/>
+<label x="50.8" y="-55.88" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="MOSI" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="MOSI"/>
+<wire x1="58.42" y1="-45.72" x2="48.26" y2="-45.72" width="0.1524" layer="91"/>
+<label x="50.8" y="-45.72" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="CS" class="0">
+<segment>
+<pinref part="J1" gate="G$1" pin="CS"/>
+<wire x1="58.42" y1="-40.64" x2="48.26" y2="-40.64" width="0.1524" layer="91"/>
+<label x="50.8" y="-40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SWDIO" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SWDIO"/>
+<wire x1="35.56" y1="5.08" x2="35.56" y2="-7.62" width="0.1524" layer="91"/>
+<label x="35.56" y="-5.08" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="D1"/>
+<wire x1="58.42" y1="-35.56" x2="48.26" y2="-35.56" width="0.1524" layer="91"/>
+<label x="50.8" y="-35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SWDCLK" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SWDCLK"/>
+<wire x1="50.8" y1="5.08" x2="50.8" y2="-7.62" width="0.1524" layer="91"/>
+<label x="50.8" y="-5.08" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="D2"/>
+<wire x1="58.42" y1="-71.12" x2="48.26" y2="-71.12" width="0.1524" layer="91"/>
+<label x="50.8" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
