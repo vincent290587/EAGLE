@@ -3818,7 +3818,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="19.3548" y="-32.9438" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="18.7198" y="-31.0388" size="1.27" layer="28" rot="MR180"/>
 </element>
-<element name="U3" library="FRAM" package="SOIC127P600X175-8N" value="" x="22.0472" y="27.7876" smashed="yes" rot="MR270">
+<element name="U3" library="FRAM" package="SOIC127P600X175-8N" value="FM24CL16B" x="22.0472" y="27.7876" smashed="yes" rot="MR270">
 <attribute name="NAME" x="18.73875" y="31.605040625" size="1.27248125" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="26.496490625" y="31.60128125" size="1.27123125" layer="28" rot="MR270"/>
 </element>
