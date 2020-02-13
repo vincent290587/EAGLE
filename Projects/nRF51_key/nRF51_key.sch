@@ -1389,14 +1389,14 @@ chip</description>
 <package name="47571-0001">
 <description>&lt;b&gt;47571-0001&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="-4.15" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
-<smd name="2" x="-3.05" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
-<smd name="3" x="-1.95" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
-<smd name="4" x="-0.85" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
-<smd name="5" x="0.25" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
-<smd name="6" x="1.35" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
-<smd name="7" x="2.45" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
-<smd name="8" x="3.55" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="28" x="-4.15" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="27" x="-3.05" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="26" x="-1.95" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="25" x="-0.85" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="24" x="0.25" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="23" x="1.35" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="22" x="2.45" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
+<smd name="21" x="3.55" y="1.415" dx="1" dy="0.7" layer="1" rot="R90"/>
 <smd name="9" x="-5.225" y="0.365" dx="1.2" dy="1.15" layer="1" rot="R90"/>
 <smd name="10" x="-5.225" y="-2.225" dx="1.2" dy="1.15" layer="1" rot="R90"/>
 <smd name="11" x="5.175" y="-0.075" dx="1.45" dy="1.2" layer="1"/>
@@ -1438,15 +1438,15 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <devices>
 <device name="" package="47571-0001">
 <connects>
-<connect gate="G$1" pin="CLK" pad="5"/>
-<connect gate="G$1" pin="CS" pad="2"/>
-<connect gate="G$1" pin="D1" pad="1"/>
-<connect gate="G$1" pin="D2" pad="8"/>
-<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="CLK" pad="25"/>
+<connect gate="G$1" pin="CS" pad="22"/>
+<connect gate="G$1" pin="D1" pad="28"/>
+<connect gate="G$1" pin="D2" pad="21"/>
+<connect gate="G$1" pin="GND" pad="26"/>
 <connect gate="G$1" pin="MECH" pad="9 10 11 12 13"/>
-<connect gate="G$1" pin="MISO" pad="7"/>
-<connect gate="G$1" pin="MOSI" pad="3"/>
-<connect gate="G$1" pin="VCC" pad="4"/>
+<connect gate="G$1" pin="MISO" pad="27"/>
+<connect gate="G$1" pin="MOSI" pad="23"/>
+<connect gate="G$1" pin="VCC" pad="24"/>
 </connects>
 <technologies>
 <technology name=""/>
