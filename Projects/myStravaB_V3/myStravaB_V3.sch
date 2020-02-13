@@ -13638,7 +13638,7 @@ Cypress CY15B004J-SXE family</description>
 <part name="C17" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="GND47" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="100k"/>
-<part name="U3" library="FRAM" deviceset="TWI_FRAM" device=""/>
+<part name="U3" library="FRAM" deviceset="TWI_FRAM" device="" value="FM24CL16B"/>
 <part name="GND48" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND49" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
