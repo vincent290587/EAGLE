@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.005" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -71,99 +72,99 @@
 <library>
 <packages>
 <package name="N550">
-<pad name="P031" x="0" y="0" drill="0.4" diameter="0.72"/>
-<pad name="P002" x="1.5" y="0" drill="0.4" diameter="0.72"/>
-<pad name="P001" x="3" y="0" drill="0.4" diameter="0.72"/>
-<pad name="P003" x="4.5" y="0" drill="0.4" diameter="0.72"/>
-<pad name="P005" x="6" y="0" drill="0.4" diameter="0.72"/>
-<pad name="P008" x="7.5" y="0" drill="0.4" diameter="0.72"/>
-<pad name="P009" x="7.5" y="1.5" drill="0.4" diameter="0.72"/>
-<pad name="P011" x="6" y="1.5" drill="0.4" diameter="0.72"/>
-<pad name="P006" x="4.5" y="1.5" drill="0.4" diameter="0.72"/>
-<pad name="P004" x="3" y="1.5" drill="0.4" diameter="0.72"/>
-<pad name="P000" x="1.5" y="1.5" drill="0.4" diameter="0.72"/>
-<pad name="P030" x="0" y="1.5" drill="0.4" diameter="0.72"/>
-<pad name="P024" x="0" y="3" drill="0.4" diameter="0.72"/>
-<pad name="P021" x="1.5" y="3" drill="0.4" diameter="0.72"/>
-<pad name="P023" x="3" y="3" drill="0.4" diameter="0.72"/>
-<pad name="P025" x="4.5" y="3" drill="0.4" diameter="0.72"/>
-<pad name="P015" x="6" y="3" drill="0.4" diameter="0.72"/>
-<pad name="P012" x="7.5" y="3" drill="0.4" diameter="0.72"/>
-<pad name="SWDCLK" x="7.5" y="4.5" drill="0.4" diameter="0.72"/>
-<pad name="P013" x="6" y="4.5" drill="0.4" diameter="0.72"/>
-<pad name="P016" x="4.5" y="4.5" drill="0.4" diameter="0.72"/>
-<pad name="P022" x="3" y="4.5" drill="0.4" diameter="0.72"/>
-<pad name="C5" x="1.5" y="4.5" drill="0.4" diameter="0.72"/>
-<pad name="C6" x="0" y="4.5" drill="0.4" diameter="0.72"/>
-<pad name="B6" x="0" y="6" drill="0.4" diameter="0.72"/>
-<pad name="B5" x="1.5" y="6" drill="0.4" diameter="0.72"/>
-<pad name="P019" x="3" y="6" drill="0.4" diameter="0.72"/>
-<pad name="P020" x="4.5" y="6" drill="0.4" diameter="0.72"/>
-<pad name="P018" x="6" y="6" drill="0.4" diameter="0.72"/>
-<pad name="SWDIO" x="7.5" y="6" drill="0.4" diameter="0.72"/>
-<pad name="A6" x="0" y="7.5" drill="0.4" diameter="0.72"/>
-<pad name="A5" x="1.5" y="7.5" drill="0.4" diameter="0.72"/>
-<pad name="A4" x="3" y="7.5" drill="0.4" diameter="0.72"/>
-<pad name="A3" x="4.5" y="7.5" drill="0.4" diameter="0.72"/>
-<pad name="A2" x="6" y="7.5" drill="0.4" diameter="0.72"/>
-<wire x1="-1.15" y1="-1.25" x2="-1.15" y2="14" width="0.127" layer="22"/>
-<wire x1="-1.15" y1="14" x2="8.65" y2="14" width="0.127" layer="22"/>
-<wire x1="8.65" y1="14" x2="8.65" y2="-1.25" width="0.127" layer="22"/>
-<wire x1="8.65" y1="-1.25" x2="-1.15" y2="-1.25" width="0.127" layer="22"/>
-<text x="-1.27" y="-2.54" size="0.762" layer="22">N550</text>
+<pad name="P031" x="7.62" y="0" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P002" x="6.12" y="0" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P001" x="4.62" y="0" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P003" x="3.12" y="0" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P005" x="1.62" y="0" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P008" x="0.12" y="0" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P009" x="0.12" y="1.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P011" x="1.62" y="1.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P006" x="3.12" y="1.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P004" x="4.62" y="1.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P000" x="6.12" y="1.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P030" x="7.62" y="1.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P024" x="7.62" y="3" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P021" x="6.12" y="3" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P023" x="4.62" y="3" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P025" x="3.12" y="3" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P015" x="1.62" y="3" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P012" x="0.12" y="3" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="SWDCLK" x="0.12" y="4.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P013" x="1.62" y="4.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P016" x="3.12" y="4.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P022" x="4.62" y="4.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="C5" x="6.12" y="4.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="C6" x="7.62" y="4.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="B6" x="7.62" y="6" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="B5" x="6.12" y="6" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P019" x="4.62" y="6" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P020" x="3.12" y="6" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P018" x="1.62" y="6" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="SWDIO" x="0.12" y="6" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="A6" x="7.62" y="7.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="A5" x="6.12" y="7.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="A4" x="4.62" y="7.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="A3" x="3.12" y="7.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="A2" x="1.62" y="7.5" drill="0.4" diameter="0.72" rot="R180"/>
+<wire x1="8.77" y1="-1.25" x2="8.77" y2="14" width="0.127" layer="21"/>
+<wire x1="8.77" y1="14" x2="-1.03" y2="14" width="0.127" layer="21"/>
+<wire x1="-1.03" y1="14" x2="-1.03" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.03" y1="-1.25" x2="8.77" y2="-1.25" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="0.762" layer="22">N550</text>
 </package>
 <package name="N5150">
-<smd name="A2" x="-1.5" y="0" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="A3" x="-3" y="0" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="A4" x="-4.5" y="0" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="A5" x="-6" y="0" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="A6" x="-7.5" y="0" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="B1" x="0" y="-1.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="B2" x="-1.5" y="-1.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="B3" x="-3" y="-1.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="B4" x="-4.5" y="-1.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="B5" x="-6" y="-1.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="B6" x="-7.5" y="-1.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="C1" x="0" y="-3" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="D1" x="0" y="-4.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="E1" x="0" y="-6" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="F1" x="0" y="-7.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="C2" x="-1.5" y="-3" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="C3" x="-3" y="-3" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="C4" x="-4.5" y="-3" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="C5" x="-6" y="-3" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="C6" x="-7.5" y="-3" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="D2" x="-1.5" y="-4.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="D3" x="-3" y="-4.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="D4" x="-4.5" y="-4.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="D5" x="-6" y="-4.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="D6" x="-7.5" y="-4.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="E2" x="-1.5" y="-6" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="E3" x="-3" y="-6" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="E4" x="-4.5" y="-6" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="E5" x="-6" y="-6" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="E6" x="-7.5" y="-6" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="F2" x="-1.5" y="-7.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="F3" x="-3" y="-7.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="F4" x="-4.5" y="-7.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="F5" x="-6" y="-7.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<smd name="F6" x="-7.5" y="-7.5" dx="0.762" dy="0.762" layer="16" roundness="100" rot="R180"/>
-<wire x1="0.75" y1="-8.25" x2="-8.25" y2="-8.25" width="0.127" layer="22"/>
-<wire x1="-8.25" y1="-8.25" x2="-8.25" y2="5.75" width="0.127" layer="22"/>
-<wire x1="-8.25" y1="5.75" x2="0.75" y2="5.75" width="0.127" layer="22"/>
-<wire x1="0.75" y1="5.75" x2="0.75" y2="-8.25" width="0.127" layer="22"/>
-<wire x1="-7.75" y1="1.25" x2="-7.75" y2="5" width="0.5" layer="22"/>
-<wire x1="-7.75" y1="5" x2="-5.75" y2="5" width="0.5" layer="22"/>
-<wire x1="-5.75" y1="5" x2="-5.75" y2="2.25" width="0.5" layer="22"/>
-<wire x1="-5.75" y1="2.25" x2="-3.75" y2="2.25" width="0.5" layer="22"/>
-<wire x1="-3.75" y1="2.25" x2="-3.75" y2="5" width="0.5" layer="22"/>
-<wire x1="-3.75" y1="5" x2="-1.75" y2="5" width="0.5" layer="22"/>
-<wire x1="-1.75" y1="5" x2="-1.75" y2="2.25" width="0.5" layer="22"/>
-<wire x1="-1.75" y1="2.25" x2="0.25" y2="2.25" width="0.5" layer="22"/>
-<wire x1="0.25" y1="2.25" x2="0.25" y2="5" width="0.5" layer="22"/>
-<text x="-0.75" y="-10" size="1.27" layer="22" rot="MR0">&gt;NAME</text>
-<rectangle x1="-9.525" y1="1.016" x2="2.032" y2="6.35" layer="41"/>
-<rectangle x1="-9.525" y1="1.016" x2="2.032" y2="6.35" layer="42"/>
+<smd name="A2" x="-6.12" y="0" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="A3" x="-4.62" y="0" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="A4" x="-3.12" y="0" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="A5" x="-1.62" y="0" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="A6" x="-0.12" y="0" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="B1" x="-7.62" y="-1.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="B2" x="-6.12" y="-1.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="B3" x="-4.62" y="-1.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="B4" x="-3.12" y="-1.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="B5" x="-1.62" y="-1.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="B6" x="-0.12" y="-1.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="C1" x="-7.62" y="-3" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="D1" x="-7.62" y="-4.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="E1" x="-7.62" y="-6" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="F1" x="-7.62" y="-7.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="C2" x="-6.12" y="-3" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="C3" x="-4.62" y="-3" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="C4" x="-3.12" y="-3" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="C5" x="-1.62" y="-3" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="C6" x="-0.12" y="-3" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="D2" x="-6.12" y="-4.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="D3" x="-4.62" y="-4.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="D4" x="-3.12" y="-4.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="D5" x="-1.62" y="-4.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="D6" x="-0.12" y="-4.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="E2" x="-6.12" y="-6" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="E3" x="-4.62" y="-6" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="E4" x="-3.12" y="-6" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="E5" x="-1.62" y="-6" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="E6" x="-0.12" y="-6" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="F2" x="-6.12" y="-7.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="F3" x="-4.62" y="-7.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="F4" x="-3.12" y="-7.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="F5" x="-1.62" y="-7.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<smd name="F6" x="-0.12" y="-7.5" dx="0.762" dy="0.762" layer="1" roundness="100"/>
+<wire x1="-8.37" y1="-8.25" x2="0.63" y2="-8.25" width="0.127" layer="21"/>
+<wire x1="0.63" y1="-8.25" x2="0.63" y2="5.75" width="0.127" layer="21"/>
+<wire x1="0.63" y1="5.75" x2="-8.37" y2="5.75" width="0.127" layer="21"/>
+<wire x1="-8.37" y1="5.75" x2="-8.37" y2="-8.25" width="0.127" layer="21"/>
+<wire x1="0.13" y1="1.25" x2="0.13" y2="5" width="0.5" layer="21"/>
+<wire x1="0.13" y1="5" x2="-1.87" y2="5" width="0.5" layer="21"/>
+<wire x1="-1.87" y1="5" x2="-1.87" y2="2.25" width="0.5" layer="21"/>
+<wire x1="-1.87" y1="2.25" x2="-3.87" y2="2.25" width="0.5" layer="21"/>
+<wire x1="-3.87" y1="2.25" x2="-3.87" y2="5" width="0.5" layer="21"/>
+<wire x1="-3.87" y1="5" x2="-5.87" y2="5" width="0.5" layer="21"/>
+<wire x1="-5.87" y1="5" x2="-5.87" y2="2.25" width="0.5" layer="21"/>
+<wire x1="-5.87" y1="2.25" x2="-7.87" y2="2.25" width="0.5" layer="21"/>
+<wire x1="-7.87" y1="2.25" x2="-7.87" y2="5" width="0.5" layer="21"/>
+<text x="-8.14" y="-10" size="1.27" layer="21">&gt;NAME</text>
+<rectangle x1="-9.652" y1="1.016" x2="1.905" y2="6.35" layer="42" rot="R180"/>
+<rectangle x1="-9.652" y1="1.016" x2="1.905" y2="6.35" layer="41" rot="R180"/>
 </package>
 </packages>
 <symbols>
@@ -270,7 +271,7 @@ Japan. The N5 ANT SoC modules series has also been qualified by the BLUETOOTH SI
 </device>
 </devices>
 </deviceset>
-<deviceset name="N5150">
+<deviceset name="N5150" prefix="U">
 <description>Based on Nordic Semiconductor’s nRF51422 SoC, the N5 ANT SoC module series offers support for both ANT® and Bluetooth® low energy and enables both protocols to run concurrently, depending on the loaded protocol stack.</description>
 <gates>
 <gate name="G$1" symbol="N550" x="0" y="-5.08"/>

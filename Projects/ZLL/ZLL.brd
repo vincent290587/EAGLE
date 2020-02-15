@@ -2588,6 +2588,31 @@ for trimmer refence see : &lt;u&gt;www.electrospec-inc.com/cross_references/trim
 </package>
 </packages>
 </library>
+<library name="SPST">
+<packages>
+<package name="PTS526SKG15SMTR2LFS">
+<description>&lt;b&gt;PTS526 SKG15 SMTR2 LFS-1&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3" y="1.85" dx="1" dy="0.7" layer="1"/>
+<smd name="2" x="3" y="1.85" dx="1" dy="0.7" layer="1"/>
+<smd name="3" x="-3" y="-1.85" dx="1" dy="0.7" layer="1"/>
+<smd name="4" x="3" y="-1.85" dx="1" dy="0.7" layer="1"/>
+<text x="-3.04" y="2.54" size="0.635" layer="25">&gt;NAME</text>
+<text x="-3.04" y="-2.54" size="0.635" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-2.6" y1="-2.6" x2="2.6" y2="-2.6" width="0.2" layer="51"/>
+<wire x1="2.6" y1="-2.6" x2="2.6" y2="2.6" width="0.2" layer="51"/>
+<wire x1="2.6" y1="2.6" x2="-2.6" y2="2.6" width="0.2" layer="51"/>
+<wire x1="-2.6" y1="2.6" x2="-2.6" y2="-2.6" width="0.2" layer="51"/>
+<wire x1="2.5" y1="2.6" x2="-2.5" y2="2.6" width="0.1" layer="21"/>
+<wire x1="2.6" y1="-2.6" x2="-2.6" y2="-2.6" width="0.1" layer="21"/>
+<wire x1="2.6" y1="-1" x2="2.6" y2="1" width="0.1" layer="21"/>
+<wire x1="-2.6" y1="-1" x2="-2.6" y2="1" width="0.1" layer="21"/>
+<wire x1="-4.5" y1="2" x2="-4.4" y2="2" width="0.2" layer="21" curve="180"/>
+<wire x1="-4.4" y1="2" x2="-4.5" y2="2" width="0.2" layer="21" curve="180"/>
+<wire x1="-4.5" y1="2" x2="-4.4" y2="2" width="0.2" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2812,7 +2837,7 @@ design rules under a new name.
 <attribute name="NAME" x="29.845" y="21.844" size="0.381" layer="25" rot="R270"/>
 <attribute name="VALUE" x="32.131" y="20.066" size="0.381" layer="27" rot="R90"/>
 </element>
-<element name="U$1" library="Prog" package="PROG_SMD" value="PROG_SMD" x="8.89" y="6.35" smashed="yes" rot="R270"/>
+<element name="U$1" library="Prog" package="PROG_SMD" value="PROG_SMD" x="8.89" y="5.08" smashed="yes" rot="R270"/>
 <element name="U1" library="BSS138" package="SOT65P210X110-3N" value="BSS138BKW" x="29.21" y="19.05" smashed="yes">
 <attribute name="MPN" value="BSS138BKW" x="44.45" y="-5.08" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="28.6258" y="20.3296" size="0.254" layer="25" ratio="10" rot="SR0"/>
@@ -2861,6 +2886,16 @@ design rules under a new name.
 </element>
 <element name="5V1" library="Exposed_pad" package="PAD_3" value="PAD3MM" x="26.924" y="22.606" smashed="yes"/>
 <element name="NEO_HV1" library="Exposed_pad" package="PAD_3" value="PAD3MM" x="33.782" y="22.606" smashed="yes"/>
+<element name="SPST1" library="SPST" package="PTS526SKG15SMTR2LFS" value="PTS526SK08" x="6.35" y="18.542" smashed="yes" rot="R180">
+<attribute name="MTN" value="611-PTS526SK08SMTR2L" x="6.35" y="18.542" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="9.39" y="16.002" size="0.635" layer="25" rot="R180"/>
+<attribute name="VALUE" x="9.39" y="21.082" size="0.635" layer="27" rot="R180" align="top-left"/>
+</element>
+<element name="SPST2" library="SPST" package="PTS526SKG15SMTR2LFS" value="PTS526SK08" x="6.35" y="12.7" smashed="yes">
+<attribute name="MTN" value="611-PTS526SK08SMTR2L" x="6.35" y="12.7" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="3.31" y="15.24" size="0.635" layer="25"/>
+<attribute name="VALUE" x="3.31" y="10.16" size="0.635" layer="27" align="top-left"/>
+</element>
 </elements>
 <signals>
 <signal name="IC1_VCC" class="1">
@@ -2874,8 +2909,9 @@ design rules under a new name.
 <wire x1="21.336" y1="17.272" x2="21.336" y2="19.558" width="0.381" layer="1"/>
 <wire x1="21.336" y1="19.558" x2="21.678" y2="19.9" width="0.381" layer="1"/>
 <wire x1="21.678" y1="19.9" x2="22.86" y2="19.9" width="0.381" layer="1"/>
-<wire x1="10.16" y1="10.16" x2="10.668" y2="10.16" width="0.381" layer="1"/>
-<wire x1="10.668" y1="10.16" x2="11.938" y2="11.43" width="0.381" layer="1"/>
+<wire x1="11.684" y1="11.176" x2="11.684" y2="10.414" width="0.381" layer="1"/>
+<wire x1="10.16" y1="8.89" x2="11.684" y2="10.414" width="0.381" layer="1"/>
+<wire x1="11.684" y1="11.176" x2="11.938" y2="11.43" width="0.381" layer="1"/>
 <via x="11.938" y="11.43" extent="1-16" drill="0.889"/>
 <wire x1="11.938" y1="11.43" x2="12.7" y2="12.192" width="0.381" layer="16"/>
 <wire x1="12.7" y1="12.192" x2="20.828" y2="12.192" width="0.381" layer="16"/>
@@ -2899,14 +2935,13 @@ design rules under a new name.
 <contactref element="U$1" pad="PIN1"/>
 <wire x1="14.65" y1="2.46" x2="11.51" y2="2.46" width="0.2032" layer="1"/>
 <wire x1="11.51" y1="2.46" x2="10.16" y2="3.81" width="0.2032" layer="1"/>
-<wire x1="10.16" y1="3.81" x2="10.16" y2="5.08" width="0.2032" layer="1"/>
 </signal>
 <signal name="IC1_SWDIO" class="3">
 <contactref element="IC1" pad="44"/>
 <contactref element="U$1" pad="PIN2"/>
-<wire x1="15.55" y1="1.91" x2="11.298" y2="1.91" width="0.2032" layer="1"/>
-<wire x1="11.298" y1="1.91" x2="8.89" y2="4.318" width="0.2032" layer="1"/>
-<wire x1="8.89" y1="4.318" x2="8.89" y2="7.62" width="0.2032" layer="1"/>
+<wire x1="15.55" y1="1.91" x2="10.028" y2="1.91" width="0.2032" layer="1"/>
+<wire x1="10.028" y1="1.91" x2="8.89" y2="3.048" width="0.2032" layer="1"/>
+<wire x1="8.89" y1="3.048" x2="8.89" y2="6.35" width="0.2032" layer="1"/>
 </signal>
 <signal name="IC1_USB-D-" class="2">
 <contactref element="IC1" pad="67"/>
@@ -2967,7 +3002,7 @@ design rules under a new name.
 <wire x1="13.94" y1="19.782" x2="11.176" y2="17.018" width="0.381" layer="1"/>
 <via x="5.588" y="21.59" extent="1-16" drill="0.889"/>
 <via x="9.398" y="18.542" extent="1-16" drill="0.889"/>
-<via x="4.064" y="14.478" extent="1-16" drill="0.889"/>
+<via x="5.588" y="14.732" extent="1-16" drill="0.889"/>
 <via x="8.128" y="12.954" extent="1-16" drill="0.889"/>
 <via x="5.334" y="10.16" extent="1-16" drill="0.889"/>
 <via x="4.572" y="2.54" extent="1-16" drill="0.889"/>
@@ -2983,7 +3018,7 @@ design rules under a new name.
 <via x="19.812" y="20.32" extent="1-16" drill="0.889"/>
 <via x="20.828" y="16.002" extent="1-16" drill="0.889"/>
 <via x="4.064" y="23.876" extent="1-16" drill="0.889"/>
-<via x="12.446" y="13.716" extent="1-16" drill="0.889"/>
+<via x="10.668" y="12.7" extent="1-16" drill="0.889"/>
 <via x="12.192" y="16.51" extent="1-16" drill="0.889"/>
 <via x="12.7" y="19.304" extent="1-16" drill="0.889"/>
 <via x="18.288" y="17.018" extent="1-16" drill="0.762"/>
@@ -3000,7 +3035,15 @@ design rules under a new name.
 <wire x1="16.892" y1="0.852" x2="15.158" y2="0.852" width="0.381" layer="1"/>
 <wire x1="16.892" y1="0.852" x2="17.4" y2="1.36" width="0.381" layer="1"/>
 <contactref element="NEO_HV1" pad="P$1"/>
+<contactref element="SPST1" pad="4"/>
+<contactref element="SPST1" pad="3"/>
+<contactref element="SPST2" pad="4"/>
+<contactref element="SPST2" pad="3"/>
+<via x="6.35" y="18.542" extent="1-16" drill="0.889"/>
+<via x="11.938" y="6.096" extent="1-16" drill="0.889"/>
+<via x="4.318" y="7.112" extent="1-16" drill="0.889"/>
 <wire x1="14.65" y1="10.16" x2="15.75" y2="10.16" width="0" layer="19" extent="1-1"/>
+<wire x1="17.95" y1="8.36" x2="15.75" y2="10.16" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NEO_HV">
 <contactref element="U1" pad="3"/>
@@ -3088,6 +3131,31 @@ design rules under a new name.
 <wire x1="28.682" y1="9.144" x2="28.702" y2="9.124" width="0.2032" layer="1"/>
 <wire x1="28.702" y1="9.124" x2="31.134" y2="9.124" width="0.2032" layer="1"/>
 <wire x1="31.134" y1="9.124" x2="31.408" y2="9.398" width="0.2032" layer="1"/>
+</signal>
+<signal name="SPST1">
+<contactref element="SPST1" pad="2"/>
+<contactref element="SPST1" pad="1"/>
+<contactref element="IC1" pad="31"/>
+<wire x1="9.35" y1="16.692" x2="10.112" y2="16.692" width="0.2032" layer="1"/>
+<wire x1="13.716" y1="13.088" x2="10.112" y2="16.692" width="0.2032" layer="1"/>
+<wire x1="14.054" y1="9.06" x2="14.65" y2="9.06" width="0.2032" layer="1"/>
+<wire x1="13.716" y1="13.088" x2="13.716" y2="9.398" width="0.2032" layer="1"/>
+<wire x1="13.716" y1="9.398" x2="14.054" y2="9.06" width="0.2032" layer="1"/>
+<wire x1="3.35" y1="16.692" x2="9.35" y2="16.692" width="0.2032" layer="1"/>
+</signal>
+<signal name="SPST2">
+<contactref element="SPST2" pad="2"/>
+<contactref element="SPST2" pad="1"/>
+<contactref element="IC1" pad="33"/>
+<wire x1="9.35" y1="14.55" x2="11.358" y2="14.55" width="0.2032" layer="1"/>
+<wire x1="13.208" y1="8.382" x2="13.63" y2="7.96" width="0.2032" layer="1"/>
+<wire x1="13.63" y1="7.96" x2="14.65" y2="7.96" width="0.2032" layer="1"/>
+<wire x1="11.358" y1="14.55" x2="13.208" y2="12.7" width="0.2032" layer="1"/>
+<wire x1="13.208" y1="12.7" x2="13.208" y2="8.382" width="0.2032" layer="1"/>
+<wire x1="3.35" y1="14.55" x2="4.692" y2="13.208" width="0.2032" layer="1"/>
+<wire x1="7.692" y1="14.55" x2="9.35" y2="14.55" width="0.2032" layer="1"/>
+<wire x1="4.692" y1="13.208" x2="6.35" y2="13.208" width="0.2032" layer="1"/>
+<wire x1="6.35" y1="13.208" x2="7.692" y2="14.55" width="0.2032" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

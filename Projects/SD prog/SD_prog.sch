@@ -480,6 +480,38 @@ http://www.digikey.com/product-detail/en/20021221-00010C4LF/609-3700-1-ND/220915
 </deviceset>
 </devicesets>
 </library>
+<library name="test_points">
+<packages>
+<package name="TESTPOINT_33">
+<smd name="P$1" x="0" y="0" dx="3" dy="3" layer="1" roundness="80"/>
+<text x="-1.17" y="-2.04" size="0.508" layer="21">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="TESTPOINT">
+<wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<text x="0" y="5.08" size="1.016" layer="94" rot="R90">&gt;NAME</text>
+<pin name="P$1" x="0" y="0" visible="off" length="short" rot="R90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TESTPOINT_33">
+<gates>
+<gate name="G$1" symbol="TESTPOINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TESTPOINT_33">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -493,6 +525,10 @@ http://www.digikey.com/product-detail/en/20021221-00010C4LF/609-3700-1-ND/220915
 <parts>
 <part name="B1" library="SD_Card" deviceset="MICRO-SDCARD" device=""/>
 <part name="U$1" library="con-cortex" deviceset="2X5_0.05&quot;_CORTEX_DEBUG" device="TH_NOKEY_UNSHROUDED"/>
+<part name="U$2" library="test_points" deviceset="TESTPOINT_33" device=""/>
+<part name="U$3" library="test_points" deviceset="TESTPOINT_33" device=""/>
+<part name="U$4" library="test_points" deviceset="TESTPOINT_33" device=""/>
+<part name="U$5" library="test_points" deviceset="TESTPOINT_33" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -505,6 +541,18 @@ http://www.digikey.com/product-detail/en/20021221-00010C4LF/609-3700-1-ND/220915
 <attribute name="VALUE" x="5.08" y="56.134" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
 </instance>
 <instance part="U$1" gate="G$1" x="7.62" y="86.36" smashed="yes"/>
+<instance part="U$2" gate="G$1" x="0" y="96.52" smashed="yes">
+<attribute name="NAME" x="0" y="101.6" size="1.016" layer="94" rot="R90"/>
+</instance>
+<instance part="U$3" gate="G$1" x="0" y="81.28" smashed="yes">
+<attribute name="NAME" x="0" y="86.36" size="1.016" layer="94" rot="R90"/>
+</instance>
+<instance part="U$4" gate="G$1" x="33.02" y="53.34" smashed="yes">
+<attribute name="NAME" x="33.02" y="58.42" size="1.016" layer="94" rot="R90"/>
+</instance>
+<instance part="U$5" gate="G$1" x="33.02" y="35.56" smashed="yes">
+<attribute name="NAME" x="33.02" y="40.64" size="1.016" layer="94" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -512,8 +560,11 @@ http://www.digikey.com/product-detail/en/20021221-00010C4LF/609-3700-1-ND/220915
 <net name="VCC" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="5.08" y1="96.52" x2="-15.24" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="96.52" x2="0" y2="96.52" width="0.1524" layer="91"/>
 <label x="-12.7" y="96.52" size="1.778" layer="95"/>
+<pinref part="U$2" gate="G$1" pin="P$1"/>
+<wire x1="0" y1="96.52" x2="-15.24" y2="96.52" width="0.1524" layer="91"/>
+<junction x="0" y="96.52"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="VDD"/>
@@ -531,6 +582,7 @@ http://www.digikey.com/product-detail/en/20021221-00010C4LF/609-3700-1-ND/220915
 <pinref part="B1" gate="G$1" pin="DAT1"/>
 <wire x1="17.78" y1="35.56" x2="33.02" y2="35.56" width="0.1524" layer="91"/>
 <label x="30.48" y="35.56" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U$5" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="SWDCLK/TCK" class="0">
@@ -543,6 +595,7 @@ http://www.digikey.com/product-detail/en/20021221-00010C4LF/609-3700-1-ND/220915
 <pinref part="B1" gate="G$1" pin="DAT2"/>
 <wire x1="17.78" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
 <label x="30.48" y="53.34" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -551,9 +604,12 @@ http://www.digikey.com/product-detail/en/20021221-00010C4LF/609-3700-1-ND/220915
 <wire x1="5.08" y1="78.74" x2="-15.24" y2="78.74" width="0.1524" layer="91"/>
 <label x="-12.7" y="78.74" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="GND-DETECT"/>
-<wire x1="5.08" y1="81.28" x2="-15.24" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="81.28" x2="0" y2="81.28" width="0.1524" layer="91"/>
 <label x="-12.7" y="81.28" size="1.778" layer="95"/>
+<wire x1="0" y1="81.28" x2="-15.24" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="78.74" x2="-15.24" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="P$1"/>
+<junction x="0" y="81.28"/>
 </segment>
 <segment>
 <pinref part="B1" gate="G$1" pin="GND"/>

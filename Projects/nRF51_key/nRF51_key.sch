@@ -165,46 +165,46 @@
 <library name="N5">
 <packages>
 <package name="N550">
-<pad name="P031" x="0" y="0" drill="0.4" diameter="0.72"/>
-<pad name="P002" x="1.5" y="0" drill="0.4" diameter="0.72"/>
-<pad name="P001" x="3" y="0" drill="0.4" diameter="0.72"/>
-<pad name="P003" x="4.5" y="0" drill="0.4" diameter="0.72"/>
-<pad name="P005" x="6" y="0" drill="0.4" diameter="0.72"/>
-<pad name="P008" x="7.5" y="0" drill="0.4" diameter="0.72"/>
-<pad name="P009" x="7.5" y="1.5" drill="0.4" diameter="0.72"/>
-<pad name="P011" x="6" y="1.5" drill="0.4" diameter="0.72"/>
-<pad name="P006" x="4.5" y="1.5" drill="0.4" diameter="0.72"/>
-<pad name="P004" x="3" y="1.5" drill="0.4" diameter="0.72"/>
-<pad name="P000" x="1.5" y="1.5" drill="0.4" diameter="0.72"/>
-<pad name="P030" x="0" y="1.5" drill="0.4" diameter="0.72"/>
-<pad name="P024" x="0" y="3" drill="0.4" diameter="0.72"/>
-<pad name="P021" x="1.5" y="3" drill="0.4" diameter="0.72"/>
-<pad name="P023" x="3" y="3" drill="0.4" diameter="0.72"/>
-<pad name="P025" x="4.5" y="3" drill="0.4" diameter="0.72"/>
-<pad name="P015" x="6" y="3" drill="0.4" diameter="0.72"/>
-<pad name="P012" x="7.5" y="3" drill="0.4" diameter="0.72"/>
-<pad name="SWDCLK" x="7.5" y="4.5" drill="0.4" diameter="0.72"/>
-<pad name="P013" x="6" y="4.5" drill="0.4" diameter="0.72"/>
-<pad name="P016" x="4.5" y="4.5" drill="0.4" diameter="0.72"/>
-<pad name="P022" x="3" y="4.5" drill="0.4" diameter="0.72"/>
-<pad name="C5" x="1.5" y="4.5" drill="0.4" diameter="0.72"/>
-<pad name="C6" x="0" y="4.5" drill="0.4" diameter="0.72"/>
-<pad name="B6" x="0" y="6" drill="0.4" diameter="0.72"/>
-<pad name="B5" x="1.5" y="6" drill="0.4" diameter="0.72"/>
-<pad name="P019" x="3" y="6" drill="0.4" diameter="0.72"/>
-<pad name="P020" x="4.5" y="6" drill="0.4" diameter="0.72"/>
-<pad name="P018" x="6" y="6" drill="0.4" diameter="0.72"/>
-<pad name="SWDIO" x="7.5" y="6" drill="0.4" diameter="0.72"/>
-<pad name="A6" x="0" y="7.5" drill="0.4" diameter="0.72"/>
-<pad name="A5" x="1.5" y="7.5" drill="0.4" diameter="0.72"/>
-<pad name="A4" x="3" y="7.5" drill="0.4" diameter="0.72"/>
-<pad name="A3" x="4.5" y="7.5" drill="0.4" diameter="0.72"/>
-<pad name="A2" x="6" y="7.5" drill="0.4" diameter="0.72"/>
-<wire x1="-1.15" y1="-1.25" x2="-1.15" y2="14" width="0.127" layer="22"/>
-<wire x1="-1.15" y1="14" x2="8.65" y2="14" width="0.127" layer="22"/>
-<wire x1="8.65" y1="14" x2="8.65" y2="-1.25" width="0.127" layer="22"/>
-<wire x1="8.65" y1="-1.25" x2="-1.15" y2="-1.25" width="0.127" layer="22"/>
-<text x="-1.27" y="-2.54" size="0.762" layer="22">N550</text>
+<pad name="P031" x="7.62" y="0" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P002" x="6.12" y="0" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P001" x="4.62" y="0" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P003" x="3.12" y="0" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P005" x="1.62" y="0" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P008" x="0.12" y="0" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P009" x="0.12" y="1.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P011" x="1.62" y="1.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P006" x="3.12" y="1.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P004" x="4.62" y="1.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P000" x="6.12" y="1.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P030" x="7.62" y="1.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P024" x="7.62" y="3" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P021" x="6.12" y="3" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P023" x="4.62" y="3" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P025" x="3.12" y="3" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P015" x="1.62" y="3" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P012" x="0.12" y="3" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="SWDCLK" x="0.12" y="4.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P013" x="1.62" y="4.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P016" x="3.12" y="4.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P022" x="4.62" y="4.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="C5" x="6.12" y="4.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="C6" x="7.62" y="4.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="B6" x="7.62" y="6" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="B5" x="6.12" y="6" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P019" x="4.62" y="6" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P020" x="3.12" y="6" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="P018" x="1.62" y="6" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="SWDIO" x="0.12" y="6" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="A6" x="7.62" y="7.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="A5" x="6.12" y="7.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="A4" x="4.62" y="7.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="A3" x="3.12" y="7.5" drill="0.4" diameter="0.72" rot="R180"/>
+<pad name="A2" x="1.62" y="7.5" drill="0.4" diameter="0.72" rot="R180"/>
+<wire x1="8.77" y1="-1.25" x2="8.77" y2="14" width="0.127" layer="21"/>
+<wire x1="8.77" y1="14" x2="-1.03" y2="14" width="0.127" layer="21"/>
+<wire x1="-1.03" y1="14" x2="-1.03" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-1.03" y1="-1.25" x2="8.77" y2="-1.25" width="0.127" layer="21"/>
+<text x="0" y="-2.54" size="0.762" layer="22">N550</text>
 </package>
 </packages>
 <symbols>
@@ -318,7 +318,7 @@ Japan. The N5 ANT SoC modules series has also been qualified by the BLUETOOTH SI
 <package name="LRTBR48GP9Q71R7S526NP68">
 <description>&lt;b&gt;LRTBR48G-P9Q7-1+R7S5-26+NP-68-2&lt;/b&gt;&lt;br&gt;
 </description>
-<smd name="1" x="0.425" y="0.425" dx="0.45" dy="0.45" layer="1"/>
+<smd name="1" x="0.425" y="0.425" dx="0.45" dy="0.45" layer="1" roundness="70"/>
 <smd name="2" x="0.425" y="-0.425" dx="0.45" dy="0.45" layer="1"/>
 <smd name="3" x="-0.425" y="-0.425" dx="0.45" dy="0.45" layer="1"/>
 <smd name="4" x="-0.425" y="0.425" dx="0.45" dy="0.45" layer="1"/>
@@ -1456,13 +1456,44 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 </deviceset>
 </devicesets>
 </library>
+<library name="ParanoidStudio">
+<packages>
+<package name="PAD_0.8">
+<pad name="PAD" x="0" y="0" drill="0.8" diameter="1.6764" thermals="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PAD">
+<text x="-5.08" y="0.635" size="1.27" layer="95">&gt;NAME</text>
+<pin name="P$1" x="-5.08" y="0" visible="off" length="middle"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PAD">
+<gates>
+<gate name="G$1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PAD_0.8">
+<connects>
+<connect gate="G$1" pin="P$1" pad="PAD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.1524" drill="0.762">
+<clearance class="0" value="0.1524"/>
 </class>
 </classes>
 <groups>
@@ -1486,12 +1517,10 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <part name="U$8" library="PowerSupplies" deviceset="GND" device=""/>
 <part name="C1" library="Passives" deviceset="CAPACITOR" device="0603" value="10uF"/>
 <part name="C2" library="Passives" deviceset="CAPACITOR" device="0603" value="100nF"/>
-<part name="C3" library="Passives" deviceset="CAPACITOR" device="0603"/>
 <part name="C4" library="Passives" deviceset="CAPACITOR" device="0603" value="4.7uF"/>
 <part name="C5" library="Passives" deviceset="CAPACITOR" device="0603" value="100nF"/>
 <part name="U$9" library="PowerSupplies" deviceset="GND" device=""/>
 <part name="U$10" library="PowerSupplies" deviceset="GND" device=""/>
-<part name="U$11" library="PowerSupplies" deviceset="GND" device=""/>
 <part name="U$12" library="PowerSupplies" deviceset="GND" device=""/>
 <part name="U$13" library="PowerSupplies" deviceset="GND" device=""/>
 <part name="U$14" library="PowerSupplies" deviceset="VDD" device=""/>
@@ -1502,11 +1531,19 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <part name="U$16" library="PowerSupplies" deviceset="GND" device=""/>
 <part name="U$17" library="PowerSupplies" deviceset="GND" device=""/>
 <part name="U$18" library="PowerSupplies" deviceset="VDD" device=""/>
+<part name="R3" library="Passives" deviceset="RESISTOR" device="0603"/>
+<part name="R4" library="Passives" deviceset="RESISTOR" device="0603"/>
+<part name="R5" library="Passives" deviceset="RESISTOR" device="0603"/>
+<part name="U$11" library="ParanoidStudio" deviceset="PAD" device=""/>
+<part name="U$19" library="ParanoidStudio" deviceset="PAD" device=""/>
+<part name="U$20" library="ParanoidStudio" deviceset="PAD" device=""/>
+<part name="U$21" library="PowerSupplies" deviceset="VDD" device=""/>
+<part name="U$22" library="PowerSupplies" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<frame x1="-203.2" y1="-109.22" x2="241.3" y2="83.82" columns="8" rows="5" layer="91"/>
+<frame x1="-177.8" y1="-109.22" x2="266.7" y2="83.82" columns="8" rows="5" layer="91"/>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="43.18" y="22.86" smashed="yes"/>
@@ -1533,10 +1570,6 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <attribute name="NAME" x="136.144" y="25.781" size="1.778" layer="95"/>
 <attribute name="VALUE" x="136.144" y="20.701" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="144.78" y="25.4" smashed="yes" grouprefs="DECAP">
-<attribute name="NAME" x="146.304" y="25.781" size="1.778" layer="95"/>
-<attribute name="VALUE" x="146.304" y="20.701" size="1.778" layer="96"/>
-</instance>
 <instance part="C4" gate="G$1" x="157.48" y="25.4" smashed="yes" grouprefs="DECAP">
 <attribute name="NAME" x="159.004" y="25.781" size="1.778" layer="95"/>
 <attribute name="VALUE" x="159.004" y="20.701" size="1.778" layer="96"/>
@@ -1547,7 +1580,6 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 </instance>
 <instance part="U$9" gate="GND" x="124.46" y="12.7" smashed="yes" grouprefs="DECAP"/>
 <instance part="U$10" gate="GND" x="134.62" y="12.7" smashed="yes" grouprefs="DECAP"/>
-<instance part="U$11" gate="GND" x="144.78" y="12.7" smashed="yes" grouprefs="DECAP"/>
 <instance part="U$12" gate="GND" x="157.48" y="12.7" smashed="yes" grouprefs="DECAP"/>
 <instance part="U$13" gate="GND" x="167.64" y="12.7" smashed="yes" grouprefs="DECAP"/>
 <instance part="U$14" gate="G$1" x="167.64" y="45.72" smashed="yes" grouprefs="DECAP"/>
@@ -1564,6 +1596,29 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <instance part="U$16" gate="GND" x="68.58" y="-86.36" smashed="yes"/>
 <instance part="U$17" gate="GND" x="53.34" y="-81.28" smashed="yes"/>
 <instance part="U$18" gate="G$1" x="53.34" y="-27.94" smashed="yes"/>
+<instance part="R3" gate="G$1" x="93.98" y="-45.72" smashed="yes" rot="R90" grouprefs="IOS">
+<attribute name="NAME" x="92.4814" y="-49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="97.282" y="-49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R4" gate="G$1" x="96.52" y="-45.72" smashed="yes" rot="R90" grouprefs="IOS">
+<attribute name="NAME" x="95.0214" y="-49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="99.822" y="-49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="R5" gate="G$1" x="99.06" y="-45.72" smashed="yes" rot="R90" grouprefs="IOS">
+<attribute name="NAME" x="97.5614" y="-49.53" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="102.362" y="-49.53" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="U$11" gate="G$1" x="17.78" y="-27.94" smashed="yes">
+<attribute name="NAME" x="12.7" y="-27.305" size="1.27" layer="95"/>
+</instance>
+<instance part="U$19" gate="G$1" x="17.78" y="-35.56" smashed="yes">
+<attribute name="NAME" x="12.7" y="-34.925" size="1.27" layer="95"/>
+</instance>
+<instance part="U$20" gate="G$1" x="17.78" y="-43.18" smashed="yes">
+<attribute name="NAME" x="12.7" y="-42.545" size="1.27" layer="95"/>
+</instance>
+<instance part="U$21" gate="G$1" x="5.08" y="-20.32" smashed="yes"/>
+<instance part="U$22" gate="GND" x="5.08" y="-50.8" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -1611,11 +1666,6 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <wire x1="157.48" y1="20.32" x2="157.48" y2="15.24" width="0.1524" layer="91" grouprefs="DECAP"/>
 </segment>
 <segment>
-<pinref part="U$11" gate="GND" pin="GND"/>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="15.24" x2="144.78" y2="20.32" width="0.1524" layer="91" grouprefs="DECAP"/>
-</segment>
-<segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="U$10" gate="GND" pin="GND"/>
 <wire x1="134.62" y1="20.32" x2="134.62" y2="15.24" width="0.1524" layer="91" grouprefs="DECAP"/>
@@ -1635,6 +1685,12 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <pinref part="J1" gate="G$1" pin="MECH"/>
 <pinref part="U$16" gate="GND" pin="GND"/>
 <wire x1="68.58" y1="-78.74" x2="68.58" y2="-83.82" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$20" gate="G$1" pin="P$1"/>
+<wire x1="12.7" y1="-43.18" x2="5.08" y2="-43.18" width="0.1524" layer="91"/>
+<pinref part="U$22" gate="GND" pin="GND"/>
+<wire x1="5.08" y1="-43.18" x2="5.08" y2="-48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USBDP" class="0">
@@ -1674,12 +1730,22 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <wire x1="134.62" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91" grouprefs="DECAP"/>
 <junction x="124.46" y="35.56" grouprefs="DECAP"/>
 </segment>
+<segment>
+<pinref part="U$19" gate="G$1" pin="P$1"/>
+<wire x1="12.7" y1="-35.56" x2="5.08" y2="-35.56" width="0.1524" layer="91"/>
+<label x="5.08" y="-35.56" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="!CTS" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="!CTS"/>
 <wire x1="-40.64" y1="-20.32" x2="-27.94" y2="-20.32" width="0.1524" layer="91" grouprefs="USB"/>
 <label x="-30.48" y="-20.32" size="1.778" layer="95" align="bottom-right" grouprefs="USB"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P031"/>
+<wire x1="73.66" y1="15.24" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
+<label x="91.44" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="!RTS" class="0">
@@ -1688,6 +1754,11 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <wire x1="-40.64" y1="-17.78" x2="-27.94" y2="-17.78" width="0.1524" layer="91" grouprefs="USB"/>
 <label x="-30.48" y="-17.78" size="1.778" layer="95" align="bottom-right" grouprefs="USB"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P024"/>
+<wire x1="73.66" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
+<label x="91.44" y="22.86" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="RXD" class="0">
 <segment>
@@ -1695,12 +1766,22 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <wire x1="-40.64" y1="-15.24" x2="-27.94" y2="-15.24" width="0.1524" layer="91" grouprefs="USB"/>
 <label x="-30.48" y="-15.24" size="1.778" layer="95" align="bottom-right" grouprefs="USB"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P030"/>
+<wire x1="73.66" y1="17.78" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
+<label x="91.44" y="17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="TXD" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="TXD"/>
 <wire x1="-40.64" y1="-12.7" x2="-27.94" y2="-12.7" width="0.1524" layer="91" grouprefs="USB"/>
 <label x="-30.48" y="-12.7" size="1.778" layer="95" align="bottom-right" grouprefs="USB"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P023"/>
+<wire x1="73.66" y1="25.4" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
+<label x="91.44" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -1749,6 +1830,12 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <pinref part="J1" gate="G$1" pin="VCC"/>
 <wire x1="53.34" y1="-50.8" x2="58.42" y2="-50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$21" gate="G$1" pin="VDD"/>
+<wire x1="5.08" y1="-22.86" x2="5.08" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="U$11" gate="G$1" pin="P$1"/>
+<wire x1="5.08" y1="-27.94" x2="12.7" y2="-27.94" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="BTN1" class="0">
 <segment>
@@ -1756,12 +1843,22 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <wire x1="137.16" y1="-25.4" x2="121.92" y2="-25.4" width="0.1524" layer="91" grouprefs="IOS"/>
 <label x="124.46" y="-25.4" size="1.778" layer="95" grouprefs="IOS"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P012"/>
+<wire x1="10.16" y1="17.78" x2="-7.62" y2="17.78" width="0.1524" layer="91"/>
+<label x="-5.08" y="17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="BTN2" class="0">
 <segment>
 <pinref part="SPST2" gate="G$1" pin="P$1"/>
 <wire x1="137.16" y1="-35.56" x2="121.92" y2="-35.56" width="0.1524" layer="91" grouprefs="IOS"/>
 <label x="124.46" y="-35.56" size="1.778" layer="95" grouprefs="IOS"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P008"/>
+<wire x1="10.16" y1="25.4" x2="-7.62" y2="25.4" width="0.1524" layer="91"/>
+<label x="-5.08" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="IC1_USBDM" class="0">
@@ -1840,9 +1937,81 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <label x="50.8" y="-71.12" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="PR"/>
+<wire x1="93.98" y1="-40.64" x2="93.98" y2="-38.1" width="0.1524" layer="91" grouprefs="IOS"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="PG"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="-38.1" x2="96.52" y2="-40.64" width="0.1524" layer="91" grouprefs="IOS"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="PB"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="99.06" y1="-38.1" x2="99.06" y2="-40.64" width="0.1524" layer="91" grouprefs="IOS"/>
+</segment>
+</net>
+<net name="LEDR" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="-50.8" x2="93.98" y2="-60.96" width="0.1524" layer="91" grouprefs="IOS"/>
+<label x="93.98" y="-60.96" size="1.778" layer="95" rot="R90" grouprefs="IOS"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P003"/>
+<wire x1="10.16" y1="35.56" x2="-7.62" y2="35.56" width="0.1524" layer="91"/>
+<label x="-5.08" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LEDG" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="96.52" y1="-50.8" x2="96.52" y2="-60.96" width="0.1524" layer="91" grouprefs="IOS"/>
+<label x="96.52" y="-60.96" size="1.778" layer="95" rot="R90" grouprefs="IOS"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P001"/>
+<wire x1="10.16" y1="40.64" x2="-7.62" y2="40.64" width="0.1524" layer="91"/>
+<label x="-5.08" y="40.64" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LEDB" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="99.06" y1="-50.8" x2="99.06" y2="-60.96" width="0.1524" layer="91" grouprefs="IOS"/>
+<label x="99.06" y="-60.96" size="1.778" layer="95" rot="R90" grouprefs="IOS"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P002"/>
+<wire x1="10.16" y1="38.1" x2="-7.62" y2="38.1" width="0.1524" layer="91"/>
+<label x="-5.08" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,-55.88,-7.62,IC1,VCC,VBUS,,,"/>
+<approved hash="104,1,-53.34,-7.62,IC1,VCCIO,VDD,,,"/>
+<approved hash="104,1,58.42,-50.8,J1,VCC,VDD,,,"/>
+<approved hash="209,1,58.42,-55.88,CLK,,,,,"/>
+<approved hash="106,1,58.42,-55.88,CLK,,,,,"/>
+<approved hash="106,1,58.42,-40.64,CS,,,,,"/>
+<approved hash="106,1,58.42,-66.04,MISO,,,,,"/>
+<approved hash="106,1,58.42,-45.72,MOSI,,,,,"/>
+<approved hash="113,1,-35.56,-70.0303,R1,,,,,"/>
+<approved hash="113,1,-35.56,-72.5703,R2,,,,,"/>
+<approved hash="113,1,92.8903,-45.72,R3,,,,,"/>
+<approved hash="113,1,95.4303,-45.72,R4,,,,,"/>
+<approved hash="113,1,97.9703,-45.72,R5,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
