@@ -1492,7 +1492,7 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.1524" drill="0.762">
+<class number="0" name="default" width="0.1524" drill="0.3">
 <clearance class="0" value="0.1524"/>
 </class>
 </classes>
@@ -1539,6 +1539,10 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <part name="U$20" library="ParanoidStudio" deviceset="PAD" device=""/>
 <part name="U$21" library="PowerSupplies" deviceset="VDD" device=""/>
 <part name="U$22" library="PowerSupplies" deviceset="GND" device=""/>
+<part name="U$23" library="ParanoidStudio" deviceset="PAD" device=""/>
+<part name="U$24" library="ParanoidStudio" deviceset="PAD" device=""/>
+<part name="U$25" library="ParanoidStudio" deviceset="PAD" device=""/>
+<part name="U$26" library="ParanoidStudio" deviceset="PAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1619,6 +1623,18 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 </instance>
 <instance part="U$21" gate="G$1" x="5.08" y="-20.32" smashed="yes"/>
 <instance part="U$22" gate="GND" x="5.08" y="-50.8" smashed="yes"/>
+<instance part="U$23" gate="G$1" x="104.14" y="25.4" smashed="yes">
+<attribute name="NAME" x="99.06" y="26.035" size="1.27" layer="95"/>
+</instance>
+<instance part="U$24" gate="G$1" x="104.14" y="17.78" smashed="yes">
+<attribute name="NAME" x="99.06" y="18.415" size="1.27" layer="95"/>
+</instance>
+<instance part="U$25" gate="G$1" x="104.14" y="22.86" smashed="yes">
+<attribute name="NAME" x="99.06" y="23.495" size="1.27" layer="95"/>
+</instance>
+<instance part="U$26" gate="G$1" x="104.14" y="15.24" smashed="yes">
+<attribute name="NAME" x="99.06" y="15.875" size="1.27" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1746,6 +1762,7 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <pinref part="U$1" gate="G$1" pin="P031"/>
 <wire x1="73.66" y1="15.24" x2="99.06" y2="15.24" width="0.1524" layer="91"/>
 <label x="91.44" y="15.24" size="1.778" layer="95"/>
+<pinref part="U$26" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="!RTS" class="0">
@@ -1758,6 +1775,7 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <pinref part="U$1" gate="G$1" pin="P024"/>
 <wire x1="73.66" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
 <label x="91.44" y="22.86" size="1.778" layer="95"/>
+<pinref part="U$25" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -1770,6 +1788,7 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <pinref part="U$1" gate="G$1" pin="P030"/>
 <wire x1="73.66" y1="17.78" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
 <label x="91.44" y="17.78" size="1.778" layer="95"/>
+<pinref part="U$24" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="TXD" class="0">
@@ -1782,6 +1801,7 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <pinref part="U$1" gate="G$1" pin="P023"/>
 <wire x1="73.66" y1="25.4" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
 <label x="91.44" y="25.4" size="1.778" layer="95"/>
+<pinref part="U$23" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="VDD" class="0">
@@ -1891,12 +1911,22 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <wire x1="58.42" y1="-66.04" x2="48.26" y2="-66.04" width="0.1524" layer="91"/>
 <label x="50.8" y="-66.04" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P018"/>
+<wire x1="73.66" y1="38.1" x2="99.06" y2="38.1" width="0.1524" layer="91"/>
+<label x="91.44" y="38.1" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CLK" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="CLK"/>
 <wire x1="58.42" y1="-55.88" x2="48.26" y2="-55.88" width="0.1524" layer="91"/>
 <label x="50.8" y="-55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P013"/>
+<wire x1="10.16" y1="15.24" x2="-7.62" y2="15.24" width="0.1524" layer="91"/>
+<label x="-5.08" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -1905,12 +1935,22 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <wire x1="58.42" y1="-45.72" x2="48.26" y2="-45.72" width="0.1524" layer="91"/>
 <label x="50.8" y="-45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P015"/>
+<wire x1="73.66" y1="43.18" x2="99.06" y2="43.18" width="0.1524" layer="91"/>
+<label x="91.44" y="43.18" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="CS" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="CS"/>
 <wire x1="58.42" y1="-40.64" x2="48.26" y2="-40.64" width="0.1524" layer="91"/>
 <label x="50.8" y="-40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="P011"/>
+<wire x1="10.16" y1="20.32" x2="-7.62" y2="20.32" width="0.1524" layer="91"/>
+<label x="-5.08" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">

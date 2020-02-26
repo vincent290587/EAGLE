@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="25" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="mil"/>
+<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -71,22 +72,20 @@
 <library>
 <packages>
 <package name="SHARP27">
-<smd name="1" x="-3.12" y="-2.21" dx="1.8" dy="0.25" layer="1"/>
-<smd name="3" x="-3.12" y="-1.21" dx="1.8" dy="0.25" layer="1"/>
-<smd name="2" x="-3.12" y="-1.71" dx="1.8" dy="0.25" layer="1"/>
-<smd name="4" x="-3.12" y="-0.71" dx="1.8" dy="0.25" layer="1"/>
-<smd name="5" x="-3.12" y="-0.21" dx="1.8" dy="0.25" layer="1"/>
-<smd name="6" x="-3.12" y="0.29" dx="1.8" dy="0.25" layer="1"/>
-<smd name="8" x="-3.12" y="1.29" dx="1.8" dy="0.25" layer="1"/>
-<smd name="7" x="-3.12" y="0.79" dx="1.8" dy="0.25" layer="1"/>
-<smd name="9" x="-3.12" y="1.79" dx="1.8" dy="0.25" layer="1"/>
-<smd name="10" x="-3.12" y="2.29" dx="1.8" dy="0.25" layer="1"/>
+<smd name="1" x="-2.62" y="-2.21" dx="2.8" dy="0.25" layer="1"/>
+<smd name="3" x="-2.62" y="-1.21" dx="2.8" dy="0.25" layer="1"/>
+<smd name="2" x="-2.62" y="-1.71" dx="2.8" dy="0.25" layer="1"/>
+<smd name="4" x="-2.62" y="-0.71" dx="2.8" dy="0.25" layer="1"/>
+<smd name="5" x="-2.62" y="-0.21" dx="2.8" dy="0.25" layer="1"/>
+<smd name="6" x="-2.62" y="0.29" dx="2.8" dy="0.25" layer="1"/>
+<smd name="8" x="-2.62" y="1.29" dx="2.8" dy="0.25" layer="1"/>
+<smd name="7" x="-2.62" y="0.79" dx="2.8" dy="0.25" layer="1"/>
+<smd name="9" x="-2.62" y="1.79" dx="2.8" dy="0.25" layer="1"/>
+<smd name="10" x="-2.62" y="2.29" dx="2.8" dy="0.25" layer="1"/>
 <smd name="P$8" x="0.425" y="3.79" dx="1.5" dy="1.5" layer="1" rot="R180"/>
 <smd name="P$9" x="0.425" y="-3.71" dx="1.5" dy="1.5" layer="1" rot="R180"/>
-<wire x1="-2" y1="3.1" x2="0.73" y2="3.1" width="0.127" layer="21"/>
-<wire x1="0.73" y1="3.1" x2="0.83" y2="3.1" width="0.127" layer="21"/>
-<wire x1="0.83" y1="3.1" x2="0.83" y2="3" width="0.127" layer="21"/>
-<wire x1="0.83" y1="3" x2="0.83" y2="-3" width="0.127" layer="21"/>
+<wire x1="-2" y1="3.1" x2="0.83" y2="3.1" width="0.127" layer="21"/>
+<wire x1="0.83" y1="3.1" x2="0.83" y2="-3" width="0.127" layer="21"/>
 <wire x1="0.83" y1="-3" x2="-2" y2="-3" width="0.127" layer="21"/>
 <wire x1="-2" y1="-3" x2="-2" y2="3.1" width="0.127" layer="21"/>
 </package>

@@ -276,6 +276,29 @@ Silk outline with pads for SMD.
 <text x="0" y="7.62" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center">&gt;Name</text>
 <text x="0" y="-7.874" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center">&gt;Value</text>
 </package>
+<package name="MICRO-SD-FOOTPRINT">
+<description>&lt;h3&gt;microSD Card Footprint&lt;/h3&gt;
+Silk outline with pads for SMD. 
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:8&lt;/li&gt;
+&lt;li&gt;Area:0.45x0.6 in&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;MicroSD Card&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.38" width="0.127" layer="22"/>
+<wire x1="-5.08" y1="7.38" x2="5.92" y2="7.38" width="0.127" layer="22"/>
+<wire x1="5.92" y1="1.98" x2="5.52" y2="1.58" width="0.127" layer="22"/>
+<wire x1="5.52" y1="1.58" x2="5.52" y2="-0.22" width="0.127" layer="22"/>
+<wire x1="5.52" y1="-0.22" x2="5.92" y2="-0.62" width="0.127" layer="22"/>
+<wire x1="5.92" y1="-0.62" x2="5.92" y2="-1.62" width="0.127" layer="22"/>
+<wire x1="5.92" y1="-1.62" x2="4.92" y2="-2.62" width="0.127" layer="22"/>
+<wire x1="4.92" y1="-2.62" x2="4.92" y2="-7.62" width="0.127" layer="22"/>
+<wire x1="4.92" y1="-7.62" x2="-5.08" y2="-7.62" width="0.127" layer="22"/>
+<wire x1="5.92" y1="7.38" x2="5.92" y2="1.98" width="0.127" layer="22"/>
+<text x="0" y="7.62" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center">&gt;Name</text>
+<text x="0" y="-7.874" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="DM3AT">
@@ -346,6 +369,13 @@ Silk outline with pads for SMD.
 <pin name="DAT0" x="10.16" y="7.62" length="short" rot="R180"/>
 <pin name="DAT1" x="10.16" y="10.16" length="short" rot="R180"/>
 <pin name="DAT2" x="10.16" y="-7.62" length="short" rot="R180"/>
+</symbol>
+<symbol name="SDCARD-EMPTY">
+<wire x1="-7.62" y1="10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-12.7" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-12.7" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<text x="-2.54" y="2.54" size="1.27" layer="94">SD card</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -449,6 +479,25 @@ Source: &lt;a href="http://www.mouser.com/ds/2/276/0475710001_MEMORY_CARD_SOCKET
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="VDD" pad="VCC"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MICRO-SD_FOOTPRINT" prefix="B">
+<description>&lt;h3&gt;microSD Card Footprint &lt;/h3&gt;
+&lt;p&gt;This is the mechnical footprint with connections for soldering a microSD card - &lt;b&gt;NOT&lt;/b&gt; for a socket for the card.&lt;/p&gt;
+
+&lt;b&gt;&lt;p&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/11609"&gt;MicroSD Card with Adapter - 8 GB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/9419"&gt;SparkFun microSD Sniffer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="SDCARD-EMPTY" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="MICRO-SD-FOOTPRINT">
 <technologies>
 <technology name=""/>
 </technologies>
