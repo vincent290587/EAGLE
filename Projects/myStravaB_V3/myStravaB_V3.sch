@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -12853,34 +12853,6 @@ Source: Fairchild .. BAT54.pdf</description>
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="QFN50P250X250X100-12N">
-<description>&lt;b&gt;RMW0012A&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.2" y="0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="2" x="-1.2" y="0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="3" x="-1.2" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="4" x="-1.2" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="5" x="-0.25" y="-1.2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="6" x="0.25" y="-1.2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="7" x="1.2" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="8" x="1.2" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="9" x="1.2" y="0.25" dx="0.85" dy="0.3" layer="1"/>
-<smd name="10" x="1.2" y="0.75" dx="0.85" dy="0.3" layer="1"/>
-<smd name="11" x="0.25" y="1.2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<smd name="12" x="-0.25" y="1.2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
-<text x="-0.6" y="2.2" size="0.5" layer="25" align="center">&gt;NAME</text>
-<text x="-0.6" y="-2.3" size="0.5" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.875" y1="1.875" x2="1.875" y2="1.875" width="0.05" layer="51"/>
-<wire x1="1.875" y1="1.875" x2="1.875" y2="-1.875" width="0.05" layer="51"/>
-<wire x1="1.875" y1="-1.875" x2="-1.875" y2="-1.875" width="0.05" layer="51"/>
-<wire x1="-1.875" y1="-1.875" x2="-1.875" y2="1.875" width="0.05" layer="51"/>
-<wire x1="-1.25" y1="1.25" x2="1.25" y2="1.25" width="0.1" layer="51"/>
-<wire x1="1.25" y1="1.25" x2="1.25" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="1.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.1" layer="51"/>
-<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.1" layer="51"/>
-<wire x1="-1.25" y1="0.75" x2="-0.75" y2="1.25" width="0.1" layer="51"/>
-<circle x="-1.625" y="1.5" radius="0.125" width="0.25" layer="25"/>
-</package>
 <package name="INDC2520X110N">
 <description>&lt;b&gt;1008(2520)&lt;/b&gt;&lt;br&gt;
 </description>
@@ -12990,26 +12962,6 @@ Source: Fairchild .. BAT54.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="TPS63051RMWT">
-<wire x1="5.08" y1="10.16" x2="25.4" y2="10.16" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-22.86" x2="25.4" y2="10.16" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
-<text x="6.35" y="12.7" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="6.35" y="-25.4" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="L1" x="0" y="7.62" length="middle"/>
-<pin name="GND1" x="0" y="-17.78" length="middle"/>
-<pin name="L2" x="30.48" y="7.62" length="middle" rot="R180"/>
-<pin name="VOUT" x="30.48" y="2.54" length="middle" rot="R180"/>
-<pin name="FB" x="30.48" y="-2.54" length="middle" rot="R180"/>
-<pin name="PFM/PWM" x="0" y="-12.7" length="middle"/>
-<pin name="ILIM0" x="0" y="-2.54" length="middle"/>
-<pin name="GND2" x="0" y="-20.32" length="middle"/>
-<pin name="PG" x="30.48" y="-7.62" length="middle" rot="R180"/>
-<pin name="SS" x="30.48" y="-20.32" length="middle" rot="R180"/>
-<pin name="VIN" x="0" y="2.54" length="middle"/>
-<pin name="EN" x="0" y="-7.62" length="middle"/>
-</symbol>
 <symbol name="1269AS-H-1R5M=P2">
 <wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.254" layer="94" curve="-175.4"/>
 <wire x1="7.62" y1="0" x2="10.16" y2="0" width="0.254" layer="94" curve="-175.4"/>
@@ -13098,43 +13050,6 @@ Source: Fairchild .. BAT54.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TPS63051RMWT" prefix="IC">
-<description>&lt;b&gt;Switching Voltage Regulators Tiny Single Ind Buck Boost Convter&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TPS63051&amp;&amp;fileType=pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="TPS63051RMWT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="QFN50P250X250X100-12N">
-<connects>
-<connect gate="G$1" pin="EN" pad="11"/>
-<connect gate="G$1" pin="FB" pad="5"/>
-<connect gate="G$1" pin="GND1" pad="2"/>
-<connect gate="G$1" pin="GND2" pad="9"/>
-<connect gate="G$1" pin="ILIM0" pad="10"/>
-<connect gate="G$1" pin="L1" pad="1"/>
-<connect gate="G$1" pin="L2" pad="3"/>
-<connect gate="G$1" pin="PFM/PWM" pad="6"/>
-<connect gate="G$1" pin="PG" pad="8"/>
-<connect gate="G$1" pin="SS" pad="7"/>
-<connect gate="G$1" pin="VIN" pad="12"/>
-<connect gate="G$1" pin="VOUT" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="TPS63051RMWT" constant="no"/>
-<attribute name="ARROW_PRICE/STOCK" value="https://www.arrow.com/en/products/tps63051rmwt/texas-instruments" constant="no"/>
-<attribute name="DESCRIPTION" value="Switching Voltage Regulators Tiny Single Ind Buck Boost Convter" constant="no"/>
-<attribute name="HEIGHT" value="1mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="TPS63051RMWT" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="1330763" constant="no"/>
-<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/1330763" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1269AS-H-1R5M=P2" prefix="L">
 <description>&lt;b&gt;Fixed Inductors 1.5uH 108mOhms2.1A +/-20% 2.5x2.0x1.0mm&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/1269AS-H-1R5M=P2.pdf"&gt; Datasheet &lt;/a&gt;</description>
@@ -13865,6 +13780,34 @@ ideal for high efficiency power management applications.</description>
 <rectangle x1="-0.175" y1="0.775" x2="0.175" y2="1.3" layer="51"/>
 <rectangle x1="-1.125" y1="0.775" x2="-0.775" y2="1.3" layer="51"/>
 </package>
+<package name="QFN50P250X250X100-12N">
+<description>&lt;b&gt;RMW0012A&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.2" y="0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="2" x="-1.2" y="0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="3" x="-1.2" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="4" x="-1.2" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="5" x="-0.25" y="-1.2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="0.25" y="-1.2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="1.2" y="-0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="8" x="1.2" y="-0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="9" x="1.2" y="0.25" dx="0.85" dy="0.3" layer="1"/>
+<smd name="10" x="1.2" y="0.75" dx="0.85" dy="0.3" layer="1"/>
+<smd name="11" x="0.25" y="1.2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<smd name="12" x="-0.25" y="1.2" dx="0.85" dy="0.3" layer="1" rot="R90"/>
+<text x="-0.6" y="2.2" size="0.5" layer="25" align="center">&gt;NAME</text>
+<text x="-0.6" y="-2.3" size="0.5" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.875" y1="1.875" x2="1.875" y2="1.875" width="0.05" layer="51"/>
+<wire x1="1.875" y1="1.875" x2="1.875" y2="-1.875" width="0.05" layer="51"/>
+<wire x1="1.875" y1="-1.875" x2="-1.875" y2="-1.875" width="0.05" layer="51"/>
+<wire x1="-1.875" y1="-1.875" x2="-1.875" y2="1.875" width="0.05" layer="51"/>
+<wire x1="-1.25" y1="1.25" x2="1.25" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.25" y1="1.25" x2="1.25" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.1" layer="51"/>
+<wire x1="-1.25" y1="0.75" x2="-0.75" y2="1.25" width="0.1" layer="51"/>
+<circle x="-1.625" y="1.5" radius="0.125" width="0.25" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="REG710">
@@ -13880,6 +13823,26 @@ ideal for high efficiency power management applications.</description>
 <pin name="VIN" x="-12.7" y="5.08" length="short"/>
 <pin name="VOUT" x="15.24" y="5.08" length="short" rot="R180"/>
 <pin name="PUMP-" x="-12.7" y="10.16" length="short"/>
+</symbol>
+<symbol name="TPS63051RMWT">
+<wire x1="5.08" y1="10.16" x2="25.4" y2="10.16" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-22.86" x2="25.4" y2="10.16" width="0.254" layer="94"/>
+<wire x1="25.4" y1="-22.86" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="-22.86" width="0.254" layer="94"/>
+<text x="6.35" y="12.7" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="6.35" y="-25.4" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="L1" x="0" y="7.62" length="middle"/>
+<pin name="GND1" x="0" y="-17.78" length="middle"/>
+<pin name="L2" x="30.48" y="7.62" length="middle" rot="R180"/>
+<pin name="VOUT" x="30.48" y="2.54" length="middle" rot="R180"/>
+<pin name="FB" x="30.48" y="-2.54" length="middle" rot="R180"/>
+<pin name="PFM/PWM" x="0" y="-12.7" length="middle"/>
+<pin name="ILIM0" x="0" y="-2.54" length="middle"/>
+<pin name="GND2" x="0" y="-20.32" length="middle"/>
+<pin name="PG" x="30.48" y="-7.62" length="middle" rot="R180"/>
+<pin name="SS" x="30.48" y="-20.32" length="middle" rot="R180"/>
+<pin name="VIN" x="0" y="2.54" length="middle"/>
+<pin name="EN" x="0" y="-7.62" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -13900,6 +13863,43 @@ ideal for high efficiency power management applications.</description>
 </connects>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TPS63051RMWT" prefix="IC">
+<description>&lt;b&gt;Switching Voltage Regulators Tiny Single Ind Buck Boost Convter&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=TPS63051&amp;&amp;fileType=pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="TPS63051RMWT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN50P250X250X100-12N">
+<connects>
+<connect gate="G$1" pin="EN" pad="11"/>
+<connect gate="G$1" pin="FB" pad="5"/>
+<connect gate="G$1" pin="GND1" pad="2"/>
+<connect gate="G$1" pin="GND2" pad="9"/>
+<connect gate="G$1" pin="ILIM0" pad="10"/>
+<connect gate="G$1" pin="L1" pad="1"/>
+<connect gate="G$1" pin="L2" pad="3"/>
+<connect gate="G$1" pin="PFM/PWM" pad="6"/>
+<connect gate="G$1" pin="PG" pad="8"/>
+<connect gate="G$1" pin="SS" pad="7"/>
+<connect gate="G$1" pin="VIN" pad="12"/>
+<connect gate="G$1" pin="VOUT" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="TPS63051RMWT" constant="no"/>
+<attribute name="ARROW_PRICE/STOCK" value="https://www.arrow.com/en/products/tps63051rmwt/texas-instruments" constant="no"/>
+<attribute name="DESCRIPTION" value="Switching Voltage Regulators Tiny Single Ind Buck Boost Convter" constant="no"/>
+<attribute name="HEIGHT" value="1mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="TPS63051RMWT" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="1330763" constant="no"/>
+<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/1330763" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -14010,7 +14010,7 @@ ideal for high efficiency power management applications.</description>
 <part name="R18" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R19" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="GND74" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="IC1" library="SamacSys_Parts" deviceset="TPS63051RMWT" device=""/>
+<part name="IC1" library="DCDC" deviceset="TPS63051RMWT" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
@@ -14363,6 +14363,11 @@ ideal for high efficiency power management applications.</description>
 <wire x1="-27.94" y1="281.94" x2="-22.86" y2="281.94" width="0.1524" layer="91"/>
 <label x="-22.86" y="281.94" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="MOSI"/>
+<wire x1="76.2" y1="284.48" x2="66.04" y2="284.48" width="0.1524" layer="91"/>
+<label x="66.04" y="284.48" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
@@ -14374,6 +14379,11 @@ ideal for high efficiency power management applications.</description>
 <pinref part="IC2" gate="G$1" pin="P1.00"/>
 <wire x1="-27.94" y1="284.48" x2="-22.86" y2="284.48" width="0.1524" layer="91"/>
 <label x="-22.86" y="284.48" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="CS"/>
+<wire x1="76.2" y1="289.56" x2="66.04" y2="289.56" width="0.1524" layer="91"/>
+<label x="66.04" y="289.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USB_D0_P" class="3">
