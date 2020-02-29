@@ -9489,6 +9489,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="-17.78" y1="27.94" x2="-17.78" y2="22.86" width="0.1524" layer="91" grouprefs="MOTOR"/>
 <pinref part="M1" gate="G$1" pin="VDD"/>
 <wire x1="-17.78" y1="22.86" x2="12.7" y2="22.86" width="0.1524" layer="91" grouprefs="MOTOR"/>
+<label x="-12.7" y="22.86" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VDD"/>
@@ -9505,6 +9506,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="U$6" gate="G$1" pin="VDD"/>
 <wire x1="109.22" y1="-43.18" x2="124.46" y2="-43.18" width="0.1524" layer="91" grouprefs="MCU"/>
 <wire x1="124.46" y1="-43.18" x2="124.46" y2="-38.1" width="0.1524" layer="91" grouprefs="MCU"/>
+<label x="116.84" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="NEO_LV" class="0">
@@ -9550,12 +9552,14 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <wire x1="-71.12" y1="48.26" x2="-71.12" y2="53.34" width="0.1524" layer="91" grouprefs="VOLTAGE"/>
 <pinref part="M2" gate="G$1" pin="VOUT"/>
 <pinref part="U$12" gate="G$1" pin="VDD_5V"/>
+<label x="-73.66" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VBUS"/>
 <pinref part="U$4" gate="G$1" pin="VDD_5V"/>
 <wire x1="109.22" y1="-38.1" x2="116.84" y2="-38.1" width="0.1524" layer="91" grouprefs="MCU"/>
 <wire x1="116.84" y1="-38.1" x2="116.84" y2="-30.48" width="0.1524" layer="91" grouprefs="MCU"/>
+<label x="114.3" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$14" gate="G$1" pin="VDD_5V"/>
@@ -9670,6 +9674,7 @@ Source: www.farnell.com/datasheets/247.pdf</description>
 <pinref part="VIN" gate="G$1" pin="1"/>
 <pinref part="M2" gate="G$1" pin="VIN"/>
 <wire x1="-114.3" y1="48.26" x2="-104.14" y2="48.26" width="0.1524" layer="91" grouprefs="VOLTAGE"/>
+<label x="-111.76" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="+"/>

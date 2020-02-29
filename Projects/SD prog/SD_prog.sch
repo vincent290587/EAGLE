@@ -486,6 +486,10 @@ http://www.digikey.com/product-detail/en/20021221-00010C4LF/609-3700-1-ND/220915
 <smd name="P$1" x="0" y="0" dx="3" dy="3" layer="1" roundness="80"/>
 <text x="-1.17" y="-2.04" size="0.508" layer="21">&gt;NAME</text>
 </package>
+<package name="TESTPOINT_22">
+<smd name="P$1" x="0" y="0" dx="2" dy="2" layer="1" roundness="70"/>
+<text x="-1.27" y="1.27" size="0.3" layer="21">&gt;NAME</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TESTPOINT">
@@ -501,6 +505,21 @@ http://www.digikey.com/product-detail/en/20021221-00010C4LF/609-3700-1-ND/220915
 </gates>
 <devices>
 <device name="" package="TESTPOINT_33">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TESTPOINT_22">
+<gates>
+<gate name="G$1" symbol="TESTPOINT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TESTPOINT_22">
 <connects>
 <connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
@@ -529,6 +548,10 @@ http://www.digikey.com/product-detail/en/20021221-00010C4LF/609-3700-1-ND/220915
 <part name="U$3" library="test_points" deviceset="TESTPOINT_33" device=""/>
 <part name="U$4" library="test_points" deviceset="TESTPOINT_33" device=""/>
 <part name="U$5" library="test_points" deviceset="TESTPOINT_33" device=""/>
+<part name="U$6" library="test_points" deviceset="TESTPOINT_22" device=""/>
+<part name="U$7" library="test_points" deviceset="TESTPOINT_22" device=""/>
+<part name="U$8" library="test_points" deviceset="TESTPOINT_22" device=""/>
+<part name="U$9" library="test_points" deviceset="TESTPOINT_22" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -552,6 +575,18 @@ http://www.digikey.com/product-detail/en/20021221-00010C4LF/609-3700-1-ND/220915
 </instance>
 <instance part="U$5" gate="G$1" x="33.02" y="35.56" smashed="yes">
 <attribute name="NAME" x="33.02" y="40.64" size="1.016" layer="94" rot="R90"/>
+</instance>
+<instance part="U$6" gate="G$1" x="45.72" y="50.8" smashed="yes">
+<attribute name="NAME" x="45.72" y="55.88" size="1.016" layer="94" rot="R90"/>
+</instance>
+<instance part="U$7" gate="G$1" x="45.72" y="48.26" smashed="yes" rot="R180">
+<attribute name="NAME" x="45.72" y="43.18" size="1.016" layer="94" rot="R270"/>
+</instance>
+<instance part="U$8" gate="G$1" x="53.34" y="40.64" smashed="yes">
+<attribute name="NAME" x="53.34" y="45.72" size="1.016" layer="94" rot="R90"/>
+</instance>
+<instance part="U$9" gate="G$1" x="53.34" y="38.1" smashed="yes" rot="R180">
+<attribute name="NAME" x="53.34" y="33.02" size="1.016" layer="94" rot="R270"/>
 </instance>
 </instances>
 <busses>
@@ -615,6 +650,34 @@ http://www.digikey.com/product-detail/en/20021221-00010C4LF/609-3700-1-ND/220915
 <pinref part="B1" gate="G$1" pin="GND"/>
 <wire x1="17.78" y1="45.72" x2="33.02" y2="45.72" width="0.1524" layer="91"/>
 <label x="30.48" y="45.72" size="1.778" layer="95" align="bottom-right"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="CD/DAT3"/>
+<pinref part="U$6" gate="G$1" pin="P$1"/>
+<wire x1="17.78" y1="50.8" x2="45.72" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="CMD"/>
+<pinref part="U$7" gate="G$1" pin="P$1"/>
+<wire x1="17.78" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="U$8" gate="G$1" pin="P$1"/>
+<pinref part="B1" gate="G$1" pin="CLK"/>
+<wire x1="53.34" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="B1" gate="G$1" pin="DAT0"/>
+<pinref part="U$9" gate="G$1" pin="P$1"/>
+<wire x1="17.78" y1="38.1" x2="53.34" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

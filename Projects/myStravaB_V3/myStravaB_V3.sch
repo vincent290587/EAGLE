@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -14007,8 +14007,8 @@ Source: &lt;a href="http://www.ti.com/general/docs/lit/getliterature.tsp?generic
 <part name="U$16" library="sharp" deviceset="SHARP27" device=""/>
 <part name="L4" library="adafruit" deviceset="WS2812B" device=""/>
 <part name="Q2" library="BSS138" deviceset="BSS138BKW" device=""/>
-<part name="R18" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="10k"/>
-<part name="R19" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="R18" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="47k"/>
+<part name="R19" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="47k"/>
 <part name="GND74" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="IC1" library="DCDC" deviceset="TPS63051RMWT" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -14020,7 +14020,7 @@ Source: &lt;a href="http://www.ti.com/general/docs/lit/getliterature.tsp?generic
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="L1" library="SamacSys_Parts" deviceset="1269AS-H-1R5M=P2" device=""/>
-<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="47k"/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U$6" library="STC3100" deviceset="STC3100" device=""/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
@@ -15206,15 +15206,15 @@ Source: &lt;a href="http://www.ti.com/general/docs/lit/getliterature.tsp?generic
 <attribute name="NAME" x="71.374" y="10.668" size="1.778" layer="94" font="vector"/>
 <attribute name="VALUE" x="71.12" y="-7.62" size="1.778" layer="94" font="vector"/>
 </instance>
-<instance part="C2" gate="G$1" x="40.64" y="-5.08" smashed="yes" rot="R180">
+<instance part="C2" gate="G$1" x="40.64" y="-5.08" smashed="yes" rot="R180" grouprefs="POWER">
 <attribute name="NAME" x="39.116" y="-5.461" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="39.116" y="-0.381" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C3" gate="G$1" x="114.3" y="-5.08" smashed="yes" rot="R180">
+<instance part="C3" gate="G$1" x="114.3" y="-5.08" smashed="yes" rot="R180" grouprefs="POWER">
 <attribute name="NAME" x="112.776" y="-5.461" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="112.776" y="-0.381" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C4" gate="G$1" x="83.82" y="15.24" smashed="yes" rot="R270">
+<instance part="C4" gate="G$1" x="83.82" y="15.24" smashed="yes" rot="R270" grouprefs="POWER">
 <attribute name="NAME" x="84.201" y="13.716" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="79.121" y="13.716" size="1.778" layer="96" rot="R270"/>
 </instance>
