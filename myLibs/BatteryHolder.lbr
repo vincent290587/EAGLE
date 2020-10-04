@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -91,6 +91,31 @@
 <wire x1="12" y1="5" x2="10" y2="7" width="0.127" layer="21"/>
 <wire x1="-10" y1="7" x2="10" y2="7" width="0.127" layer="21"/>
 </package>
+<package name="4AA_HOLDER">
+<wire x1="0" y1="0" x2="0" y2="53" width="0.127" layer="21"/>
+<wire x1="0" y1="53" x2="25" y2="53" width="0.127" layer="21"/>
+<wire x1="25" y1="53" x2="25" y2="0" width="0.127" layer="21"/>
+<wire x1="25" y1="0" x2="0" y2="0" width="0.127" layer="21"/>
+<text x="10" y="28" size="1.27" layer="21">4 x AA</text>
+</package>
+<package name="2-TYPEC">
+<wire x1="0" y1="0" x2="63" y2="0" width="0.127" layer="21"/>
+<wire x1="63" y1="0" x2="63" y2="-56" width="0.127" layer="21"/>
+<wire x1="63" y1="-56" x2="0" y2="-56" width="0.127" layer="21"/>
+<wire x1="0" y1="-56" x2="0" y2="0" width="0.127" layer="21"/>
+<hole x="31.5" y="-28" drill="3"/>
+<text x="24" y="-16" size="1.27" layer="21">2 TYPE C CELLS</text>
+</package>
+<package name="1-TYPEC">
+<wire x1="-31" y1="-15" x2="31" y2="-15" width="0.127" layer="21"/>
+<wire x1="31" y1="-15" x2="31" y2="15" width="0.127" layer="21"/>
+<wire x1="31" y1="15" x2="-31" y2="15" width="0.127" layer="21"/>
+<wire x1="-31" y1="15" x2="-31" y2="-15" width="0.127" layer="21"/>
+<hole x="-24.5" y="9.5" drill="2.3"/>
+<hole x="24.5" y="9.5" drill="2.3"/>
+<hole x="24.5" y="-9.5" drill="2.3"/>
+<hole x="-24.5" y="-9.5" drill="2.3"/>
+</package>
 </packages>
 <symbols>
 <symbol name="BAT-HLD-001-THM">
@@ -112,6 +137,16 @@
 <pin name="+" x="0" y="0" visible="off" length="point" direction="pwr"/>
 <pin name="-" x="0" y="-7.62" visible="off" length="point" direction="pwr"/>
 <text x="-2.54" y="-2.54" size="1.27" layer="94">CR2032</text>
+</symbol>
+<symbol name="4AA_HOLDER">
+<wire x1="-1.524" y1="1.016" x2="-1.524" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="-0.508" x2="3.556" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="3.556" y1="-0.508" x2="3.556" y2="0" width="0.254" layer="94"/>
+<wire x1="3.556" y1="0" x2="4.064" y2="0" width="0.254" layer="94"/>
+<wire x1="4.064" y1="0" x2="4.064" y2="0.508" width="0.254" layer="94"/>
+<wire x1="4.064" y1="0.508" x2="3.556" y2="0.508" width="0.254" layer="94"/>
+<wire x1="3.556" y1="0.508" x2="3.556" y2="1.016" width="0.254" layer="94"/>
+<wire x1="3.556" y1="1.016" x2="-1.524" y2="1.016" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -136,6 +171,42 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/BAT-HLD-001-T
 <attribute name="MOUSER_PART_NUMBER" value="712-BAT-HLD-001-THM" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=712-BAT-HLD-001-THM" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="4AA-HOLDER" prefix="H">
+<gates>
+<gate name="G$1" symbol="4AA_HOLDER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="4AA_HOLDER">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2TYPEC-HOLDER">
+<gates>
+<gate name="G$1" symbol="4AA_HOLDER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2-TYPEC">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1TYPEC-HOLDER">
+<gates>
+<gate name="G$1" symbol="4AA_HOLDER" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="1-TYPEC">
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

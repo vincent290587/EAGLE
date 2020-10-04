@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -162,7 +162,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOGM0YmU5" projecturn="a.cGVyc29uYWw6dWUyOGM0YmU5IzIwMTYwNjA0MzQxNTk1MzE" f3durn="urn:adsk.wipprod:dm.lineage:nXo10WUGQJCsJKKzA75Fgg" pcbguid="040b60de-8582-4ea0-b606-abe9b9a60c0c" lastpulledtime="" lastsyncedchangeguid="98700b60-5cb8-e6fd-7afb-d1220e07ae1c"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOGM0YmU5" projecturn="a.cGVyc29uYWw6dWUyOGM0YmU5IzIwMTYwNjA0MzQxNTk1MzE" f3durn="urn:adsk.wipprod:dm.lineage:nXo10WUGQJCsJKKzA75Fgg" pcbguid="040b60de-8582-4ea0-b606-abe9b9a60c0c" lastpulledtime="" lastsyncedchangeguid="98700b60-5cb8-e6fd-7afb-d1220e07ae1c" latestrevisionid="" lastsyncedrevisionid="" lastboardhashguid="507ce209-9ed8-4be5-a415-087fe174e9a9" lastpushedtime="2020-07-06T11:14:39Z" linktopcb3d="false"/>
 <plain>
 <wire x1="-26.162" y1="34.163" x2="-26.1874" y2="7.8486" width="0.1524" layer="20"/>
 <wire x1="-26.162" y1="-8.3566" x2="-26.162" y2="-35.687" width="0.1524" layer="20"/>
@@ -3516,7 +3516,7 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="16.971" y="7.255" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="VALUE" x="17.606" y="5.35" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="U$3" library="USB" package="ZX80B5P" value="ZX80B5P" x="21.614" y="6.182" smashed="yes" rot="MR270"/>
+<element name="U$3" library="USB" package="ZX80B5P" override_package3d_urn="urn:adsk.eagle:package:21602427/2" override_package_urn="urn:adsk.eagle:footprint:21602428/1" value="ZX80B5P" x="21.614" y="6.182" smashed="yes" rot="MR270"/>
 <element name="U$2" library="FlashMem" package="SOIC8" value="FLASH" x="-10.2362" y="8.1788" smashed="yes" rot="MR180">
 <attribute name="NAME" x="-2.9972" y="8.4963" size="1.27" layer="26" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="-2.9972" y="1.5748" size="1.27" layer="28" ratio="10" rot="MR0"/>
@@ -3584,9 +3584,9 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-6.4262" y="0.5334" size="0.6096" layer="26" font="vector" ratio="20" rot="MR90" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00810" x="-5.0292" y="0.5334" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="U$15" library="sharp" package="LCD27" value="SHARP27_FOOTPRINT" x="-23.114" y="31.369" locked="yes" smashed="yes" rot="R270"/>
+<element name="U$15" library="sharp" package="LCD27" override_package3d_urn="urn:adsk.eagle:package:21602455/2" override_package_urn="urn:adsk.eagle:footprint:21602456/1" value="SHARP27_FOOTPRINT" x="-23.114" y="31.369" locked="yes" smashed="yes" rot="R270"/>
 <element name="U$16" library="sharp" package="SHARP27" value="SHARP27" x="-17.6408" y="0.0098" smashed="yes" rot="MR0"/>
-<element name="L4" library="adafruit" package="WS2812B" value="WS2812B" x="22.479" y="29.845" locked="yes" smashed="yes" rot="R90">
+<element name="L4" library="adafruit" package="WS2812B" override_package3d_urn="urn:adsk.eagle:package:21602693/2" override_package_urn="urn:adsk.eagle:footprint:21602694/1" value="WS2812B" x="22.479" y="29.845" locked="yes" smashed="yes" rot="R90">
 <attribute name="NAME" x="20.8915" y="29.5275" size="0.8128" layer="25" ratio="10"/>
 </element>
 <element name="Q2" library="BSS138" package="SOT65P210X110-3N" value="BSS138BKW" x="21.844" y="24.003" smashed="yes" rot="MR90">
@@ -3761,19 +3761,19 @@ design rules under a new name.</description>
 <attribute name="NAME" x="16.847640625" y="-26.10475" size="1.27248125" layer="26" rot="MR0"/>
 <attribute name="VALUE" x="16.84388125" y="-33.862490625" size="1.27123125" layer="28" rot="MR0"/>
 </element>
-<element name="SD" library="SD_Card" package="47571-0001" value="47571-0001" x="9.084790625" y="31.116059375" smashed="yes" rot="MR0">
+<element name="SD" library="SD_Card" package="47571-0001" override_package3d_urn="urn:adsk.eagle:package:21602601/2" override_package_urn="urn:adsk.eagle:footprint:21602602/1" value="47571-0001" x="9.084790625" y="31.116059375" smashed="yes" rot="MR0">
 <attribute name="NAME" x="8.408790625" y="34.817059375" size="1.27" layer="26" rot="MR0" align="center"/>
 <attribute name="VALUE" x="9.17079375" y="27.45105625" size="1.27" layer="28" rot="MR0" align="center"/>
 </element>
-<element name="J1" library="SD_Card" package="47571-0001" value="47571-0001" x="-16.129" y="-17.6276" smashed="yes" rot="MR90">
+<element name="J1" library="SD_Card" package="47571-0001" override_package3d_urn="urn:adsk.eagle:package:21602446/2" override_package_urn="urn:adsk.eagle:footprint:21602447/1" value="47571-0001" x="-16.129" y="-17.6276" smashed="yes" rot="MR90">
 <attribute name="NAME" x="7.8134" y="-22.2684" size="1.27" layer="26" rot="MR180" align="center"/>
 <attribute name="VALUE" x="-19.794" y="-17.7136" size="1.27" layer="28" rot="MR90" align="center"/>
 </element>
-<element name="M1" library="MOSFET" package="SOT65P210X110-3N" value="" x="6.9596" y="-18.4658" smashed="yes" rot="MR180">
+<element name="M1" library="MOSFET" package="SOT65P210X110-3N" value="BSS84" x="6.9596" y="-18.4658" smashed="yes" rot="MR180">
 <attribute name="NAME" x="6.3754" y="-19.7454" size="0.254" layer="26" ratio="10" rot="SMR180"/>
 <attribute name="VALUE" x="6.3754" y="-16.9688" size="0.254" layer="28" ratio="10" rot="SMR180"/>
 </element>
-<element name="M2" library="MOSFET" package="SOT65P210X110-3N" value="" x="10.6172" y="-7.9756" smashed="yes" rot="MR90">
+<element name="M2" library="MOSFET" package="SOT65P210X110-3N" value="BSS84" x="10.6172" y="-7.9756" smashed="yes" rot="MR90">
 <attribute name="NAME" x="11.8968" y="-8.5598" size="0.254" layer="26" ratio="10" rot="SMR90"/>
 <attribute name="VALUE" x="9.1202" y="-8.5598" size="0.254" layer="28" ratio="10" rot="SMR90"/>
 </element>
@@ -3798,17 +3798,17 @@ design rules under a new name.</description>
 <attribute name="NAME" x="9.1694" y="12.1158" size="0.6096" layer="26" font="vector" ratio="20" rot="MR180" align="bottom-center"/>
 <attribute name="VALUE" x="9.1694" y="27.6098" size="0.6096" layer="28" font="vector" ratio="20" rot="MR180" align="top-center"/>
 </element>
-<element name="SPST1" library="SPST" package="PTS526SKG15SMTR2LFS" value="PTS526SK08" x="-16.3068" y="-36.9824" locked="yes" smashed="yes" rot="R90">
+<element name="SPST1" library="SPST" package="PTS526SKG15SMTR2LFS" override_package3d_urn="urn:adsk.eagle:package:21602413/2" override_package_urn="urn:adsk.eagle:footprint:21602414/1" value="PTS526SK08" x="-16.3068" y="-36.9824" locked="yes" smashed="yes" rot="R90">
 <attribute name="MTN" value="611-PTS526SK08SMTR2L" x="-16.3068" y="-36.9824" locked="yes" size="5.08" layer="27" ratio="15" rot="R90" display="off"/>
 <attribute name="NAME" x="-18.8468" y="-40.0224" locked="yes" size="0.635" layer="25" rot="R90"/>
 <attribute name="VALUE" x="-13.7668" y="-40.0224" locked="yes" size="0.635" layer="27" rot="R90" align="top-left"/>
 </element>
-<element name="SPST2" library="SPST" package="PTS526SKG15SMTR2LFS" value="PTS526SK08" x="0" y="-37.973" locked="yes" smashed="yes">
+<element name="SPST2" library="SPST" package="PTS526SKG15SMTR2LFS" override_package3d_urn="urn:adsk.eagle:package:21602475/2" override_package_urn="urn:adsk.eagle:footprint:21602476/1" value="PTS526SK08" x="0" y="-37.973" locked="yes" smashed="yes">
 <attribute name="MTN" value="611-PTS526SK08SMTR2L" x="0" y="-37.973" locked="yes" size="5.08" layer="27" ratio="15" display="off"/>
 <attribute name="NAME" x="-3.04" y="-35.433" locked="yes" size="0.635" layer="25"/>
 <attribute name="VALUE" x="-3.04" y="-40.513" locked="yes" size="0.635" layer="27" align="top-left"/>
 </element>
-<element name="SPST3" library="SPST" package="PTS526SKG15SMTR2LFS" value="PTS526SK08" x="16.6116" y="-36.9824" locked="yes" smashed="yes" rot="R270">
+<element name="SPST3" library="SPST" package="PTS526SKG15SMTR2LFS" override_package3d_urn="urn:adsk.eagle:package:21602597/2" override_package_urn="urn:adsk.eagle:footprint:21602598/1" value="PTS526SK08" x="16.6116" y="-36.9824" locked="yes" smashed="yes" rot="R270">
 <attribute name="MTN" value="611-PTS526SK08SMTR2L" x="16.6116" y="-36.9824" locked="yes" size="5.08" layer="27" ratio="15" rot="R270" display="off"/>
 <attribute name="NAME" x="19.1516" y="-33.9424" locked="yes" size="0.635" layer="25" rot="R270"/>
 <attribute name="VALUE" x="14.0716" y="-33.9424" locked="yes" size="0.635" layer="27" rot="R270" align="top-left"/>
@@ -5623,6 +5623,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

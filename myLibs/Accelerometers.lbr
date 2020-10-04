@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -160,16 +160,17 @@
 <smd name="10" x="0.8" y="0.75" dx="0.4" dy="0.4" layer="1"/>
 <smd name="11" x="0.25" y="0.75" dx="0.4" dy="0.4" layer="1"/>
 <smd name="12" x="-0.25" y="0.75" dx="0.4" dy="0.4" layer="1"/>
-<wire x1="-1" y1="1" x2="1" y2="1" width="0.1016" layer="51"/>
-<wire x1="1" y1="1" x2="1" y2="-1" width="0.127" layer="51"/>
-<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.127" layer="51"/>
-<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.127" layer="51"/>
-<circle x="-1.368" y="0.748" radius="0.025" width="0.254" layer="25"/>
-<text x="1.524" y="-1.016" size="0.254" layer="21" rot="R90">LIS2DW</text>
+<wire x1="-1.254" y1="1.254" x2="1.254" y2="1.254" width="0.1016" layer="51"/>
+<wire x1="1.254" y1="1.254" x2="1.254" y2="-1.254" width="0.127" layer="51"/>
+<wire x1="1.254" y1="-1.254" x2="-1.254" y2="-1.254" width="0.127" layer="51"/>
+<wire x1="-1.254" y1="-1.254" x2="-1.254" y2="1.254" width="0.127" layer="51"/>
+<circle x="-1.622" y="1.51" radius="0.025" width="0.381" layer="25"/>
+<text x="1.27" y="-1.524" size="0.254" layer="27" rot="R180">&gt;VALUE</text>
 <wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.127" layer="39"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.127" layer="39"/>
 <wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="39"/>
 <wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.127" layer="39"/>
+<text x="1.27" y="1.686" size="0.254" layer="25" rot="R180">&gt;VALUE</text>
 </package>
 <package name="QFN50P200X200X70-12" urn="urn:adsk.eagle:footprint:10033112/1">
 <description>12-QFN, 0.50 mm pitch, 2.00 X 2.00 X 0.70 mm body
@@ -197,6 +198,110 @@
 <smd name="12" x="-0.75" y="1.01" dx="0.7091" dy="0.3069" layer="1" roundness="100" rot="R90"/>
 <text x="0" y="1.9996" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.9996" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+<package name="QFN40P300X300X105-25N">
+<description>&lt;b&gt;QFN-24 - 3x3x0.9&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.5" y="1" dx="0.75" dy="0.2" layer="1"/>
+<smd name="2" x="-1.5" y="0.6" dx="0.75" dy="0.2" layer="1"/>
+<smd name="3" x="-1.5" y="0.2" dx="0.75" dy="0.2" layer="1"/>
+<smd name="4" x="-1.5" y="-0.2" dx="0.75" dy="0.2" layer="1"/>
+<smd name="5" x="-1.5" y="-0.6" dx="0.75" dy="0.2" layer="1"/>
+<smd name="6" x="-1.5" y="-1" dx="0.75" dy="0.2" layer="1"/>
+<smd name="7" x="-1" y="-1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="8" x="-0.6" y="-1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="9" x="-0.2" y="-1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="10" x="0.2" y="-1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="11" x="0.6" y="-1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="12" x="1" y="-1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="13" x="1.5" y="-1" dx="0.75" dy="0.2" layer="1"/>
+<smd name="14" x="1.5" y="-0.6" dx="0.75" dy="0.2" layer="1"/>
+<smd name="15" x="1.5" y="-0.2" dx="0.75" dy="0.2" layer="1"/>
+<smd name="16" x="1.5" y="0.2" dx="0.75" dy="0.2" layer="1"/>
+<smd name="17" x="1.5" y="0.6" dx="0.75" dy="0.2" layer="1"/>
+<smd name="18" x="1.5" y="1" dx="0.75" dy="0.2" layer="1"/>
+<smd name="19" x="1" y="1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="20" x="0.6" y="1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="21" x="0.2" y="1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="22" x="-0.2" y="1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="23" x="-0.6" y="1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="24" x="-1" y="1.5" dx="0.75" dy="0.2" layer="1" rot="R90"/>
+<smd name="25" x="0" y="0" dx="1.75" dy="1.59" layer="1" rot="R90"/>
+<text x="1.016" y="2.54" size="0.508" layer="25" align="center">&gt;NAME</text>
+<text x="-0.762" y="-2.54" size="0.508" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.125" y1="2.125" x2="2.125" y2="2.125" width="0.05" layer="51"/>
+<wire x1="2.125" y1="2.125" x2="2.125" y2="-2.125" width="0.05" layer="51"/>
+<wire x1="2.125" y1="-2.125" x2="-2.125" y2="-2.125" width="0.05" layer="51"/>
+<wire x1="-2.125" y1="-2.125" x2="-2.125" y2="2.125" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.5" x2="-1.5" y2="-1.5" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1" layer="51"/>
+<circle x="-1.875" y="1.854" radius="0.1" width="0.2" layer="25"/>
+</package>
+<package name="LGA-24L(3X3.5X1MM)">
+<description>&lt;b&gt;LGA-24L (3x3.5x1 mm)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.505" y="1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="2" x="-1.475" y="0.645" dx="0.35" dy="0.23" layer="1"/>
+<smd name="3" x="-1.475" y="0.215" dx="0.35" dy="0.23" layer="1"/>
+<smd name="4" x="-1.475" y="-0.215" dx="0.35" dy="0.23" layer="1"/>
+<smd name="5" x="-1.475" y="-0.645" dx="0.35" dy="0.23" layer="1"/>
+<smd name="6" x="-1.505" y="-1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="7" x="-1.075" y="-1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="8" x="-0.645" y="-1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="9" x="-0.215" y="-1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="10" x="0.215" y="-1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="11" x="0.645" y="-1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="12" x="1.075" y="-1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="13" x="1.505" y="-1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="14" x="1.475" y="-0.645" dx="0.35" dy="0.23" layer="1"/>
+<smd name="15" x="1.475" y="-0.215" dx="0.35" dy="0.23" layer="1"/>
+<smd name="16" x="1.475" y="0.215" dx="0.35" dy="0.23" layer="1"/>
+<smd name="17" x="1.475" y="0.645" dx="0.35" dy="0.23" layer="1"/>
+<smd name="18" x="1.505" y="1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="19" x="1.075" y="1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="20" x="0.645" y="1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="21" x="0.215" y="1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="22" x="-0.215" y="1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="23" x="-0.645" y="1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<smd name="24" x="-1.075" y="1.225" dx="0.35" dy="0.23" layer="1" rot="R90"/>
+<text x="0.459" y="2.08" size="0.6096" layer="25" align="center">&gt;NAME</text>
+<text x="-0.303" y="-1.984" size="0.6096" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.8" y1="1.55" x2="1.8" y2="1.55" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="1.55" x2="1.8" y2="-1.55" width="0.1016" layer="21"/>
+<wire x1="1.8" y1="-1.55" x2="-1.8" y2="-1.55" width="0.1016" layer="21"/>
+<wire x1="-1.8" y1="-1.55" x2="-1.8" y2="1.55" width="0.1016" layer="21"/>
+<circle x="-2.019" y="1.814" radius="0.017" width="0.3048" layer="21"/>
+</package>
+<package name="QFN50P300X250X86-14N">
+<description>&lt;b&gt;LGA-14&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-1.4" y="0.75" dx="0.9" dy="0.3" layer="1"/>
+<smd name="2" x="-1.4" y="0.25" dx="0.9" dy="0.3" layer="1"/>
+<smd name="3" x="-1.4" y="-0.25" dx="0.9" dy="0.3" layer="1"/>
+<smd name="4" x="-1.4" y="-0.75" dx="0.9" dy="0.3" layer="1"/>
+<smd name="5" x="-0.5" y="-1.15" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="6" x="0" y="-1.15" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="7" x="0.5" y="-1.15" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="8" x="1.4" y="-0.75" dx="0.9" dy="0.3" layer="1"/>
+<smd name="9" x="1.4" y="-0.25" dx="0.9" dy="0.3" layer="1"/>
+<smd name="10" x="1.4" y="0.25" dx="0.9" dy="0.3" layer="1"/>
+<smd name="11" x="1.4" y="0.75" dx="0.9" dy="0.3" layer="1"/>
+<smd name="12" x="0.5" y="1.15" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="13" x="0" y="1.15" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<smd name="14" x="-0.5" y="1.15" dx="0.9" dy="0.3" layer="1" rot="R90"/>
+<text x="0.762" y="2.286" size="0.6096" layer="25" align="center">&gt;NAME</text>
+<text x="-0.508" y="-2.286" size="0.6096" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.1" y1="1.85" x2="2.1" y2="1.85" width="0.05" layer="51"/>
+<wire x1="2.1" y1="1.85" x2="2.1" y2="-1.85" width="0.05" layer="51"/>
+<wire x1="2.1" y1="-1.85" x2="-2.1" y2="-1.85" width="0.05" layer="51"/>
+<wire x1="-2.1" y1="-1.85" x2="-2.1" y2="1.85" width="0.05" layer="51"/>
+<wire x1="-1.5" y1="1.25" x2="1.5" y2="1.25" width="0.1" layer="51"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.25" x2="-1.5" y2="-1.25" width="0.1" layer="51"/>
+<wire x1="-1.5" y1="-1.25" x2="-1.5" y2="1.25" width="0.1" layer="51"/>
+<circle x="-1.85" y="1.5" radius="0.125" width="0.25" layer="25"/>
 </package>
 </packages>
 <packages3d>
@@ -251,6 +356,113 @@
 <pin name="INT2" x="38.1" y="-10.16" length="middle" rot="R180"/>
 <pin name="INT1" x="38.1" y="-12.7" length="middle" rot="R180"/>
 <text x="5.08" y="-17.78" size="1.778" layer="94">LIS2DW</text>
+</symbol>
+<symbol name="ICM-20948">
+<wire x1="-7.62" y1="10.16" x2="35.56" y2="10.16" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-20.32" x2="35.56" y2="10.16" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-20.32" x2="-7.62" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-20.32" width="0.254" layer="94"/>
+<text x="26.67" y="12.7" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="-6.35" y="-22.86" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="NC_1" x="-10.16" y="0" length="short"/>
+<pin name="NC_2" x="-10.16" y="-2.54" length="short"/>
+<pin name="NC_3" x="-10.16" y="-5.08" length="short"/>
+<pin name="NC_4" x="-10.16" y="-7.62" length="short"/>
+<pin name="NC_5" x="-10.16" y="-10.16" length="short"/>
+<pin name="NC_6" x="-10.16" y="-12.7" length="short"/>
+<pin name="AUX_CL" x="7.62" y="-22.86" length="short" rot="R90"/>
+<pin name="VDDIO" x="10.16" y="-22.86" length="short" rot="R90"/>
+<pin name="SDO/AD0" x="12.7" y="-22.86" length="short" rot="R90"/>
+<pin name="REGOUT" x="15.24" y="-22.86" length="short" rot="R90"/>
+<pin name="FSYNC" x="17.78" y="-22.86" length="short" rot="R90"/>
+<pin name="INT1" x="20.32" y="-22.86" length="short" rot="R90"/>
+<pin name="GND" x="38.1" y="0" length="short" rot="R180"/>
+<pin name="NC_10" x="38.1" y="-2.54" length="short" rot="R180"/>
+<pin name="NC_9" x="38.1" y="-5.08" length="short" rot="R180"/>
+<pin name="NC_8" x="38.1" y="-7.62" length="short" rot="R180"/>
+<pin name="NC_7" x="38.1" y="-10.16" length="short" rot="R180"/>
+<pin name="VDD" x="38.1" y="-12.7" length="short" rot="R180"/>
+<pin name="THERMAL_PAD" x="2.54" y="12.7" length="short" rot="R270"/>
+<pin name="SDA/SDI" x="10.16" y="12.7" length="short" rot="R270"/>
+<pin name="SCL/SCLK" x="12.7" y="12.7" length="short" rot="R270"/>
+<pin name="NCS" x="15.24" y="12.7" length="short" rot="R270"/>
+<pin name="AUX_DA" x="17.78" y="12.7" length="short" rot="R270"/>
+<pin name="RESV_2" x="20.32" y="12.7" length="short" rot="R270"/>
+<pin name="RESV_1" x="22.86" y="12.7" length="short" rot="R270"/>
+<text x="10.16" y="-5.08" size="1.27" layer="94">ICM-20948</text>
+</symbol>
+<symbol name="LSM9DS1TR">
+<wire x1="5.08" y1="2.54" x2="35.56" y2="2.54" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-30.48" x2="35.56" y2="2.54" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-30.48" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
+<text x="26.67" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<pin name="VDDIO_1" x="2.54" y="0" length="short" direction="pwr"/>
+<pin name="SCL/SPC" x="2.54" y="-2.54" length="short" direction="out"/>
+<pin name="VDDIO_2" x="2.54" y="-5.08" length="short" direction="pwr"/>
+<pin name="SDA/SDI/SDO" x="2.54" y="-7.62" length="short"/>
+<pin name="SDO_A/G" x="2.54" y="-10.16" length="short" direction="out"/>
+<pin name="SDO_M" x="2.54" y="-12.7" length="short" direction="out"/>
+<pin name="CS_A/G" x="2.54" y="-15.24" length="short"/>
+<pin name="CS_M" x="2.54" y="-17.78" length="short"/>
+<pin name="DRDY_M" x="2.54" y="-20.32" length="short"/>
+<pin name="INT_M" x="2.54" y="-22.86" length="short"/>
+<pin name="INT1_A/G" x="2.54" y="-25.4" length="short"/>
+<pin name="INT2_A/G" x="2.54" y="-27.94" length="short"/>
+<pin name="DEN_A/G" x="38.1" y="0" length="short" rot="R180"/>
+<pin name="RES_1" x="38.1" y="-2.54" length="short" direction="pwr" rot="R180"/>
+<pin name="RES_2" x="38.1" y="-5.08" length="short" direction="pwr" rot="R180"/>
+<pin name="RES_3" x="38.1" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="RES_4" x="38.1" y="-10.16" length="short" direction="pwr" rot="R180"/>
+<pin name="RES_5" x="38.1" y="-12.7" length="short" direction="pwr" rot="R180"/>
+<pin name="GND_1" x="38.1" y="-15.24" length="short" direction="pwr" rot="R180"/>
+<pin name="GND_2" x="38.1" y="-17.78" length="short" direction="pwr" rot="R180"/>
+<pin name="CAP" x="38.1" y="-20.32" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD_1" x="38.1" y="-22.86" length="short" direction="pwr" rot="R180"/>
+<pin name="VDD_2" x="38.1" y="-25.4" length="short" direction="pwr" rot="R180"/>
+<pin name="C1" x="38.1" y="-27.94" length="short" rot="R180"/>
+<text x="15.24" y="-15.24" size="2.032" layer="94">LSM9DS1</text>
+</symbol>
+<symbol name="LSM6DS3TR">
+<wire x1="2.54" y1="5.08" x2="33.02" y2="5.08" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-15.24" x2="33.02" y2="5.08" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-15.24" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="-15.24" width="0.254" layer="94"/>
+<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<pin name="SDO/SA0" x="0" y="0" length="short"/>
+<pin name="SDX" x="0" y="-2.54" length="short"/>
+<pin name="SCX" x="0" y="-5.08" length="short"/>
+<pin name="INT1" x="0" y="-7.62" length="short" direction="in"/>
+<pin name="VDDIO" x="15.24" y="-17.78" length="short" direction="pwr" rot="R90"/>
+<pin name="GND_1" x="17.78" y="-17.78" length="short" direction="pwr" rot="R90"/>
+<pin name="GND_2" x="20.32" y="-17.78" length="short" direction="pwr" rot="R90"/>
+<pin name="NC_2" x="35.56" y="0" length="short" rot="R180"/>
+<pin name="NC_1" x="35.56" y="-2.54" length="short" rot="R180"/>
+<pin name="INT2" x="35.56" y="-5.08" length="short" direction="in" rot="R180"/>
+<pin name="VDD" x="35.56" y="-7.62" length="short" direction="pwr" rot="R180"/>
+<pin name="SDA" x="15.24" y="7.62" length="short" rot="R270"/>
+<pin name="SCL" x="17.78" y="7.62" length="short" rot="R270"/>
+<pin name="CS" x="20.32" y="7.62" length="short" direction="in" rot="R270"/>
+<text x="12.7" y="-5.08" size="1.778" layer="94">LSM6DS3</text>
+</symbol>
+<symbol name="LIS3MDLTR">
+<wire x1="5.08" y1="2.54" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-15.24" x2="33.02" y2="2.54" width="0.254" layer="94"/>
+<wire x1="33.02" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<pin name="SCL/SPC" x="0" y="0" length="middle"/>
+<pin name="RSV" x="38.1" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND" x="38.1" y="-10.16" length="middle" rot="R180"/>
+<pin name="C1" x="0" y="-7.62" length="middle"/>
+<pin name="CS" x="0" y="-5.08" length="middle"/>
+<pin name="SDA/SDI" x="0" y="-2.54" length="middle"/>
+<pin name="SA1" x="38.1" y="-5.08" length="middle" rot="R180"/>
+<pin name="RSV2" x="38.1" y="-12.7" length="middle" rot="R180"/>
+<pin name="VDD" x="38.1" y="0" length="middle" rot="R180"/>
+<pin name="VDDIO" x="38.1" y="-2.54" length="middle" rot="R180"/>
+<pin name="DRDY" x="0" y="-12.7" length="middle"/>
+<pin name="INT1" x="0" y="-10.16" length="middle"/>
+<text x="5.08" y="-17.78" size="1.778" layer="94">LIS3MDLTR</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -322,6 +534,179 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/LIS2DW12TR.pd
 <attribute name="MOUSER_PART_NUMBER" value="511-LIS2DW12TR" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-LIS2DW12TR" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ICM-20948" prefix="IC">
+<description>&lt;b&gt;Multiple Function Sensor Modules World's Lowest Power 9-Axis MEMS MotionTracking Device&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="ICM-20948" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN40P300X300X105-25N">
+<connects>
+<connect gate="G$1" pin="AUX_CL" pad="7"/>
+<connect gate="G$1" pin="AUX_DA" pad="21"/>
+<connect gate="G$1" pin="FSYNC" pad="11"/>
+<connect gate="G$1" pin="GND" pad="18"/>
+<connect gate="G$1" pin="INT1" pad="12"/>
+<connect gate="G$1" pin="NCS" pad="22"/>
+<connect gate="G$1" pin="NC_1" pad="1"/>
+<connect gate="G$1" pin="NC_10" pad="17"/>
+<connect gate="G$1" pin="NC_2" pad="2"/>
+<connect gate="G$1" pin="NC_3" pad="3"/>
+<connect gate="G$1" pin="NC_4" pad="4"/>
+<connect gate="G$1" pin="NC_5" pad="5"/>
+<connect gate="G$1" pin="NC_6" pad="6"/>
+<connect gate="G$1" pin="NC_7" pad="14"/>
+<connect gate="G$1" pin="NC_8" pad="15"/>
+<connect gate="G$1" pin="NC_9" pad="16"/>
+<connect gate="G$1" pin="REGOUT" pad="10"/>
+<connect gate="G$1" pin="RESV_1" pad="19"/>
+<connect gate="G$1" pin="RESV_2" pad="20"/>
+<connect gate="G$1" pin="SCL/SCLK" pad="23"/>
+<connect gate="G$1" pin="SDA/SDI" pad="24"/>
+<connect gate="G$1" pin="SDO/AD0" pad="9"/>
+<connect gate="G$1" pin="THERMAL_PAD" pad="25"/>
+<connect gate="G$1" pin="VDD" pad="13"/>
+<connect gate="G$1" pin="VDDIO" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Multiple Function Sensor Modules World's Lowest Power 9-Axis MEMS MotionTracking Device" constant="no"/>
+<attribute name="HEIGHT" value="1.05mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="InvenSense Inc." constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="ICM-20948" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="410-ICM-20948" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/TDK-InvenSense/ICM-20948?qs=u4fy%2FsgLU9OtGc31yF%2Friw%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LSM9DS1TR" prefix="AC">
+<description>&lt;b&gt;iNEMO Inertial 3D Accel/Gyro/Magn. LGA24 STMicroelectronics LSM9DS1TR 3-Axis Accelerometer, Gyroscope &amp; Magnetometer, 0  400 kHz, 1.9  3.6 V&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/25/eb/48/46/DM00103319.pdf/files/DM00103319.pdf/jcr:content/translations/en.DM00103319.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LSM9DS1TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LGA-24L(3X3.5X1MM)">
+<connects>
+<connect gate="G$1" pin="C1" pad="24"/>
+<connect gate="G$1" pin="CAP" pad="21"/>
+<connect gate="G$1" pin="CS_A/G" pad="7"/>
+<connect gate="G$1" pin="CS_M" pad="8"/>
+<connect gate="G$1" pin="DEN_A/G" pad="13"/>
+<connect gate="G$1" pin="DRDY_M" pad="9"/>
+<connect gate="G$1" pin="GND_1" pad="19"/>
+<connect gate="G$1" pin="GND_2" pad="20"/>
+<connect gate="G$1" pin="INT1_A/G" pad="11"/>
+<connect gate="G$1" pin="INT2_A/G" pad="12"/>
+<connect gate="G$1" pin="INT_M" pad="10"/>
+<connect gate="G$1" pin="RES_1" pad="14"/>
+<connect gate="G$1" pin="RES_2" pad="15"/>
+<connect gate="G$1" pin="RES_3" pad="16"/>
+<connect gate="G$1" pin="RES_4" pad="17"/>
+<connect gate="G$1" pin="RES_5" pad="18"/>
+<connect gate="G$1" pin="SCL/SPC" pad="2"/>
+<connect gate="G$1" pin="SDA/SDI/SDO" pad="4"/>
+<connect gate="G$1" pin="SDO_A/G" pad="5"/>
+<connect gate="G$1" pin="SDO_M" pad="6"/>
+<connect gate="G$1" pin="VDDIO_1" pad="1"/>
+<connect gate="G$1" pin="VDDIO_2" pad="3"/>
+<connect gate="G$1" pin="VDD_1" pad="22"/>
+<connect gate="G$1" pin="VDD_2" pad="23"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="iNEMO Inertial 3D Accel/Gyro/Magn. LGA24 STMicroelectronics LSM9DS1TR 3-Axis Accelerometer, Gyroscope &amp; Magnetometer, 0  400 kHz, 1.9  3.6 V" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LSM9DS1TR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-LSM9DS1TR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LSM9DS1TR?qs=4b8myOmUP%252BsiwRDrJOMxKQ%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LSM6DS3TR" prefix="AC">
+<description>&lt;b&gt;STMicroelectronics LSM6DS3TR 3-Axis Accelerometer &amp; Gyroscope, 0 ??400 kHz, 1.7 ??3.6 V 14-Pin LGA%0%0 %0&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="LSM6DS3TR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="QFN50P300X250X86-14N">
+<connects>
+<connect gate="G$1" pin="CS" pad="12"/>
+<connect gate="G$1" pin="GND_1" pad="6"/>
+<connect gate="G$1" pin="GND_2" pad="7"/>
+<connect gate="G$1" pin="INT1" pad="4"/>
+<connect gate="G$1" pin="INT2" pad="9"/>
+<connect gate="G$1" pin="NC_1" pad="10"/>
+<connect gate="G$1" pin="NC_2" pad="11"/>
+<connect gate="G$1" pin="SCL" pad="13"/>
+<connect gate="G$1" pin="SCX" pad="3"/>
+<connect gate="G$1" pin="SDA" pad="14"/>
+<connect gate="G$1" pin="SDO/SA0" pad="1"/>
+<connect gate="G$1" pin="SDX" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="VDDIO" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="STMicroelectronics LSM6DS3TR 3-Axis Accelerometer &amp; Gyroscope, 0 ??400 kHz, 1.7 ??3.6 V 14-Pin LGA%0%0 %0" constant="no"/>
+<attribute name="HEIGHT" value="0.86mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="LSM6DS3TR" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-LSM6DS3TR" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/STMicroelectronics/LSM6DS3TR?qs=Ok1pvOkw6%2FrQmhGoCLrQkA%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LIS3MDLTR">
+<description>The LIS3MDL is an ultra-low-power highperformance three-axis magnetic sensor.
+The LIS3MDL has user-selectable full scales of
+±4/8/12/16 gauss.
+The self-test capability allows the user to check
+the functioning of the sensor in the final
+application.
+The device may be configured to generate
+interrupt signals for magnetic field detection.
+The LIS3MDL includes an I2C serial bus interface
+that supports standard and fast mode (100 kHz
+and 400 kHz) and SPI serial standard interface.
+The LIS3MDL is available in a small thin plastic
+land grid array package (LGA) and is guaranteed
+to operate over an extended temperature range of
+-40 °C to +85 °C.</description>
+<gates>
+<gate name="G$1" symbol="LIS3MDLTR" x="-17.78" y="7.62"/>
+</gates>
+<devices>
+<device name="" package="LGA-12">
+<connects>
+<connect gate="G$1" pin="C1" pad="4"/>
+<connect gate="G$1" pin="CS" pad="10"/>
+<connect gate="G$1" pin="DRDY" pad="8"/>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="INT1" pad="7"/>
+<connect gate="G$1" pin="RSV" pad="2"/>
+<connect gate="G$1" pin="RSV2" pad="12"/>
+<connect gate="G$1" pin="SA1" pad="9"/>
+<connect gate="G$1" pin="SCL/SPC" pad="1"/>
+<connect gate="G$1" pin="SDA/SDI" pad="11"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+<connect gate="G$1" pin="VDDIO" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -297,6 +297,22 @@ Remark: SOT883B has the same footprint, package is lower</description>
 <rectangle x1="0.4" y1="-0.7" x2="0.6" y2="-0.4" layer="51"/>
 <rectangle x1="-0.1" y1="0.4" x2="0.1" y2="0.7" layer="51"/>
 </package>
+<package name="SOD128">
+<description>&lt;b&gt;PMDTM&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-2.2" y="0" dx="2" dy="1.4" layer="1" rot="R270"/>
+<smd name="2" x="2.2" y="0" dx="2" dy="1.4" layer="1" rot="R270"/>
+<text x="-0.302" y="1.778" size="0.6096" layer="25" align="center">&gt;NAME</text>
+<text x="-0.048" y="-1.778" size="0.6096" layer="27" align="center">&gt;VALUE</text>
+<wire x1="1.85" y1="-1.25" x2="-1.85" y2="-1.25" width="0.2" layer="51"/>
+<wire x1="-1.85" y1="1.25" x2="1.85" y2="1.25" width="0.2" layer="51"/>
+<wire x1="1.85" y1="1.25" x2="-1.85" y2="1.25" width="0.2" layer="21"/>
+<wire x1="-1.85" y1="-1.25" x2="1.85" y2="-1.25" width="0.2" layer="21"/>
+<circle x="-2.178" y="-1.562" radius="0.092" width="0.2" layer="25"/>
+<wire x1="-1.016" y1="1.27" x2="-1.016" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-0.762" y1="1.27" x2="-0.762" y2="-1.27" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="DIODE_SDD_AKKA">
@@ -341,6 +357,18 @@ Remark: SOT883B has the same footprint, package is lower</description>
 <text x="-2.286" y="-3.429" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 <pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
 <pin name="K" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="DIODE">
+<description>Diode</description>
+<text x="-1.8034" y="1.6256" size="0.6096" layer="95" font="vector">&gt;NAME</text>
+<text x="-1.8034" y="-2.2098" size="0.6096" layer="96" font="vector">&gt;VALUE</text>
+<pin name="A" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="K" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="-1.27" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -439,6 +467,22 @@ diodes with different pinning are available&lt;p&gt;&lt;author&gt;AAL Eindhoven 
 <connects>
 <connect gate="G$1" pin="A" pad="1"/>
 <connect gate="G$1" pin="K" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RFN2LAM6STFTR" prefix="D">
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="SOD128" package="SOD128">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -13969,7 +13969,7 @@ Source: &lt;a href="http://www.ti.com/general/docs/lit/getliterature.tsp?generic
 <part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="33"/>
-<part name="U$3" library="USB" deviceset="ZX80B5P" device=""/>
+<part name="U$3" library="USB" deviceset="ZX80B5P" device="" override_package3d_urn="urn:adsk.eagle:package:21602427/2" override_package_urn="urn:adsk.eagle:footprint:21602428/1"/>
 <part name="GND37" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U$2" library="FlashMem" deviceset="FLASH" device=""/>
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -14003,9 +14003,9 @@ Source: &lt;a href="http://www.ti.com/general/docs/lit/getliterature.tsp?generic
 <part name="R17" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="C43" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="VCC" device=""/>
-<part name="U$15" library="sharp" deviceset="SHARP27_FOOTPRINT" device=""/>
+<part name="U$15" library="sharp" deviceset="SHARP27_FOOTPRINT" device="" override_package3d_urn="urn:adsk.eagle:package:21602455/2" override_package_urn="urn:adsk.eagle:footprint:21602456/1"/>
 <part name="U$16" library="sharp" deviceset="SHARP27" device=""/>
-<part name="L4" library="adafruit" deviceset="WS2812B" device=""/>
+<part name="L4" library="adafruit" deviceset="WS2812B" device="" override_package3d_urn="urn:adsk.eagle:package:21602693/2" override_package_urn="urn:adsk.eagle:footprint:21602694/1"/>
 <part name="Q2" library="BSS138" deviceset="BSS138BKW" device=""/>
 <part name="R18" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="47k"/>
 <part name="R19" library="SparkFun-Resistors" deviceset="4.7KOHM" device="-0603-1/10W-1%" value="47k"/>
@@ -14063,20 +14063,20 @@ Source: &lt;a href="http://www.ti.com/general/docs/lit/getliterature.tsp?generic
 <part name="GND48" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND49" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND50" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SD" library="SD_Card" deviceset="47571-0001" device=""/>
-<part name="J1" library="SD_Card" deviceset="47571-0001" device=""/>
+<part name="SD" library="SD_Card" deviceset="47571-0001" device="" override_package3d_urn="urn:adsk.eagle:package:21602601/2" override_package_urn="urn:adsk.eagle:footprint:21602602/1"/>
+<part name="J1" library="SD_Card" deviceset="47571-0001" device="" override_package3d_urn="urn:adsk.eagle:package:21602446/2" override_package_urn="urn:adsk.eagle:footprint:21602447/1"/>
 <part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND35" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="M1" library="MOSFET" deviceset="GEN_NCH" device=""/>
-<part name="M2" library="MOSFET" deviceset="GEN_NCH" device=""/>
+<part name="M1" library="MOSFET" deviceset="GEN_NCH" device="" value="BSS84"/>
+<part name="M2" library="MOSFET" deviceset="GEN_NCH" device="" value="BSS84"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100k"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="4.7UF" device="0603" value="4.7uF"/>
 <part name="B1" library="SD_Card" deviceset="MICRO-SD_FOOTPRINT" device=""/>
-<part name="SPST1" library="SPST" deviceset="PTS526SK08" device=""/>
-<part name="SPST2" library="SPST" deviceset="PTS526SK08" device=""/>
-<part name="SPST3" library="SPST" deviceset="PTS526SK08" device=""/>
+<part name="SPST1" library="SPST" deviceset="PTS526SK08" device="" override_package3d_urn="urn:adsk.eagle:package:21602413/2" override_package_urn="urn:adsk.eagle:footprint:21602414/1"/>
+<part name="SPST2" library="SPST" deviceset="PTS526SK08" device="" override_package3d_urn="urn:adsk.eagle:package:21602475/2" override_package_urn="urn:adsk.eagle:footprint:21602476/1"/>
+<part name="SPST3" library="SPST" deviceset="PTS526SK08" device="" override_package3d_urn="urn:adsk.eagle:package:21602597/2" override_package_urn="urn:adsk.eagle:footprint:21602598/1"/>
 <part name="U4" library="DCDC" deviceset="REG710" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
@@ -16069,6 +16069,11 @@ packages will not be understood (or retained) with this version.
 <note version="9.5" severity="warning">
 Since Version 9.5, EAGLE supports persistent groups with
 schematics, and board files. Those persistent groups
+will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
 will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
