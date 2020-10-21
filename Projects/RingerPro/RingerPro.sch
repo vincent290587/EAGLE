@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -1920,7 +1920,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <schematic_group name="PRESSURE"/>
 </groups>
 <parts>
-<part name="U1" library="Rigado" deviceset="BMD-300" device=""/>
+<part name="U1" library="Rigado" deviceset="BMD-300" device="" override_package3d_urn="urn:adsk.eagle:package:24271184/2" override_package_urn="urn:adsk.eagle:footprint:24271185/1"/>
 <part name="C1" library="Passives" deviceset="CAPACITOR" device="0603" value="4.7uF"/>
 <part name="U2" library="DCDC" deviceset="REG710" device=""/>
 <part name="U$1" library="PowerSupplies" deviceset="GND" device=""/>

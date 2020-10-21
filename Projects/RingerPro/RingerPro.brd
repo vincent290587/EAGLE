@@ -167,7 +167,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyOGM0YmU5" projecturn="a.cGVyc29uYWw6dWUyOGM0YmU5IzIwMTYwNjA0MzQxNTk1MzE" f3durn="urn:adsk.wipprod:dm.lineage:0hBtT5CFQLuXktC96DNylg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="02cdec48-aaf6-4d74-8279-227ea4972245" lastsyncedrevisionid="02cdec48-aaf6-4d74-8279-227ea4972245" lastboardhashguid="2910b0e5-6cea-749b-b373-9f951a3a8a28" lastpushedtime="2020-10-04T16:29:36Z" linktopcb3d="true"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyOGM0YmU5" projecturn="a.cGVyc29uYWw6dWUyOGM0YmU5IzIwMTYwNjA0MzQxNTk1MzE" f3durn="urn:adsk.wipprod:dm.lineage:0hBtT5CFQLuXktC96DNylg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="375661d4-c476-48ed-85d3-dbf7034194f8" lastsyncedrevisionid="375661d4-c476-48ed-85d3-dbf7034194f8" lastboardhashguid="7c2d03f8-0cb2-0ac3-5721-d9d755da593e" lastpushedtime="2020-10-21T09:28:16Z" linktopcb3d="false"/>
 <plain>
 <wire x1="0" y1="0" x2="30.968" y2="0" width="0" layer="20"/>
 <wire x1="30.968" y1="0" x2="30.968" y2="30.404" width="0" layer="20"/>
@@ -828,7 +828,7 @@ design rules under a new name.</description>
 <element name="R2" library="Passives" package="R0603" value="10k" x="26.289" y="10.922" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.4" y="9.525" size="0.508" layer="25" rot="R90"/>
 </element>
-<element name="U1" library="Rigado" package="BMD-300" value="" x="19.05" y="9.906" smashed="yes" rot="R180">
+<element name="U1" library="Rigado" package="BMD-300" override_package3d_urn="urn:adsk.eagle:package:24271184/2" override_package_urn="urn:adsk.eagle:footprint:24271185/1" value="" x="19.05" y="9.906" smashed="yes" rot="R180">
 <attribute name="NAME" x="14.15" y="2.906" size="1.27" layer="51" rot="R180" align="center"/>
 <attribute name="NAME" x="19.15" y="-3.194" size="0.8128" layer="25" rot="R180" align="bottom-right"/>
 </element>
